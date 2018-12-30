@@ -1,0 +1,1000 @@
+26775 0 Merge pull request #11935 from timhoffm/remove-ginput-demo
+26774 0 Merge pull request #11939 from timhoffm/alias-signature
+26773 0 Merge pull request #11940 from timhoffm/no-internal-aliases
+26772 0 Merge pull request #11925 from timhoffm/doc-class-property-table-css
+26771 0 Merge pull request #11941 from timhoffm/fix-test-large-subscript-title
+26770 0 Merge pull request #11938 from timhoffm/doc-line2d-part2
+26769 0 Merge pull request #11920 from sjvs/patch-1
+26768 0 Fix test_large_subscript_title
+26767 0 Do not use aliases of properties in internal code
+26764 0 Merge pull request #11922 from timhoffm/doc-line2d
+26761 0 Merge pull request #11905 from jklymak/doc-add-colormap-manipulation
+26760 0 Merge pull request #11924 from timhoffm/doc-alias
+26759 0 Merge pull request #11926 from anntzer/ginput-demo
+26758 0 DOC: try better math
+26757 0 Minor fix to ginput_demo.
+26756 0 Increase the width of property tables in class docs
+26755 0 Minor formatting update on alias docstrings
+26754 0 Add LGTM.com code quality badge
+26753 0 DOC: minor wording change
+26752 0 DOC: fix overinterp issue and modify intro para
+26751 0 Merge pull request #11917 from efiring/contour_level_kwarg_scalar
+26750 0 Merge pull request #11912 from jklymak/bld-update-pr-template
+26748 0 Merge pull request #11897 from fredrik-1/animation_html_setup
+26747 0 Merge pull request #11591 from efiring/MaxNLocator_vmax_bug
+26746 0 DOC: move custom_colormap
+26745 0 Merge pull request #11909 from anntzer/styleref-docs
+26744 0 BLD: update PR template for flake8
+26743 0 Merge pull request #11502 from jklymak/fix-title-bottom-vs-baseline
+26742 0 Merge pull request #11907 from timhoffm/doc-axes-toc
+26741 0 Merge pull request #11906 from timhoffm/fix-bar-of-pie
+26737 0 move axes toc back to top
+26736 0 fix format of bar_of_pie example
+26734 0 Merge pull request #11741 from anntzer/patchdraw
+26732 0 Merge pull request #11900 from hmaarrfk/args__allow_super_init
+26730 0 Merge pull request #11784 from timhoffm/axes-grid
+26729 0 Merge pull request #11888 from anntzer/subprocess-helper
+26726 0 Merge pull request #11740 from anntzer/hatchless-backends
+26724 0 Merge pull request #11881 from jklymak/doc-colormap-doi
+26722 0 Merge pull request #11850 from jklymak/fix-macosx-framwork-check
+26721 0 Merge pull request #11847 from cgohlke/patch-1
+26720 0 Merge pull request #11884 from anntzer/deprecate-tk_window_focus
+26719 0 Merge pull request #11689 from anntzer/dont-cache-renderer-on-axes
+26718 0 Merge pull request #11698 from anntzer/propertydecorators
+26716 0 Merge pull request #11876 from NelleV/better_error_message
+26715 0 DOC: make ibm link go to doi not ieee site
+26714 0 Merge pull request #11799 from saketkc/patch-3
+26713 0 DOC refer to DOI for colormap IBM paper.
+26712 0 FIX grammatical mistake
+26711 0 Merge pull request #11872 from anntzer/picklable-cmaps
+26709 0 Merge pull request #11862 from QuLogic/slice-tuple
+26708 0 Merge pull request #11870 from anntzer/morestyle
+26707 0 Merge pull request #11873 from anntzer/mlab-deprecations
+26706 0 Merge pull request #11869 from anntzer/style
+26705 0 Merge pull request #11874 from anntzer/test_rcparams-py2
+26703 0 Merge pull request #11871 from adamjstewart/docs/ticker-api
+26698 0 Typo fix in Ticker API
+26697 0 Merge pull request #11865 from pjk645/bar_of_pie
+26695 0 Merge pull request #11868 from anntzer/mathtext-style
+26692 0 Merge pull request #11866 from adamjstewart/docs/usage-guide
+26691 0 Typo fix in Usage Guide
+26690 0 Merge pull request #11854 from anntzer/matplotlibrcdevnull
+26688 0 FIX: macosx framework check
+26687 0 Merge pull request #11845 from anntzer/qt4formatargb32
+26686 0 FIX: macosx framework check
+26683 0 BLD: bump branch away from tag
+26682 0 REL: v3.0.0rc1
+26681 0 DOC: update github stats
+26680 0 Merge remote-tracking branch
+26679 0 Merge pull request #11843 from QuLogic/no-nose
+26677 0 Merge pull request #11762 from ImportanceOfBeingErnest/minor-grid-overlap
+26676 0 Merge pull request #11600 from anntzer/backend-switching-3
+26675 0 Merge pull request #11833 from fredrik-1/autosummary_template
+26674 0 Merge pull request #11828 from fredrik-1/animation_warning
+26672 0 adding show inheritance to autosummary template
+26671 0 DOC: add whats new
+26670 0 MNT: bump away from tag
+26669 0 REL: v2.2.3
+26668 0 DOC: update github-stats
+26667 0 Merge pull request #11835 from meeseeksmachine/auto-backport-of-pr-11831-on-v2.2.x
+26666 0 Backport PR #11831: animation api documentation changes
+26665 0 Merge pull request #11831 from fredrik-1/animation_api
+26664 0 Merge pull request #11834 from meeseeksmachine/auto-backport-of-pr-11824-on-v2.2.x
+26663 0 Merge pull request #11829 from fredrik-1/func_animation_warning
+26661 0 Merge pull request #11824 from fredrik-1/facecolor_stale
+26660 0 animation api changes
+26658 0 Merge pull request #11827 from tacaswell/fix_minor_c_change
+26657 0 Merge pull request #11826 from NelleV/gridspec_doc
+26655 0 Merge pull request #11817 from tacaswell/backport_py37_updates
+26654 0 FIX: correct macro logic in file_compat.h
+26653 0 Small edit to take into account height as well
+26652 0 DOC: put py27 back into the docs
+26651 0 DOC Better description of left, right, top, bottom
+26650 0 DOC documented more of the gridspec options
+26649 0 Merge pull request #11818 from tacaswell/merge_v2.2.x
+26647 0 TST: pass force to `mpl.use`
+26646 0 Merge pull request #11821 from ImportanceOfBeingErnest/doc-removemulticolumn
+26643 0 Merge pull request #11819 from tacaswell/doc_minor_fix
+26642 0 TST: tweak an svg file
+26641 0 DOC: fix minor typo in figure example
+26640 0 Merge remote-tracking branch
+26638 0 Merge pull request #11533 from tacaswell/update_for_py37
+26636 0 Lazy-init the OSX event loop.
+26634 0 Merge pull request #11722 from anntzer/setup.py
+26631 0 Merge pull request #11802 from fredrik-1/gridspec_tutorial
+26630 0 Merge pull request #11813 from tacaswell/backport_axes_grid_work
+26629 0 Merge pull request #11801 from fredrik-1/annotation_update
+26627 0 Merge pull request #11808 from eseiver/pytest
+26621 0 Merge remote-tracking branch
+26619 0 Merge pull request #11812 from tacaswell/final_backports
+26614 0 Merge pull request #11336 from timhoffm/raw-strings-for-docstrings-with-escape
+26613 0 Merge pull request #11312 from anntzer/rerefs
+26609 0 Merge pull request #11071 from dstansby/hist-scaling
+26606 0 DOC removed all mentions of tests.py
+26605 0 Merge pull request #11811 from jklymak/backport-cl-overflow
+26602 0 Merge pull request #11734 from anntzer/aggcleanup
+26601 0 Merge pull request #11785 from timhoffm/api-changes
+26600 0 Merge pull request #11788 from timhoffm/fix-deprecation-locateableaxes
+26598 0 updates error messages to run pytest instead of tests.py standalone
+26597 0 Merge pull request #9993 from anntzer/qtcompat
+26594 0 Update link to IBM
+26590 0 Merge pull request #11786 from timhoffm/collections-abc
+26589 0 Merge pull request #11755 from timhoffm/doc-savefig-metadata
+26587 0 Fix collections import warnings for Python 3.7
+26585 0 Add missing API changes
+26584 0 Merge pull request #11703 from jklymak/fix-update-from-patches
+26583 0 Merge pull request #11765 from jklymak/doc-reorder-examples
+26582 0 Merge pull request #11724 from anntzer/fix-cairo-image
+26581 0 Merge pull request #11726 from anntzer/canvasagg-examples
+26579 0 Merge pull request #11754 from jklymak/fix-update-spine-positions-before-getting-extents
+26578 0 Merge pull request #11779 from anntzer/frame_size_cannot_vary
+26577 0 Merge pull request #11770 from tlevine/typos
+26575 0 Merge pull request #11778 from anntzer/unpin-pandas
+26574 0 Unpin pandas in the CI.
+26573 0 active phrasing
+26572 0 use a colon
+26571 0 Merge pull request #11772 from AllenDowney/AllenDowney-patch-1
+26570 0 Update api_changes.rst
+26569 0 Update animation_api.rst
+26568 0 Clarifying an error message
+26567 0 Merge pull request #11760 from timhoffm/doc-grid
+26566 0 correct typos in documentation
+26565 0 Merge pull request #11705 from anntzer/warningslesstests
+26564 0 Merge pull request #11767 from dstansby/csd-osx
+26559 0 Merge pull request #11733 from andyfaff/collection
+26558 0 PEP8
+26557 0 Merge pull request #11757 from stilley2/master
+26556 0 Switch grid documentation to numpydoc style
+26554 0 clarify potential pitfall to pgf black text fix
+26553 0 Merge pull request #11751 from anntzer/setupext-verbose
+26551 0 Document pgf black text change
+26549 0 Merge pull request #9084 from anntzer/boundmethodproxy-like-weakmethod
+26548 0 Merge pull request #11752 from timhoffm/fix-whats-new-sectioning
+26547 0 Merge pull request #10513 from anntzer/fsencodedecode
+26544 0 Merge pull request #11744 from leejjoon/axesgrid1-inset-axes-doc-update
+26543 0 Fix section level of Previous Whats New
+26542 0 minor doc update on axes_grid1
+26539 0 TST: regenerate a svg image
+26538 0 DOC: tweak a few references to python versions
+26536 0 CI: re-jigger test matrix to include 3.7
+26535 0 Merge pull request #11729 from anntzer/pyqt4-pyside2-fix
+26534 0 Merge pull request #11736 from anntzer/unusedmarker
+26530 0 Merge pull request #11731 from anntzer/qt-buffer-off-by-one
+26527 0 Merge pull request #11717 from jklymak/doc-fix-broken-link-il
+26526 0 Merge pull request #11723 from anntzer/picklablecmaps
+26522 0 Merge pull request #11721 from anntzer/colorConverter
+26520 0 DOC: fix broken link in inset-locator example
+26519 0 Merge pull request #11713 from anntzer/nbaggtestcwd
+26517 0 Merge pull request #11026 from jklymak/enh-axes-add-axes
+26516 0 Merge pull request #11712 from anntzer/retinaqt
+26515 0 Merge pull request #11714 from fredrik-1/doc_Figure_tight_layout
+26514 0 doc_Figure_tight_layout
+26510 0 Merge pull request #8951 from anntzer/qtagg-blitting
+26509 0 Merge pull request #11234 from ImportanceOfBeingErnest/fig-add-artist
+26508 0 Merge pull request #11707 from meeseeksmachine/auto-backport-of-pr-11677-on-v2.2.2-doc
+26507 0 Backport PR #11677: DOC : Improves Documentation for stem_plot.py
+26506 0 Merge pull request #11677 from gabru-md/gabru-md/patch
+26505 0 Merge pull request #11706 from anntzer/remove-dead-code
+26504 0 Improves Documentation for stem_plot.py
+26502 0 Merge pull request #11637 from dstansby/api-split
+26501 0 Merge pull request #10403 from QuLogic/deprecate-locatable-axes
+26500 0 Removed extra 2.2.0 Header
+26498 0 Merge remote-tracking branch
+26496 0 Merge pull request #11697 from meeseeksmachine/auto-backport-of-pr-11694-on-v2.2.x
+26495 0 Merge pull request #11699 from anntzer/overindentedrst
+26494 0 Merge pull request #11701 from anntzer/skipif
+26493 0 Merge pull request #11700 from anntzer/pytest-rw
+26492 0 DOC: Add deprecation changelog for LocatableAxes stuff.
+26486 0 Remove old ChangeLog from axes_grid.
+26485 0 Don
+26484 0 Dedent overindented rst bullet lists.
+26481 0 Merge pull request #11694 from matplotlib/toolmanager-before-toolbar-tk
+26480 0 Merge pull request #11696 from anntzer/toolmanager-example
+26477 0 Merge pull request #11690 from anntzer/privatelessexamples
+26476 0 Merge pull request #11687 from anntzer/venvdocs
+26473 0 Update venv docs.
+26472 0 Merge pull request #11686 from meeseeksmachine/auto-backport-of-pr-11685-on-v2.2.2-doc
+26471 0 Merge pull request #11684 from anntzer/style
+26470 0 Backport PR #11685: DOC: link brokenaxes package in third part
+26469 0 Merge pull request #11685 from jklymak/doc-add-link-brokenaxes-3party
+26468 0 DOC: link brokenaxes package in third part
+26466 0 Merge pull request #11666 from ksunden/aarch64_tests
+26465 0 Merge pull request #11680 from anntzer/style
+26464 0 Merge pull request #11678 from anntzer/parasite-super
+26461 0 Merge pull request #11679 from anntzer/drawless
+26460 0 Merge pull request #11676 from QuLogic/delete-unused-code
+26456 0 Remove unused code.
+26454 0 refresh the github stats (#11671)
+26453 0 Merge pull request #11010 from jklymak/enh-add-gridspec-methods
+26452 0 Merge pull request #11672 from anntzer/psfontsmapcomment
+26451 0 Merge pull request #11674 from anntzer/style
+26448 0 Merge pull request #11669 from matplotlib/auto-backport-of-pr-10877-on-v2.2.x
+26446 0 Add comment re: use of lru_cache in PsfontsMap.
+26445 0 Fix some more invalid string escapes.
+26443 0 Backport PR #10877: Fix invalid escape sequence in docstring.
+26442 0 Space after :
+26440 0 Merge pull request #11662 from meeseeksmachine/auto-backport-of-pr-11660-on-v2.2.2-doc
+26439 0 Merge pull request #10954 from anntzer/share-dviread-caches
+26438 0 Backport PR #11660: DOC: tweak reviewer guidelines.
+26437 0 Merge pull request #11660 from tacaswell/doc_reviewer
+26436 0 DOC: tweak reviewer guide a bit more
+26435 0 Merge pull request #9150 from anntzer/rc-blacklist
+26434 0 Merge pull request #10936 from anntzer/tkc
+26433 0 Merge pull request #11378 from avinashmnit30/gouraud
+26432 0 Merge pull request #11383 from afvincent/fix_scatter_error_color_shape_11373
+26431 0 Merge pull request #11627 from jklymak/fix-bad-title-CL-interaction
+26430 0 Merge pull request #11659 from meeseeksmachine/auto-backport-of-pr-11658-on-v2.2.2-doc
+26429 0 DOC: tweak reviewer guidelines.
+26427 0 Merge pull request #11658 from joelostblom/sort-named-colors-vertically
+26426 0 Adjust formatting to look good outside the jupyter notebook
+26425 0 Shrink figure size
+26421 0 Merge pull request #11652 from meeseeksmachine/auto-backport-of-pr-11650-on-v2.2.2-doc
+26420 0 Merge pull request #11504 from anntzer/pgi
+26419 0 Backport PR #11650: Add CircleCI cache of user fonts.
+26418 0 Merge pull request #11650 from QuLogic/font-cache
+26417 0 Merge pull request #11640 from timhoffm/fix-ax-bar-color-none-alpha
+26416 0 Merge pull request #11443 from fredrik-1/kwdoc_bug
+26415 0 Merge pull request #11626 from timhoffm/doc-minor-issues
+26414 0 Merge pull request #11619 from jklymak/doc-rearrange-gridspec-examples
+26413 0 Merge pull request #11631 from jklymak/doc-better-tl-error
+26412 0 Merge pull request #11651 from QuLogic/example-imports
+26409 0 Merge pull request #11633 from dstansby/api-clean
+26408 0 Add CircleCI cache of user fonts.
+26406 0 Remove duplicated item
+26405 0 Clean up next api_changes
+26404 0 Merge pull request #11643 from anntzer/deprecationmessages
+26403 0 Merge pull request #11646 from meeseeksmachine/auto-backport-of-pr-11642-on-v2.2.2-doc
+26402 0 Add note
+26401 0 Small fixes
+26400 0 Split API changes into individual pages
+26399 0 Backport PR #11642: Fix gitter badge; remove depsy badge.
+26398 0 Merge pull request #11642 from anntzer/badges
+26395 0 Fix gitter badge; remove depsy badge.
+26394 0 Merge pull request #9223 from dstansby/hexbin-log
+26390 0 Merge pull request #11638 from meeseeksmachine/auto-backport-of-pr-11636-on-v2.2.x
+26389 0 Merge pull request #11634 from WeatherGod/backport_11624
+26388 0 Backport PR #11636: Don
+26387 0 Merge pull request #11636 from gson1703/fix-11635
+26386 0 Fix bug #11635: Do not call the flush method on a file object opened for reading, because it returns an error on BSD systems, with the end result that "import matplotlib.pyplot" fails with the error message "TypeError: First argument must be a path or file object reading bytes".
+26383 0 Merge pull request #11622 from tacaswell/fix_qt4_exceptions
+26380 0 Merge pull request #11624 from QuLogic/unsafe-popen
+26378 0 fix naming of
+26373 0 Merge pull request #11616 from QuLogic/doctest-fixes
+26370 0 Merge pull request #11618 from matplotlib/auto-backport-of-pr-11562-on-v2.2.2-doc
+26369 0 Fix an undefined variable in doctest.
+26368 0 Cleanup some doctest wrapping.
+26367 0 Fix incorrect doctest syntax.
+26364 0 Merge pull request #11562 from timhoffm/deactivate-smartquotes
+26363 0 Merge pull request #10872 from timhoffm/arg-replacer
+26362 0 Merge pull request #11617 from dstansby/whats-new-clean
+26361 0 Clean up what
+26360 0 Merge pull request #11610 from jklymak/fix-extend-low-powernorm
+26359 0 Merge pull request #11615 from tacaswell/revert_glyph_warnings
+26357 0 Merge pull request #11614 from tacaswell/tst_remove_tox
+26356 0 Merge pull request #11603 from tacaswell/doc_merge_up
+26355 0 DOC: merge up the api changes
+26354 0 DOC: copy whats_new entries up to top level file
+26353 0 DOC: comment out the auto-include next whats new
+26352 0 DOC: move 2.2 whats new to it
+26351 0 Merge pull request #11613 from QuLogic/flake8-explicit
+26350 0 Revert "Merge pull request #9175 from anntzer/warn-on-freetype-missing-glyphs"
+26349 0 Revert "Merge pull request #11605 from anntzer/spurious-ft2font-missing-glyph-warning"
+26348 0 CI: don
+26347 0 Merge pull request #11611 from timhoffm/fix-doc-css
+26346 0 Make flake8 examples/ exceptions explicit.
+26345 0 Make flake8 tutorials/ exceptions explicit.
+26344 0 Make flake8 doc/ exceptions explicit.
+26343 0 Remove superfluous flake8 exception.
+26342 0 TST: fix flake8 error
+26340 0 Merge pull request #10001 from eric-wieser/more-normals
+26339 0 Merge pull request #10234 from aparamon/PowerNorm-offset-fix
+26337 0 Merge pull request #11398 from anntzer/gethome
+26336 0 Merge pull request #10682 from jklymak/enh-ax-get-tightbbox
+26335 0 Merge pull request #11590 from anntzer/parentlesswxtimers
+26334 0 Merge pull request #10245 from anntzer/fontmanager-relpath
+26333 0 Fix css for parameter types
+26332 0 Merge pull request #11381 from anntzer/text.latex.unicode
+26330 0 Merge pull request #11601 from jklymak/fix-dont-mutate
+26329 0 Merge pull request #11609 from anntzer/killosxnavtoolbar
+26328 0 Merge pull request #11608 from anntzer/wxphoenix
+26326 0 Remove _macosx.NavigationToolbar.
+26324 0 Merge pull request #11604 from QuLogic/rm-temp-files
+26323 0 Merge pull request #11605 from anntzer/spurious-ft2font-missing-glyph-warning
+26322 0 Suppress a spurious missing-glyph warning with ft2font.
+26318 0 Merge pull request #11360 from pganssle/pytzectomy
+26317 0 Merge pull request #10885 from anntzer/setupext-gtk3
+26316 0 Merge pull request #11081 from DietmarSchwertberger/wx-help-tool
+26315 0 Merge pull request #10851 from DietmarSchwertberger/wxtoolmanager
+26314 0 Merge pull request #11247 from timhoffm/cleanup-mplDeprecation
+26313 0 TST: exclude tox files from flake8 checking
+26311 0 Merge pull request #9426 from anntzer/shadow-transform
+26310 0 Merge pull request #9175 from anntzer/warn-on-freetype-missing-glyphs
+26309 0 Merge pull request #11412 from efiring/contour_colors
+26308 0 Merge pull request #11599 from matplotlib/auto-backport-of-pr-11559-on-v2.2.x
+26301 0 CI: only install sphinx on py35 build
+26300 0 CI: Add separate test environment for pytz
+26299 0 DOC: Add API changes entry for pytz removal
+26298 0 DOC: Remove pytz from documentation
+26293 0 Merge pull request #11477 from QuLogic/flake8
+26292 0 Merge pull request #11598 from matplotlib/auto-backport-of-pr-10915-on-v2.2.x
+26290 0 TST: Run flake8 outside of pytest.
+26287 0 STY: Use consistent (class)method parameter names.
+26285 0 STY: Fix some whitespace issues.
+26283 0 Run flake8 instead of pep8 on Python 3.6
+26282 0 Merge pull request #11584 from pharshalp/fix-colorbar-minor-ticks
+26281 0 Merge pull request #11438 from jklymak/enh-get-gridspec
+26280 0 Merge pull request #11451 from timhoffm/pyplot-summary
+26279 0 Merge pull request #11579 from jklymak/doc-examples-use-constrainedlayout
+26278 0 Merge pull request #11588 from jklymak/doc-warn-if-CL-plus-TL
+26276 0 Merge pull request #11594 from anntzer/docstringscleanups
+26275 0 Merge pull request #11593 from anntzer/skiposxwx
+26274 0 Some more docstring cleanups.
+26272 0 Merge pull request #11592 from anntzer/spacesindocstrings
+26271 0 Remove some extra spaces in docstrings/comments.
+26268 0 Merge pull request #11585 from timhoffm/doc-triangulation
+26266 0 Merge pull request #11580 from timhoffm/subplots
+26264 0 Merge pull request #10474 from anntzer/tempdir
+26260 0 Merge pull request #11240 from anntzer/deprecate-examples-directory
+26259 0 Merge pull request #11370 from jdollichon/issue-#11369
+26258 0 Merge pull request #11576 from dstansby/compare-doc
+26256 0 Merge pull request #11573 from anntzer/killsetupexternalcompile
+26255 0 Merge pull request #11574 from matplotlib/auto-backport-of-pr-11565-on-v2.2.x
+26254 0 Merge pull request #11474 from matplotlib/auto-backport-of-pr-11442-on-v2.2.2-doc
+26253 0 Backport PR #11565: Update docstring of pyplot.matshow()
+26252 0 Merge pull request #11571 from anntzer/stixfonts
+26251 0 Merge pull request #11565 from timhoffm/doc-pyplot-matshow
+26250 0 Merge pull request #11563 from timhoffm/doc-pyplot-close
+26248 0 Merge pull request #9801 from jklymak/fixdateticklocator
+26245 0 Merge pull request #11570 from anntzer/morefreetypewindows
+26244 0 Merge pull request #11401 from anntzer/py3
+26243 0 Merge pull request #11566 from anntzer/morecleanups
+26242 0 Merge pull request #11520 from anntzer/getcurrenteventloop
+26241 0 Merge pull request #11544 from anntzer/pickleshared2
+26240 0 Merge pull request #11568 from fredrik-1/figure.text
+26237 0 Merge pull request #11248 from anntzer/freetype-windows
+26234 0 Merge pull request #11536 from matplotlib/auto-backport-of-pr-11532-on-v2.2.2-doc
+26233 0 Merge pull request #11556 from jklymak/fix-colorbar-bad-ticks
+26232 0 Merge pull request #11559 from 816-8055/patch-1
+26231 0 Merge pull request #11494 from anntzer/wxpy
+26229 0 Merge pull request #11564 from anntzer/cleantri
+26228 0 Update _backend_tk.py
+26226 0 Merge pull request #11567 from matplotlib/auto-backport-of-pr-11500-on-v2.2.x
+26225 0 Merge pull request #11548 from timhoffm/numpydoc-parameter-choices
+26222 0 Update docstring of pyplot.matshow()
+26220 0 Merge pull request #11500 from QuLogic/qt5.11
+26219 0 Merge pull request #11466 from matplotlib/auto-backport-of-pr-11462-on-v2.2.2-doc
+26218 0 Fix PEP8 error...
+26217 0 Use numpydoc-style parameter lists for choices
+26216 0 Fix PEP8 error
+26215 0 Merge pull request #11561 from matplotlib/auto-backport-of-pr-11549-on-v2.2.2-doc
+26214 0 Backport PR #11549: Some docstring cleanup in ticker
+26213 0 Merge pull request #11549 from timhoffm/doc-ticker
+26212 0 Merge pull request #11547 from timhoffm/example-links
+26211 0 Merge pull request #11555 from daronjp/spellcheck
+26210 0 Merge pull request #11404 from jklymak/fix-inf-text
+26209 0 Merge pull request #11455 from pmackenz/master
+26208 0 Fix spelling in title
+26207 0 Some docstring cleanup in ticker
+26206 0 Merge pull request #11060 from ImportanceOfBeingErnest/fix-inset_axes
+26203 0 Merge pull request #11297 from anntzer/warn_deprecated
+26202 0 Fix example links
+26201 0 Cleanup Matplotlib API docs
+26199 0 Merge pull request #11495 from timhoffm/documenting-mpl
+26198 0 Merge pull request #11545 from ImportanceOfBeingErnest/doc_markersupdate_fix
+26197 0 Doc fix x(filled) marker image
+26194 0 Merge pull request #11287 from anntzer/mouseoverset
+26192 0 Merge pull request #11530 from TarasKuzyo/int-loc-event
+26191 0 Merge pull request #10336 from anntzer/instancechecks
+26190 0 Merge pull request #10298 from anntzer/gtk3-background
+26189 0 Merge pull request #10297 from anntzer/gtk3agg-alpha
+26188 0 Merge pull request #9094 from anntzer/axisbelow-zorder
+26187 0 DOC nitpicks
+26186 0 PEP8-check fixes
+26183 0 Merge pull request #11542 from fredrik-1/doc_thetagrids
+26182 0 Merge pull request #11459 from fredrik-1/doc_subplot_axes
+26181 0 Merge pull request #10908 from anntzer/callback-check-parented
+26174 0 Update the documentation guidelines
+26173 0 Merge pull request #11522 from anntzer/cleanups
+26172 0 Merge pull request #11539 from phobson/sticky-margins
+26171 0 DOC: remove redundant example reference in docstring
+26169 0 Merge pull request #11540 from fredrik-1/axes_module_index
+26168 0 adding axes to modules
+26167 0 passing through None
+26165 0 Merge pull request #11537 from dstansby/non-finite-margins
+26164 0 Merge pull request #11512 from dstansby/disable-rotate
+26163 0 Merge pull request #11538 from dstansby/exmaple-pep8
+26161 0 Re-enable pep8 on examples folder
+26160 0 Also skip wire3d, and add comments
+26157 0 Merge pull request #11532 from Harnesser/examples-fix-radian-display
+26156 0 Merge pull request #11535 from matplotlib/auto-backport-of-pr-11517-on-v2.2.x
+26155 0 E501 check
+26153 0 Merge pull request #11524 from tacaswell/doc_more_backports
+26152 0 Merge pull request #11136 from dstansby/examplemove
+26151 0 Backport PR #11517: Update legend loc default value in docstring
+26150 0 Merge pull request #11517 from joelostblom/legend-docstring
+26149 0 STY: strip trailing whitespace
+26147 0 Merge pull request #11519 from anntzer/backendloadfailure
+26146 0 add documentation for quality in savefig (#11529)
+26144 0 Merge pull request #11528 from anntzer/zipless
+26142 0 Merge pull request #11523 from tacaswell/doc_remove_contest_banner
+26138 0 Merge pull request #11492 from timhoffm/gridpsec-repr
+26137 0 Merge pull request #11521 from joelostblom/fig-docstring-missing-dot
+26135 0 Add missing `.` to rcParam
+26134 0 State default rcParam values
+26132 0 Merge pull request #11491 from fredrik-1/rc_role_windows
+26131 0 Update legend loc default value in docstring
+26129 0 Merge pull request #11514 from anntzer/removeprivateexample
+26127 0 Merge pull request #11513 from fredrik-1/doc_text
+26126 0 Fix link
+26125 0 Remove api folder mention in examples README
+26124 0 Move remaining examples from api/
+26122 0 changed docstrings in Text
+26121 0 Skip 3D rotation example in sphinx gallery
+26120 0 Merge pull request #11503 from anntzer/nogtk
+26119 0 Merge pull request #11493 from anntzer/figure-equality
+26116 0 Merge pull request #11501 from anntzer/emptymplbackend
+26115 0 Merge pull request #11395 from anntzer/deprecations
+26111 0 DOC: add API note
+26108 0 Fix CI install of wxpython.
+26103 0 Merge pull request #11489 from matplotlib/auto-backport-of-pr-11485-on-v2.2.x
+26102 0 Merge pull request #11408 from anntzer/check_figures_equal
+26101 0 Merge pull request #11461 from fredrik-1/text_alias_change
+26100 0 Merge pull request #11397 from anntzer/noACCEPTS
+26099 0 Merge pull request #11483 from dstansby/travis_req_files
+26098 0 Backport PR #11485: Use null character instead of recasting NULL to char
+26097 0 Merge pull request #11485 from dahlbaek/fix/null/cast
+26096 0 Merge branch
+26095 0 Revert "DOC: add plotting contest banner"
+26094 0 Use NULL character instead of recasting NULL
+26093 0 Merge pull request #11478 from QuLogic/backport-11444
+26092 0 Merge pull request #11481 from timhoffm/remove-pylab-references-2
+26091 0 Use pip version file
+26090 0 Convert all environment variables to pip requirements files
+26089 0 Try using custom file for 3.5 build
+26088 0 remove more pylab references
+26087 0 Make a travis pip install file
+26086 0 Merge pull request #11480 from QuLogic/fix-macos
+26085 0 Skip pillow 5.1.0 on macOS.
+26084 0 Backport of #11444 to v2.2.2-doc.
+26083 0 Merge pull request #11476 from timhoffm/remove-pylab-references
+26082 0 remove-pylab-references
+26081 0 Merge pull request #11448 from timhoffm/rcparams-link
+26079 0 Merge pull request #11442 from fredrik-1/doc_AxesBase_bug
+26078 0 Merge pull request #11424 from jklymak/doc-align-ylabels
+26077 0 Merge pull request #11454 from fredrik-1/doc_rendering_subplots
+26075 0 Merge pull request #11467 from matplotlib/revert-11406-auto-backport-of-pr-11403-on-v2.2.2-doc
+26074 0 Merge pull request #11470 from katrinleinweber/resolve-DOIs-securely
+26073 0 Hyperlink DOIs against preferred resolver
+26071 0 Merge pull request #11462 from ImportanceOfBeingErnest/doc_beautify-usetex-example
+26070 0 Merge branch
+26065 0 Merge pull request #11421 from ImportanceOfBeingErnest/doc_greybackground-for-signatures
+26063 0 TST: Fix streamplot test images
+26061 0 Merge pull request #11457 from NickRF/patch-1
+26060 0 doc: make signature background grey
+26057 0 Merge pull request #11456 from phobson/figaspect-typos
+26055 0 Merge pull request #11444 from anntzer/pin-pytest-timeout
+26054 0 DOC: fix minor typo in figaspect
+26053 0 Pin pytest-timeout to fix the build.
+26052 0 Merge pull request #11293 from timhoffm/lim-parameter-naming
+26051 0 Fixing the issue where right column and top row generate wrong streamlines
+26050 0 Merge pull request #11447 from timhoffm/improper-class-variables
+26049 0 Merge pull request #11449 from timhoffm/doc-css-sidebar-layout
+26048 0 Slightly improve doc sidebar layout
+26046 0 Merge pull request #11224 from dstansby/fancyarrowkwargs
+26043 0 Merge pull request #11437 from ImportanceOfBeingErnest/doc_markersupdate
+26039 0 Doc: Markers update
+26038 0 Merge pull request #11430 from ImportanceOfBeingErnest/doc_makefirstlineintablesdarker
+26037 0 Merge pull request #11417 from jklymak/fix-better-default-spine-path
+26036 0 Merge pull request #11419 from timhoffm/v2.2.x
+26035 0 Merge pull request #11379 from matplotlib/auto-backport-of-pr-11363-on-v2.2.x
+26034 0 Merge pull request #11405 from matplotlib/auto-backport-of-pr-11355-on-v2.2.2-doc
+26033 0 Merge pull request #11406 from matplotlib/auto-backport-of-pr-11403-on-v2.2.2-doc
+26032 0 Merge pull request #11429 from matplotlib/auto-backport-of-pr-11420-on-v2.2.2-doc
+26031 0 Merge pull request #11427 from jklymak/fix-pathlib-nbagg
+26030 0 Doc: Make first line in tables darker
+26029 0 Backport PR #11420: Move duplicate named example
+26028 0 Merge pull request #11428 from ImportanceOfBeingErnest/doc_remove-huge-note-box-from-examples
+26027 0 Doc: Remove huge note box from examples.
+26022 0 Merge pull request #11420 from dstansby/v2.2.x
+26021 0 Move duplicate named example
+26020 0 Merge pull request #11411 from timhoffm/doc-css-update
+26019 0 update CSS of tables
+26018 0 doc CSS: better vertical positioning of text in banners
+26017 0 update CSS of signatures
+26015 0 FIX: better default spine path (for logit)
+26014 0 Merge pull request #11409 from fredrik-1/plt.box_bug_fix
+26012 0 Merge pull request #11392 from anntzer/scatterverts
+26011 0 Merge pull request #11410 from choldgraf/timeline
+26010 0 update CSS of versionmodified
+26009 0 update CSS of admonitions
+26006 0 Merge pull request #11407 from anntzer/step-markers
+26005 0 Merge pull request #11402 from anntzer/strcalls
+26002 0 Merge pull request #11403 from choldgraf/timeline
+26000 0 Backport PR #11355: DOC: Small tweak to customizing tutorial default style files can be found on github
+25999 0 Merge pull request #11355 from jklymak/doc-minor-tweaks-customizing-tutorial
+25998 0 Merge pull request #11399 from timhoffm/autogenerate-credits-rst
+25997 0 Merge pull request #11382 from fredrik-1/subplots_docs
+25996 0 Merge pull request #11388 from ImportanceOfBeingErnest/doc_constrained_layout_improvement
+25992 0 Merge pull request #11400 from gsmecher/gsmecher/fix-axvspan-docstring
+25991 0 Correct docstring for axvspan()
+25990 0 subplots and figure docstring changes
+25988 0 Replace ACCEPTS by standard numpydoc params table.
+25987 0 Constrained layout tutorial improvements
+25986 0 Merge pull request #11396 from anntzer/py2comments
+25985 0 Remove some (minor) comments regarding Py2.
+25982 0 Backport PR #11363: Improve docstring of Axes.pcolorfast
+25981 0 Merge pull request #11210 from jklymak/fix-dont-pad-axes-if-no-axis
+25980 0 Merge pull request #11215 from jklymak/doc-transform-tut-dpi
+25979 0 Merge pull request #11362 from pganssle/tox_update
+25978 0 Merge pull request #11330 from jklymak/fix-constrained-layout-too-many-constraints
+25977 0 Merge pull request #11363 from timhoffm/doc-axes-pcolorfast
+25976 0 Merge pull request #11366 from timhoffm/doc-axes-spy
+25975 0 Merge pull request #11289 from anntzer/ioopen
+25974 0 Merge pull request #11213 from jklymak/mnt-deprecate-yaaa
+25973 0 Merge pull request #11352 from dstansby/test-warning
+25972 0 Merge pull request #11292 from anntzer/testingwarnings
+25971 0 Make tox.ini work out of the box
+25970 0 Added API change note and docs
+25969 0 Pep-8 compliant line length
+25967 0 Merge pull request #11349 from dstansby/manifest-clean
+25965 0 Improve docstring of Axes.pcolorfast
+25964 0 Merge pull request #11353 from ImportanceOfBeingErnest/example-refs_api-etc
+25963 0 Switch tox to using custom configuration directory
+25961 0 Merge pull request #11354 from matplotlib/auto-backport-of-pr-11344-on-v2.2.x
+25960 0 DOC: Small tweak to customizing tutorial to indicate where default style files can be found on github
+25959 0 Merge pull request #11348 from anntzer/osxblit
+25958 0 Backport PR #11344: Improve docstring of Axes.pcolormesh
+25957 0 Merge pull request #11344 from timhoffm/doc-axes-pcolormesh
+25955 0 Remove non-existant files from MANIFEST.IN
+25954 0 Merge pull request #11345 from matplotlib/revert-11255-text.latex.unicode
+25949 0 Improve docstring of Axes.pcolormesh
+25947 0 Merge pull request #11343 from matplotlib/auto-backport-of-pr-11342-on-v2.2.2-doc
+25946 0 Backport PR #11342: fix sphinx issue in color cycle tutorial
+25945 0 Merge pull request #11342 from ngoldbaum/sphinx-fix
+25944 0 fix sphinx issue in color cycle tutorial
+25942 0 Merge pull request #11339 from dstansby/ellipse-doc
+25941 0 Mark rotation as optional
+25940 0 Convert Ellipse docstring to numpydoc
+25939 0 Merge pull request #11255 from anntzer/text.latex.unicode
+25938 0 Merge pull request #11338 from taehoonlee/fix_typos
+25937 0 Fix typos
+25933 0 Merge pull request #11336 from timhoffm/raw-strings-for-docstrings-with-escape
+25932 0 Use raw string literals for docstrings with escapes
+25930 0 Merge pull request #11334 from dstansby/10858-backport
+25929 0 Merge pull request #11331 from cclauss/patch-2
+25928 0 Merge pull request #11333 from dstansby/v2.2.x
+25926 0 Merge pull request #10806 from tacaswell/fix_escapes
+25925 0 multiprocessing.set_start_method() --> mp.set_start_method()
+25924 0 Merge pull request #11312 from anntzer/rerefs
+25923 0 Some manual fixes.
+25922 0 Replace :ref:`sphx_glr_...` by :doc:`/...`.
+25921 0 Merge pull request #11327 from matplotlib/auto-backport-of-pr-11317-on-v2.2.x
+25920 0 Merge pull request #11329 from timhoffm/doc-thumbnail
+25919 0 Merge pull request #9551 from anntzer/backend-loading
+25918 0 Minor docstring updates on thumbnail
+25917 0 Merge pull request #11328 from timhoffm/undeprecate-xy-property
+25915 0 Merge pull request #11318 from timhoffm/doc-imread
+25912 0 Backport PR #11317: Improve docstring of Axes.pcolor
+25911 0 Merge pull request #11311 from anntzer/thumbnail
+25910 0 Merge pull request #11225 from cldssty/master
+25909 0 Merge pull request #11313 from timhoffm/changelog-only-directive
+25908 0 Merge pull request #11323 from ImportanceOfBeingErnest/connectionstylefix
+25907 0 Merge pull request #11314 from timhoffm/api-changes-headings
+25906 0 Merge pull request #11320 from anntzer/update-multiprocess-example
+25905 0 Merge pull request #6254 from bastibe/colormap-twilight
+25904 0 Merge pull request #11317 from timhoffm/doc-axes-pcolor
+25903 0 Merge pull request #11268 from ImportanceOfBeingErnest/sanitize-some-doc-links
+25902 0 Sanitize some internal documentation links
+25900 0 Improve docstring of Axes.pcolor
+25898 0 Merge pull request #11300 from anntzer/noACCEPTS
+25897 0 Merge pull request #11298 from anntzer/autostacklevel
+25895 0 API changes: use the heading format defined in README.txt
+25894 0 Add changelog entry for removal of proprietary sphinx directives.
+25891 0 Merge pull request #11277 from anntzer/nomacroman
+25890 0 Merge pull request #11295 from timhoffm/only-directive
+25889 0 Merge pull request #11305 from anntzer/duplicate-warning
+25888 0 Merge pull request #11307 from Nodd/path.py
+25885 0 Merge pull request #11304 from anntzer/sixless
+25884 0 Merge pull request #11299 from anntzer/patchespy
+25882 0 Re-remove six from INSTALL.rst.
+25881 0 Merge pull request #11301 from cclauss/patch-2
+25879 0 Merge pull request #11254 from anntzer/update-installrst
+25878 0 Merge pull request #11267 from maahn/fixHistNan
+25877 0 Merge branch
+25875 0 adapt pyplot.xlim/ylim docstrings to set_x/ylim parameter naming
+25873 0 Merge pull request #11291 from matplotlib/auto-backport-of-pr-11286-on-v2.2.2-doc
+25872 0 renames "wrapping" to "cyclic" color maps
+25871 0 Merge pull request #11271 from Zac-HD/refactor
+25870 0 De-duplicate test names
+25868 0 Merge pull request #11272 from Zac-HD/cleanup
+25866 0 Backport PR #11286: Fix broken link
+25865 0 Merge pull request #11286 from nbeaver/nbeaver-fix-url
+25864 0 Merge pull request #11280 from anntzer/cleanups
+25863 0 Fix broken link
+25862 0 Merge pull request #10514 from anntzer/gtk-and-cairo-compat-matrix
+25861 0 Merge pull request #11282 from mdboom/reduce-cpp-exceptions
+25860 0 Don
+25859 0 Don
+25858 0 Don
+25857 0 Merge pull request #11278 from anntzer/sphinx13
+25856 0 stacklevel=3 in warnings.warn() call in _remove_blacklisted_style_params fn
+25853 0 Merge pull request #11273 from anntzer/matplotlibrctemplate-in-package-data
+25851 0 Merge branch
+25847 0 renames colormap sunlight to twilight_shifted
+25846 0 Merge pull request #11265 from anntzer/cleanups
+25844 0 Merge pull request #11262 from mdboom/optional-threading
+25842 0 Merge pull request #11249 from anntzer/freetype-tarball
+25840 0 Merge pull request #10050 from timhoffm/legend-draggable
+25834 0 Merge pull request #11260 from matplotlib/auto-backport-of-pr-11189
+25832 0 Merge pull request #11257 from ImportanceOfBeingErnest/sort-gallery-alternative
+25831 0 Merge pull request #11206 from anntzer/cleanups2
+25829 0 Merge pull request #11001 from jklymak/doc-improve-legend-docstring
+25828 0 Merge pull request #11258 from pgtgrly/master
+25826 0 removed comment in AGG backend that is no longer applicable
+25825 0 Merge pull request #11062 from jklymak/fix-call-constrained-layout-twice
+25823 0 Update INSTALL.rst.
+25821 0 Merge pull request #11251 from anntzer/fix-pyplot
+25819 0 Merge pull request #11228 from anntzer/luatexversion
+25818 0 Merge pull request #11207 from anntzer/venvguidocs
+25817 0 Merge pull request #11236 from anntzer/setupext
+25816 0 Merge pull request #11239 from anntzer/lockmessage
+25815 0 Merge pull request #11047 from jklymak/fix-image-respect-norm-limits
+25814 0 Merge pull request #11204 from anntzer/boilerplate-test
+25813 0 Merge pull request #11172 from jklymak/enh-rc-legend-title-fontsize6
+25810 0 Merge branch
+25808 0 Merge pull request #11229 from anntzer/animationbin
+25805 0 Update venv gui docs wrt availability of PySide2.
+25804 0 Merge pull request #11209 from ImportanceOfBeingErnest/example-refs_shapes-coll-lines
+25803 0 Merge pull request #11212 from ImportanceOfBeingErnest/fix-circlepolygon-str
+25802 0 Merge pull request #11222 from matplotlib/auto-backport-of-pr-11221
+25801 0 Merge pull request #11216 from anntzer/cleanups3
+25800 0 Merge pull request #11056 from anntzer/simplertravis
+25796 0 Merge pull request #11221 from ImportanceOfBeingErnest/search-codex-fix
+25793 0 Merge pull request #11211 from timhoffm/remove-step-linestyle-kwarg
+25791 0 Remove unicode-path test only relevant on Py2.
+25788 0 Merge pull request #11205 from anntzer/pyplot-cleanups
+25786 0 Merge pull request #11082 from matplotlib/auto-backport-of-pr-11063
+25785 0 DOC: improve legend bbox_to_anchor description
+25783 0 Merge pull request #11174 from timhoffm/legend-loc-strings
+25782 0 Merge pull request #11208 from anntzer/dont-crash-figure-options-on-unknown-style
+25779 0 Merge pull request #11191 from ImportanceOfBeingErnest/example-refs_imgscntrs
+25778 0 Merge pull request #11195 from anntzer/cleanups
+25774 0 adds what
+25772 0 bugfix for broken syntax
+25767 0 add lightness smoothing
+25765 0 reduced saturation to be more like the original
+25764 0 fix typo.
+25763 0 update twilight to fixed color space in viscm
+25761 0 remove extraneous whitespace
+25755 0 Merge pull request #11192 from anntzer/pgffix2
+25754 0 Merge pull request #11197 from anntzer/demo-ribbon-box
+25753 0 Merge pull request #11194 from matplotlib/auto-backport-of-pr-11186
+25752 0 Merge pull request #11200 from matplotlib/auto-backport-of-pr-11180
+25750 0 Merge pull request #11180 from ImportanceOfBeingErnest/revive-irregular-data-contour-example
+25747 0 Merge pull request #11137 from Zac-HD/issue-9912-cleanup
+25745 0 Merge pull request #11189 from jklymak/fix-repr-recursion
+25742 0 Backport PR #11186: DOC: minor tweaks to manual backport instructions
+25741 0 Merge pull request #11186 from jklymak/doc-manual-backport-tweaks
+25736 0 DOC: minor tweaks to manual backport instructions
+25732 0 Merge pull request #10982 from timhoffm/doc-axes-imshow
+25731 0 Merge pull request #11182 from expectocode/gobject-deprecation
+25730 0 Merge pull request #11188 from timhoffm/interpolation-methods
+25727 0 Improve docstring of Axes.imshow
+25726 0 Merge pull request #11185 from anntzer/pgffix
+25725 0 Simplify travis setup a bit.
+25724 0 Merge pull request #11184 from jklymak/v2.2.x
+25721 0 Merge pull request #11035 from jklymak/fix-suptitle-CL
+25719 0 Use GLib.MainLoop() instead of GObject.MainLoop()
+25718 0 Merge pull request #10321 from HHest/patch-1
+25715 0 Merge pull request #8787 from anntzer/cairo-fast-path
+25710 0 Document a bit the cairo fast path.
+25706 0 cairo: Don
+25705 0 Merge pull request #11179 from Zac-HD/focus-manager
+25704 0 Merge pull request #11175 from matplotlib/auto-backport-of-pr-11169
+25703 0 Merge pull request #11176 from timhoffm/empty-path
+25701 0 Merge pull request #10339 from anntzer/pgf-fontspec
+25699 0 Merge pull request #9832 from anntzer/text
+25698 0 Merge pull request #11141 from anntzer/mpl_examples
+25697 0 Merge pull request #11177 from tacaswell/doc_remove_fellowship_ad
+25694 0 Merge pull request #11169 from ImportanceOfBeingErnest/search-codex
+25692 0 DOC: remove fellowship advertisement
+25689 0 Merge pull request #10715 from jklymak/enh-rc-legend-title-fontsize
+25688 0 Merge pull request #11166 from souravsingh/fix-warnings
+25685 0 Merge pull request #10934 from anntzer/more-autogen
+25684 0 Merge pull request #11168 from tacaswell/doc_jdh_plotting_contest
+25682 0 DOC: add plotting contest banner
+25681 0 Update stacklevel value
+25680 0 Merge pull request #9298 from anntzer/ginput-cleanup
+25679 0 Merge pull request #11162 from matplotlib/auto-backport-of-pr-11161
+25677 0 Backport PR #11161: DOC: small-doc-improvements1
+25676 0 Merge pull request #11161 from ImportanceOfBeingErnest/small-doc-improvements1
+25675 0 Fix some titles.
+25673 0 small-doc-improvements1
+25672 0 Merge pull request #11159 from matplotlib/auto-backport-of-pr-10947
+25670 0 Merge pull request #10947 from tacaswell/doc_imshow_extent
+25669 0 Merge pull request #11157 from dstansby/contour-ret-doc
+25668 0 Merge pull request #11146 from Zac-HD/refactor-margins
+25667 0 Fix contour return link
+25665 0 Merge pull request #11145 from Zac-HD/kwonlyargs
+25662 0 Merge pull request #11119 from pwuertz/fix_11116
+25659 0 Merge pull request #9078 from idahj/NEW_AnchoredDirectionArrows
+25657 0 Merge pull request #11150 from matplotlib/auto-backport-of-pr-11149
+25656 0 Merge pull request #11144 from anntzer/remove-unit
+25655 0 Merge pull request #11079 from ImportanceOfBeingErnest/resurrect-axesgrid1-doc
+25654 0 Backport PR #11149: Modified the plot width of the matshow() example in order to fit margin…
+25653 0 Merge pull request #11149 from buckwalterbd/matshow/fix
+25652 0 DOC: add deprecation note
+25651 0 Modified the plot width of the matshow example in order to fit margins of documentation webpage.
+25650 0 Merge pull request #11148 from phobson/use-stdlib-subprocess
+25649 0 remove use of subprocess compatibility shim
+25647 0 Merge pull request #11105 from anntzer/markerfacecolor-none-alpha
+25645 0 Merge pull request #11143 from mitar/patch-1
+25644 0 Merge pull request #11142 from anntzer/thefutureisnow
+25643 0 Use debug level for debugging messages.
+25641 0 Remove mpl_examples symlink.
+25640 0 Merge pull request #11130 from anntzer/postscript-unicode-title
+25638 0 Merge pull request #11093 from madphysicist/anchored-artist-gallery
+25636 0 Merge pull request #10968 from timhoffm/doc-contour
+25635 0 Merge pull request #11132 from ImportanceOfBeingErnest/pillow-dependency
+25631 0 Merge pull request #10446 from fariza/copy-tool
+25628 0 fix PEP8 warnings
+25625 0 fix attribute name
+25624 0 Merge pull request #11120 from matplotlib/auto-backport-of-pr-10981
+25623 0 Backport PR #10981: Document change of label visibility on shared axes
+25622 0 Merge pull request #10981 from ImportanceOfBeingErnest/doc-labelvisibility-on-shared-axes
+25619 0 Merge branch
+25618 0 Merge branch
+25617 0 Merge pull request #9131 from tacaswell/fix_qt_resizing
+25616 0 Merge pull request #9454 from anntzer/gsbatch
+25615 0 Merge pull request #11114 from matplotlib/auto-backport-of-pr-10792
+25614 0 Merge pull request #10545 from anntzer/kwonlyfy
+25612 0 Merge pull request #10792 from jinshifen33/bugfix-for-issue-10105
+25611 0 Merge pull request #10950 from dstansby/log-invalid-values
+25610 0 Merge pull request #11096 from anntzer/barsig
+25609 0 Merge pull request #11106 from anntzer/py3art3d
+25608 0 Merge pull request #11108 from matplotlib/revert-11089-auto-backport-of-pr-11083
+25607 0 Merge pull request #11111 from dstansby/v2.2.x
+25605 0 Merge pull request #11110 from dstansby/doc-build
+25604 0 Merge pull request #11107 from anntzer/pinsphinx
+25603 0 Merge pull request #11107 from anntzer/pinsphinx
+25601 0 Merge pull request #11107 from anntzer/pinsphinx
+25600 0 Pin sphinx to 1.7.2 to unbreak the doc build.
+25599 0 Merge pull request #11085 from QuLogic/helptool-gtk3
+25598 0 Merge pull request #11099 from anntzer/markerstyles
+25597 0 Merge pull request #11100 from anntzer/deprecations
+25596 0 Merge pull request #11090 from dstansby/contourset-doc
+25593 0 Small edits to make clabel a link
+25591 0 Merge pull request #11097 from anntzer/schedule-normed-removal
+25588 0 0.0 --> 0
+25587 0 add line for PEP8
+25585 0 fix handling of the global reference to the open dialog; add comments to make clear
+25584 0 Merge pull request #11080 from anntzer/qtcleanup
+25582 0 Merge pull request #11089 from matplotlib/auto-backport-of-pr-11083
+25581 0 Merge pull request #11084 from timhoffm/backport-of-pr-10899
+25579 0 Merge pull request #11083 from timhoffm/pie-demo2
+25578 0 Merge pull request #11088 from matplotlib/auto-backport-of-pr-10211
+25577 0 Merge pull request #10967 from bellmj/fillBetweenExampleBranch
+25575 0 Merge pull request #10211 from tacaswell/doc_add_sha_to_footer
+25570 0 Merge pull request #10899 from timhoffm/switch-cycler-to-kwargs
+25569 0 Merge pull request #11063 from timhoffm/sphinx-ext-viewcode
+25567 0 update rc.template
+25564 0 Merge pull request #11075 from anntzer/dropalpha-when-saving-diffimage
+25560 0 update rc template
+25556 0 Merge pull request #11045 from anntzer/helptool
+25551 0 Merge pull request #11076 from anntzer/dont-pollute-root-dir
+25550 0 Merge pull request #11073 from anntzer/py3tests
+25548 0 Merge pull request #11071 from dstansby/hist-scaling
+25547 0 Merge pull request #11074 from anntzer/bytespercent
+25543 0 corrected example title
+25542 0 fixed file naming
+25541 0 Revert "added suffient title overline"
+25540 0 Merge branch
+25539 0 Remove :class: from docstring
+25537 0 Merge pull request #11066 from anntzer/chainedcomparisons
+25536 0 Add note about hist2d resetting axis limits
+25535 0 Merge pull request #11061 from fredrik-1/doc_tight_layout
+25533 0 Merge pull request #11067 from QuLogic/remove-shebang
+25532 0 changed tight_layout doc strings
+25531 0 Remove unnecessary shebang.
+25530 0 Merge pull request #11064 from timhoffm/doc-minor-format-cleanup
+25529 0 Minor docstring format cleanup
+25528 0 Merge pull request #11055 from anntzer/remove-setup_tests_only
+25527 0 Merge pull request #11054 from matplotlib/auto-backport-of-pr-11052
+25526 0 Merge pull request #11057 from eschutz/ellipse-center
+25525 0 Changed Ellipse.xy to _center
+25522 0 TST: fix pip install on circleci
+25521 0 Backport PR #11052: Fix CircleCI build.
+25520 0 Merge pull request #11052 from anntzer/unbreak-circleci
+25519 0 Fix CircleCI build.
+25517 0 Merge pull request #11046 from matplotlib/auto-backport-of-pr-11043
+25515 0 Backport PR #11043: Doc: unreference specific axis for get_ticklabels() in axis.py
+25514 0 Merge pull request #11043 from jason-neal/patch-1
+25513 0 Doc: unreference specific axis in get_ticklabels
+25512 0 Merge pull request #11042 from tacaswell/doc_summer_fellowship
+25511 0 DOC: Add summer-fellowship banner
+25508 0 Minor cleanup to Text class.
+25507 0 Merge pull request #11038 from matplotlib/auto-backport-of-pr-11009
+25506 0 Merge pull request #11037 from matplotlib/auto-backport-of-pr-11017
+25504 0 Merge pull request #11009 from samvaughan/change-fill-example
+25502 0 Merge pull request #11017 from ImportanceOfBeingErnest/doc-heatmap-example
+25501 0 Merge pull request #11032 from matplotlib/auto-backport-of-pr-11030
+25500 0 Merge pull request #11033 from matplotlib/auto-backport-of-pr-11028
+25498 0 Merge pull request #11028 from timhoffm/py2support-note
+25497 0 Backport PR #11030: Update doc string for get_yticklabels
+25496 0 Merge pull request #11030 from nickgarvey/master
+25495 0 Update doc string for get_yticklabels
+25494 0 Merge pull request #11029 from matplotlib/auto-backport-of-pr-11019
+25491 0 Merge pull request #11019 from jklymak/doc-add-links-in-examples
+25490 0 Merge pull request #10435 from anntzer/pathlib-font_manager
+25488 0 Merge pull request #11023 from matplotlib/auto-backport-of-pr-11022
+25486 0 Merge pull request #11022 from tacaswell/mnt_remove_excess_import
+25485 0 Merge pull request #10442 from anntzer/filternorm
+25483 0 Merge pull request #11020 from matplotlib/auto-backport-of-pr-11018
+25482 0 Fix small typo in README
+25481 0 Backport PR #11018: Add link to developer discussions...
+25480 0 Merge pull request #11018 from matplotlib/jklymak-update-README
+25478 0 Merge pull request #9855 from jklymak/enh-update-aspect
+25477 0 Add link to developer discussions...
+25476 0 Merge pull request #9987 from jklymak/mnt-hist2d-pcolor
+25473 0 Merge branch
+25472 0 Merge pull request #11011 from matplotlib/auto-backport-of-pr-11002
+25469 0 Merge pull request #11002 from timhoffm/fix-to_rgba-logic-error
+25466 0 Merge pull request #10952 from matplotlib/auto-backport-of-pr-10951
+25465 0 Merge pull request #11000 from jklymak/fix-repr-text
+25463 0 Merge pull request #10994 from matplotlib/auto-backport-of-pr-10992
+25462 0 Merge pull request #10990 from matplotlib/auto-backport-of-pr-10987
+25461 0 Merge pull request #10998 from matplotlib/auto-backport-of-pr-10995
+25460 0 Merge pull request #10999 from matplotlib/auto-backport-of-pr-10991
+25458 0 FIX: improve Text repr to not error if non-float x and y.
+25457 0 document labelvisibility on shared axes change (rev1)
+25456 0 Backport PR #10991: Improve docstring of Axes.matshow
+25455 0 Backport PR #10995: Fix layout of Other Parameters in docs
+25454 0 Merge pull request #10995 from timhoffm/docs-layout-other-parameters
+25453 0 Merge pull request #10991 from timhoffm/doc-axes-matshow
+25452 0 fix layout of Other Parameters in docs
+25450 0 Merge pull request #10992 from timhoffm/example-dashes
+25449 0 Improve docstring of Axes.matshow
+25447 0 Backport PR #10987: DOC: better document the MEP process
+25446 0 Merge pull request #10987 from tacaswell/doc_mep_docs
+25445 0 Merge pull request #10910 from jklymak/fix-proper-legend-window-extent
+25444 0 DOC: update state of several MEPs
+25443 0 DOC: better document the MEP process
+25442 0 Merge pull request #10984 from matplotlib/auto-backport-of-pr-10983
+25440 0 Merge pull request #10983 from timhoffm/zorder-demo
+25437 0 document labelvisibility on shared axes change
+25436 0 Merge pull request #10915 from jklymak/fix-tight-layout-too-small
+25435 0 Merge pull request #10979 from matplotlib/auto-backport-of-pr-10978
+25434 0 Merge pull request #10408 from dstansby/unit-common-code
+25433 0 Backport PR #10978: Remove to-be-deprecated NumPy imports.
+25432 0 Merge pull request #10978 from QuLogic/np-pytest
+25431 0 Remove to-be-deprecated NumPy imports.
+25430 0 hopefully fixing whitespace
+25429 0 added white space to pass PEP8-check
+25426 0 Merge pull request #10971 from dstansby/test-pillow-anim
+25425 0 Merge pull request #10970 from anntzer/len-args
+25422 0 added suffient title overline
+25421 0 removing documentation since adding it made build tests fail
+25420 0 updated fill between example title
+25419 0 updated line lenght and added a single space after the comma in the fill_between method
+25417 0 Merge pull request #10965 from matplotlib/auto-backport-of-pr-10962
+25416 0 Merge pull request #10964 from matplotlib/auto-backport-of-pr-10953
+25414 0 Merge pull request #10962 from dstansby/zorder-demo-clean
+25411 0 Merge pull request #10958 from anntzer/grouper
+25410 0 Simplify tkagg C extension.
+25407 0 Merge pull request #10508 from anntzer/keyautorepeat
+25406 0 Merge pull request #10607 from anntzer/notify_axes_change
+25404 0 Merge pull request #10215 from anntzer/more-interactive-tests
+25401 0 Merge pull request #10955 from anntzer/py3cbook
+25399 0 Merge pull request #10680 from anntzer/newtk
+25398 0 Backport PR #10951: fix wx rubberband: correctly ensure x0<=x1
+25397 0 Merge pull request #10951 from DietmarSchwertberger/wx-fix-rubberband
+25396 0 fix rubberband: correctly ensure x0<x1
+25395 0 Merge pull request #9498 from jklymak/fixtitle
+25394 0 Merge pull request #10942 from timhoffm/widgets
+25393 0 DOC: Whats new entry for title moving above xaxis
+25390 0 Warn on freetype missing glyphs.
+25387 0 Merge pull request #10943 from ImportanceOfBeingErnest/update-pie-textprops
+25386 0 update-pie-textprops (with PEPper)
+25382 0 Merge pull request #10780 from TeamChillUTSC/4429-radio-btn-scale
+25381 0 Merge pull request #10938 from cclauss/fix-undefined-names
+25380 0 Change ret —> __ret in boilerplate.py
+25379 0 Merge pull request #10685 from CinnyCao/becky-fix-#7908
+25378 0 Merge pull request #10937 from matplotlib/auto-backport-of-pr-10935
+25376 0 Merge branch
+25375 0 Merge pull request #10689 from cclauss/declare-globals
+25373 0 Merge pull request #10935 from jklymak/fix-ps-allow-empty-markers
+25372 0 Merge pull request #10858 from jklymak/fix-ioerror-font-cache
+25369 0 Merge pull request #10898 from anntzer/mplrc
+25368 0 Merge pull request #10926 from anntzer/api-removals
+25367 0 Merge pull request #10931 from matplotlib/auto-backport-of-pr-10930
+25366 0 Merge pull request #10918 from anntzer/signature-boilerplate
+25363 0 Merge pull request #10930 from krrk/scatter-examples
+25359 0 Merge pull request #10929 from QuLogic/rctemplate-path
+25358 0 Merge pull request #10864 from mspacek/patch-1
+25356 0 Merge pull request #10562 from dstansby/depr-image
+25355 0 Remove deprecated code in image.py
+25352 0 Merge pull request #10927 from matplotlib/auto-backport-of-pr-10919
+25351 0 Backport PR #10919: Fix overflow when resizing path-to-string buffer.
+25350 0 Merge pull request #10919 from QuLogic/fix-overflow-resizing
+25349 0 Merge pull request #10798 from shaynair/issue-10062-dev
+25348 0 Fix overflow when resizing path-to-string buffer.
+25347 0 Merge pull request #10917 from matplotlib/auto-backport-of-pr-10459
+25346 0 Merge pull request #10485 from dstansby/remove-hold
+25345 0 Backport PR #10459: Move some examples out of examples/api
+25344 0 Merge pull request #10459 from dstansby/api-examples
+25343 0 Merge pull request #10913 from anntzer/rc_context
+25342 0 Merge pull request #10299 from anntzer/texmanager-cache-keys
+25340 0 Merge pull request #10906 from anntzer/imagecomparisontest
+25338 0 Merge pull request #10904 from timhoffm/doc-axes-contour
+25337 0 Merge pull request #10912 from Siecje/master
+25331 0 Improve docstring of clabel()
+25328 0 Merge pull request #10692 from timhoffm/doc-afm
+25325 0 Add API notes
+25323 0 Remove hold refs from axes doc
+25320 0 Merge pull request #10896 from anntzer/update-installrst
+25319 0 Merge pull request #10905 from anntzer/knownfailureif
+25318 0 Merge pull request #10907 from anntzer/unicodestrings
+25317 0 Merge pull request #10903 from anntzer/py3testing
+25316 0 Merge pull request #10901 from anntzer/nonportable-code
+25315 0 Merge pull request #10900 from anntzer/30removals
+25314 0 Merge pull request #10902 from anntzer/py2docs
+25310 0 Replace "matplotlibrc" by "rcParams" in the docs where applicable.
+25309 0 Kill some Py2 docs.
+25308 0 Remove Py2/3 portable code guide.
+25306 0 Merge pull request #10895 from matplotlib/auto-backport-of-pr-10894
+25304 0 Update INSTALL.rst.
+25303 0 Merge pull request #10893 from matplotlib/auto-backport-of-pr-10892
+25302 0 Backport PR #10894: Update install instructions for win
+25301 0 Merge pull request #10894 from ImportanceOfBeingErnest/update-win-build-doc
+25300 0 Add entry to /next_whats_new
+25299 0 Update install instructions for win
+25298 0 Backport PR #10892: Replace suggested labels with good first issue label
+25297 0 Merge pull request #10892 from tropfcode/patch-1
+25296 0 Replace suggested labels with good first issue label
+25293 0 Merge pull request #10884 from anntzer/setupext-style
+25292 0 Merge pull request #10865 from phobson/ooify-more-examples
+25289 0 Merge pull request #8479 from kalagau/TeamDoItTomorrow3923
+25288 0 Merge pull request #10314 from anntzer/setattr-cm
+25287 0 Merge pull request #10158 from anntzer/mplot3d-rasterization
+25285 0 Merge pull request #10871 from anntzer/rglob
+25283 0 Merge pull request #10878 from ocastany/master
+25282 0 Merge branch
+25279 0 Merge pull request #10877 from anntzer/raw-docstring
+25278 0 Fix invalid escape sequence in docstring.
+25277 0 Merge pull request #10708 from anntzer/py3webagg
+25276 0 Merge pull request #10873 from matplotlib/auto-backport-of-pr-10870
+25275 0 Merge pull request #10862 from timhoffm/py3ify-table
+25273 0 Backport PR #10870: Restore main doc page <title>.
+25272 0 Merge pull request #10870 from anntzer/doctitle
+25271 0 Merge pull request #10868 from matplotlib/auto-backport-of-pr-10867
+25270 0 Merge pull request #10810 from zhangeugenia/bugfix-for-issue-8818
+25269 0 Restore main doc page <title>.
+25267 0 Merge pull request #10867 from tacaswell/fix_hide_bz2
+25265 0 Merge pull request #10861 from timhoffm/unpy2
+25263 0 Merge pull request #9903 from jklymak/enh-colorbar-ticks
+25260 0 Merge pull request #10860 from matplotlib/auto-backport-of-pr-10856
+25256 0 Merge pull request #10831 from timhoffm/doc-binned
+25254 0 Merge pull request #10856 from anntzer/xkcdgc
+25253 0 Minor docstring updates on binning related plot functions
+25252 0 Merge pull request #9571 from anntzer/remove-latex-entries-in-setup.py
+25250 0 Merge pull request #10097 from lkjell/rectangle_selector_reset_extents
+25249 0 Merge pull request #10686 from CinnyCao/becky-fix-#8059
+25248 0 Merge pull request #10801 from anntzer/fix-undefined-name
+25243 0 Merge pull request #10796 from pdubcali/master
+25242 0 Merge pull request #10846 from anntzer/unsixify
+25241 0 Merge pull request #10852 from anntzer/pygobjectvenv
+25240 0 Merge pull request #10853 from matplotlib/auto-backport-of-pr-10662
+25239 0 Merge pull request #10847 from anntzer/py3axis
+25238 0 Backport PR #10662: Update docs on Axes.set_prop_cycle
+25237 0 Merge pull request #10662 from timhoffm/axes-doc-prop-cycle
+25236 0 Merge pull request #10834 from timhoffm/doc-axes-spectral
+25235 0 Update docs re: pygobject in venv.
+25234 0 Merge pull request #10850 from matplotlib/auto-backport-of-pr-10849
+25232 0 Merge pull request #10849 from jklymak/doc-improve-CL-tutorial
+25231 0 typo!
+25229 0 Merge pull request #10778 from anntzer/wxcnomore
+25227 0 Merge pull request #10609 from anntzer/wxmorecleanup
+25226 0 Merge branch
+25223 0 Merge pull request #10822 from tacaswell/doc_branchbackport
+25222 0 Merge pull request #10826 from anntzer/py3dates
+25221 0 FIX: add loglocator for minor colorbar

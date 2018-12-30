@@ -1,0 +1,370 @@
+163 1018 added 2nd image demo
+164 1091 updated image demo examples
+165 259 added Andrews fill patch
+166 723 sync to 0.52 release
+167 1102 Added.
+  
+931 5966 added boxplot demos
+932 689 added quiver demo
+933 821 added curosor props to ax
+934 7634 added alpha support for unicode
+935 510 finished unicode support for ps
+  
+2674 3408 First pass through all of the examples -- not all working yet, though.  (See PASSED_DEMOS).
+2675 1009 Forgot the __init__.py
+2676 2048 More progress on examples.
+2677 1909 added ellipse compare script
+2678 539 Significant speed improvement in text layout.  Reverted to fix bug in ticklabels.  Lots of other minor things.
+  
+3278 276 Merged revisions 5012-5017,5019-5023 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_91_maint
+3279 206 Fix saving to Unicode filenames in Agg backend.  Fix Qt and Qt4 GUI
+3280 261 Merged revisions 5024-5025 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_91_maint
+3281 479 added linestyle patch
+3282 214 some small fixes to excel tools
+  
+3325 603 Enforce python 2.4 or later; some other version-related cleanup
+3326 725 fixed dpi figure title positioning problem
+3327 227 added a dpi callback to the quiver key
+3328 5381 removed backend_agg2
+3329 333 Handle changed dpi in quiver; remove extra draw in print_figure. There is still a dpi-related problem with mathtext in the QuiverKey label.
+  
+4815 219 Let pyplot users find out if a figure number exists, or list fignums.
+4816 1615 Fix join style bug in pdf.
+4817 970 Ensure wx version >= 2.8; Sandro Tosi patch plus change to backend
+4818 970 Merged revisions 6972 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_98_5_maint
+4819 1463 Commit Michiel de Hoon
+4820 1053 added
+  
+5107 1910 Speed up quiver for large numbers of arrows; key tip given by Ray Speth.
+5108 440 legend doc. update
+5109 1429 User-generated colormaps are handled more easily.
+5110 6885 Cache the color data to reduce startup time. Also, cmap kwargs now accept colormap names as strings.
+5111 924 Removed the colormap data caching--it was trying to solve a non-problem. Upon installation, the colormap data in _cm.py is compiled into _cm.pyc, and importing that takes negligible time.
+  
+5395 653 test conversion: remove template for old-style tests
+5396 1801 test conversion: move old-style test to new-style test
+5397 1581 test conversion: move old-style test to new-style test
+5398 1442 test conversion: move old-style test to new-style test
+5399 1873 test conversion: move old-style test to new-style test
+5400 1970 test conversion: move old-style test to new-style test
+5401 4087 test conversion: move old-style test to new-style test
+5402 804 test conversion: move old-style test to new-style test
+5403 974 test conversion: move old-style test to new-style test
+5404 2902 test conversion: move old-style test to new-style test
+5405 1607 test conversion: move old-style test to new-style test
+5406 2561 test conversion: move old-style test to new-style test
+5407 1749 test conversion: move old-style test to new-style test
+5408 1499 test conversion: move old-style test to new-style test
+5409 1825 test conversion: move old-style test to new-style test
+  
+6661 835 Miscellaneous fixes submitted by Christoph Gohlke in the mailing list thread "Patches for CTPUG / matplotlib-py3"
+6662 1331 Update to use print_function in all library Python files -- whether they actually use the print function or not.
+6663 312 More miscellaneous print_function updates.
+6664 186 Use "from __future__ import unicode_literals" where necessary.
+6665 574 Miscellaneous fixes to get examples running under Python 3.x
+  
+8160 376 Change generated filenames.  Put the phrases "expected" and "failed-diff" toward the end of the filename so files are more appropriately grouped when viewed in file managers and thumbnail tools (eg. gthumb)
+8161 572 Use bincount rather than histogram for comparing images on Numpy >= 1.6.  Continue to use histogram for earlier Numpy versions.
+8162 1337 Cache results of previous {PDF|SVG} -> PNG conversions.  We can only cache the baseline images, since the test results are never the same twice given different dictionary orderings in the file.
+8163 412 Use python-ghostscript to convert PDF and EPS to PNG (if available).
+8164 1772 Use the same gs process to convert all of the images from PDF to PS
+8165 2494 Add a new kwarg to the image_comparison decorator, remove_text, which removes titles and ticks from a figure before comparison.  Use this throughout to make more of the tests less dependent on text differences.
+  
+8395 738 Added tripcolor triangle-centred colour values.
+8396 665 tripcolor shading=
+8397 853 Removed confusing tripcolor kwarg colorpoints and using facecolors instead.
+8398 543 Added tripcolor facecolors example.
+8399 1281 Added tripcolor unit test.
+  
+9648 37324 First pass at making setup more sane.
+9649 170625 Removing dateutils, pytz and six (external Python dependencies)
+9650 120093 Fix a few bugs in the build.
+9651 2080 More fixes
+9652 333 setupegg.py is now redundant.
+  
+9937 352 STY: Refactor string formatting/templating
+9938 823 Clean-up and move scatter_demo
+9939 864 Cleanup and move fill_demo
+9940 884 Cleanup and move pie_demo
+9941 2867 Cleanup and move errorbar_demo.
+9942 859 Cleanup and move fill_demo2
+9943 1306 Cleanup and move histogram_demo
+9944 2951 Cleanup and move hinton_demo
+9945 937 Cleanup and move image_demo3.py
+  
+9959 2757 Clean up and move integral demo
+9960 2643 Extract spines_demo_bounds from spine_placement_demo
+9961 2664 Extract spines_demo from spine_placement_demo
+9962 245 Cleanup integral_demo
+9963 564 Cleanup and move dash_control demo
+9964 1680 Clean up and move color_cycle demo
+9965 188 Tweak subplot layout to prevent label clipping
+9966 5221 Add colormap references based on show_colormaps
+9967 9620 Clean up and move artist demo
+  
+10360 287 Wait until font caches exist before starting tests
+10361 1107 Fix Issue #2060: Text bbox alignment
+10362 562 Fix multiline spacing so it takes into account extra sub/superscripts
+10363 1104 Correctly set the initial data limit bounding box to null limits rather than the unit bounding box.
+10364 669 Only do the strange autoscale on/off thing when doing a histogram bar plot
+10365 223 Simplify handling of unit and null bboxes
+  
+10934 2490 pull qt keys into module variables
+10935 2287 add tests for Qt Key handling
+10936 338 simplify key getting logic
+10937 183 expose modifier key indexes
+10938 225 fix tests
+  
+11104 3810 add more spectrum functions and add new spectrum types to specgram in mlab.py, and clean up window and detrend functions in mlab.py
+11105 33500 add mlab tests for new spectrum types, window and detrend functions, and greatly expand existing tests
+11106 513 add CleanupTestCase, a unittest.TestCase with cleanup
+11107 6513 refactor mlab spectrum, window, and detrend functions to improve modularity, testability, and performance
+11108 54326 implement tests for refactored mlab spectrum, windowing, and detrend functions, with 100% coverage
+11109 6406 add more spectral plots and add new spectrum types to specgram in _axes
+11110 29767 add tests for new spectrum types in _axes
+11111 952 add demo for new spectral plot types
+  
+11578 428 Use metric identifiers to parse an AFM character metric line
+11579 1617 Scipy2013 Sprint: Cleaning F/C example
+11580 246 TST : eventplot empty event list
+11581 237 BUG : allows empty event lists to be passed in
+11582 6660 Clean-up line and marker demos
+  
+11683 630 Add skew() and skew_deg() to Affine2D.
+11684 462 Fix Bbox transformation for skewed Axes.
+11685 258 Replace hand-creation of blended transforms in Axes.
+11686 340 Remove unecessary use of blended transforms in spines.
+11687 277 Re-order drawing of spines and axis objects.
+11688 5342 Add skewt.py as api example.
+  
+11786 297 allow slice and fancy indexing to only show some markers
+11787 1513 show markers based on distance along line, split sequence behaviour into tuple and list/array
+11788 603 tightened up type checking. added some error handling.
+11789 3905 Added a pylab example for markevery
+11790 5389 wrote additional markevery tests in test_axes.py
+  
+11971 1170 Added functionality for plotting the actual violin bodies to violinplot.
+11972 5400 Added ksdensity (KDE) function in mlab and adapted _axes violinplot function to accept new KDE. Added basic violinplot demo in examples
+11973 1685 Added statistics lines to the violinplot function.
+11974 704 Added horizontal violin plot feature compatible with means, extremas and medians.
+11975 2117 Fixed bug for regression test #1181 in scipy unit tests; ksdensity is now referred to as gaussian_kde and exists as a class in mlab. Fixed list comp position bug and updated examples
+11976 1579 Reverted 69b304c.
+11977 1115 Re-added points parameter to violinplot. Fixed several style issues.
+11978 1616 Merging for pep8 compliance for mlab
+11979 5525 Added violinplot tests.
+  
+13632 1087 MNT : removed deprecated method/kwargs from patheffects
+13633 2696 MNT : remove testing.image_util.py
+13634 3244 MNT : remome mlab.FIFOBuffer
+13635 719 MNT : remove mlab.premca
+13636 292 MNT : Remove ``NavigationToolbar2QTAgg``
+  
+13880 406 ENH: speed-up mlab.contiguous_regions using numpy
+13881 1419 TST: added tests for mlab.contiguous_regions
+13882 251 Changed handling of division by zero
+13883 241 STY: Refactor concatenation of index array
+13884 202 ENH: Convert to list before appending and zipping
+  
+14011 1623 Revert "Merge pull request #3792 from mrkrd/master"
+14012 189 BUG/API : fix color validation
+14013 369 MNT : try to fix optional/inherited rcparams
+14014 768 Implemented new feature for Issue 2880
+14015 398 Suggest unexisting default filename (Implement #3608)
+  
+14155 1253 Reworked feature 4044 so that all cell boundries can be toggled into view or out of it
+14156 346 Tests for new Table Cell feature (4044) added
+14157 478 Cleaned up test for test_table
+14158 1063 Cleaned up code to get it ready for PR.
+14159 322 Fixed issue with CustomCell
+14160 355 Updated tests to be more minimal.
+  
+14206 7951 moving views and positions to tools
+14207 382 The views positions mixin automatically adds the clear as axobserver
+14208 194 bug when navigation was not defined
+14209 734 Small refactor so that we first initiate the Navigation (ToolManager), before filling it with tools.
+14210 696 Moved default_tool initilisation to FigureManagerBase and cleaned.
+14211 706 Temporary fix to backends
+14212 2855 removing persistent tools
+14213 824 removing unregister
+  
+14215 2019 removing intoolbar
+14216 7450 events working
+14217 6867 using pydispatch
+14218 4874 using navigation as signal handler
+14219 1140 removing view positions singleton
+14220 2212 moving set_cursor completely out of navigation
+14221 543 removing unused event class
+  
+14230 348 Made NavigationBase.get_tool() more useful.
+14231 884 Refactored Toolbar out of NavigationBase
+14232 837 Some short cuts for adding tools
+14233 1130 Lots of fixes
+14234 784 Rename ToolbarBase -> ToolContainerBase
+14235 2388 Statusbar
+14236 1079 tool group position
+14237 396 docstrings and small corrections by WeatherGod
+14238 1645 tkbackend updated
+14239 391 tacaswell comments aprl 1
+  
+14886 4948 DOC: whats_new + example for stepped fill_between
+14887 1682 API/CLN: remove threading classes from cbook
+14888 331 Deferred rendering for gui events in Qt5Agg (fixes #4604)
+14889 336 Revert to using update() instead of redraw() for Qt5/Win
+14890 1751 Add an option to streamplot to manually specify the seed points.
+  
+15178 697 PRF: only check some artists on mousemove
+15179 253 setupext.py: let the user set a different pkg-config
+15180 988 apply different rules for dropsub (integrals)
+15181 257 add sub/superscript parameters for Arev Sans
+15182 235 mep12 on matplotlib_icon.py
+15183 192 mep12 on masked_demo.py
+  
+15370 1375 Finalized the validating cycler design.
+15371 600 Store prev event to handle out of bounds selections
+15372 11120 Upgrade RectangleSelector with ToolHandles and add Ellipse
+15373 1889 Add toolhandles class
+15374 1875 Add test using tool handles
+15375 1030 Add a helper function to get axes
+15376 526 Do not allow extents outside the image and add a path property
+15377 2164 Finish rectangle handle tests and add ellipse test with key modifiers
+15378 429 Rename path property to geometry and return consistent results.
+15379 345 Add geometry tests.
+  
+15383 989 Clean up event handling and add a state attribute
+15384 377 Add state handling to onmove
+15385 391 More "state" refactoring
+15386 657 Add key release and continue refactoring state handling
+15387 464 Recreate the _get_data method and more event refactoring
+15388 1604 Refactor the event creator to call the private methods
+  
+15510 5225 TST: add testcases for some decorated plot methods
+15511 7855 MNT: regenerate pyplot to get the data kwarg
+15512 8053 MNT: make boilerplate.py a bit smarter
+15513 514 MNT: add python 3 version of sig parsing
+15514 632 ENH: add
+  
+15784 455 Use namedtuple
+15785 313 Make dviread.Dvi a context manager
+15786 1043 Add a test for dviread
+15787 10508 Refactor the opcode dispatching in dviread
+15788 239 pep8
+  
+17294 834 Remove svg.image_noscale rcParam
+17295 18610 Rewrite image classes
+17296 4772 Update backends for new API
+17297 599 Use transforms to rotate image, not hack
+17298 2285 Update tests
+  
+17974 4238 New color conversion machinery.
+17975 903 Update named_colors example.
+17976 612 New API for accessing the named colors mapping.
+17977 1008 Faster conversion for RGBA arrays; more tests.
+17978 306 Return builtin floats, not numpy floats.
+17979 2720 Remove use of colorConverter.
+17980 493 Base colors are not special.
+  
+18363 1089 Clean up rectangle selector span validation
+18364 276 Fix containment and subslice optim. for steps.
+18365 502 adding a new color and editing an existing color in fivethirtyeight.mplstyle
+18366 8075 Share determinism test code for PS and PDF output.
+18367 498 Reproducible PS/tex output.
+  
+19983 942 Set hist minimum value to 0
+19984 330 fix sticky-handling of 0 with log scale
+19985 405 Rely on normal autoscaling for stepfilled hist.
+19986 413 hist: correct minimum stickies for log case; remove unneeded code
+19987 587 change stickies to sticky_edges; clarify edge calculation in contour
+  
+20063 888 Initial HiDPI support for qt5agg backend
+20064 550 Pass HighDPI info from Qt5 to underlying Agg figure.
+20065 333 Scale Qt5 rubberband by DPI ratio.
+20066 235 Fix blitting with HighDPI Qt5.
+20067 328 Fix backwards compatibility with Qt4.
+  
+20098 3629 Use reshape instead of assigning to shape.
+20099 508 Add a scatter masked colors test
+20100 1219 Use shorter function names (min, max, abs, conj).
+20101 1434 set/dict literals/comprehensions.
+20102 267 Minor fixes following comments.
+  
+20280 2173 dict.keys() is nearly always useless.
+20281 567 safezip is (mostly) overrated.
+20282 349 alltrue and sometrue are known as all and any.
+20283 1472 Cleanup while 1: ... and file iteration.
+20284 1010 More cleanups following PR comments.
+  
+20700 1232 Convert test_s* to pytest.
+20701 757 Cleanup test_s* files for PEP8.
+20702 532 Cleanup previous test_[ab]* files for flake8.
+20703 1537 Run nose2pytest over test_preprocess_data.py.
+20704 661 Use pytest contexts in test_preprocess_data.py.
+  
+20840 202 Fix dvi font name handling in pdf backend
+20841 2175 Separate the handling of dvi fonts in the pdf backend
+20842 465 Simplify enc file parsing
+20843 492 Small changes in response to code review
+20844 901 Simplify psfonts.map parsing further
+  
+21976 1032 fixing quiver logic
+21977 856 merged the tex_X.py files into a single file tex.py
+21978 678 DOC minor fixes to plot_tex.py
+21979 248 Removed unused code + made unicode example clearer + added back plot args
+21980 431 Remove deprecated functions in matplotlib.path.
+  
+22008 1006 TST: Parametrize logspace test.
+22009 728 TST: Parametrize mlab stride error tests.
+22010 2926 TST: Parametrize mlab stride tests by axis.
+22011 2227 TST: Parametrize mlab stride tests by n/noverlap.
+22012 1341 TST: De-class-ify and parametrize mlab csv tests.
+22013 246 TST: Delete some unused class attributes.
+22014 523 TST: Re-write Test_spectral* setup as a fixture.
+22015 7412 TST: Parametrize the remaining spectral tests.
+22016 337 TST: Remove nsides from spectral test parametrization.
+  
+22306 1448 Issue #1888: added in the \dfrac macro for displaystyle fractions (#8151)
+22307 1335 Move float() casting in Rectangle patch (#8938)
+22308 3433 ENH: Add a LockableBbox type.
+22309 1483 TST: Add tests for LockableBbox.
+22310 561 MNT: Changed LockableBbox to use properties.
+  
+22475 444 ENH: Don
+22476 561 MNT: Standardize import in polar projection.
+22477 2610 MNT: Use transforms for polar direction&offset.
+22478 2049 ENH: Allow setting an "origin" radius for PolarAxes.
+22479 11792 ENH: Allow setting angle limits on PolarAxes.
+  
+22782 2313 Use custom *Axis in polar plots.
+22783 2109 Add a custom ThetaTick for polar plots.
+22784 4619 Add a custom RadialTick for polar plots.
+22785 2156 Apply padding to radial ticks in polar plots.
+22786 2593 Apply padding to theta ticks in polar plots.
+  
+23730 1694 Cleanup embedding_in_tk, remove embedding_in_tk2.
+23731 3759 Unify (parametrize) test_composite across backends.
+23732 704 Use rectangle coords instead of width/height
+23733 350 Add timedelta rectangle test
+23734 397 Add a test to ensure that datetimes cannot be used as deltas.
+23735 543 Convert units when returning Rect bbox
+  
+24365 8479 Deprecate non-spectral mlab methods
+24366 332 Remove bivariate_norm from mpl3d test code
+24367 1666 Remove copy of less_simple_linear_interpolation
+24368 5848 Remove bivariate_norm from examples
+24369 7387 Remove more mlab from examples
+24370 528 FIX: constrained layout uneven gridspec issues
+24371 5737 Declare all property aliases together.
+24372 745 Reuse the alias map.
+  
+24419 291 Fix clipping of axis artist Ticks.
+24420 3200 Make axisartist.axislines pseudo-tests real.
+24421 14553 Make axisartist.grid_helper_curvelinear pseudo-tests real.
+24422 8845 Make axisartist.floating_axes pseudo-tests real.
+24423 8032 Make axisartist.axis_artist pseudo-tests real.
+24424 597 Make axisartist.grid_finder pseudo-tests real.
+  
+26487 423 Use skipif instead of xfail when test dependencies are missing.
+26488 596 Remove cross-references to axes_grid.
+26489 1433 Deprecate LocatableAxesBase and make it a no-op.
+26490 301 Deprecate locatable_axes_factory and make it a no-op.
+26491 258 Deprecate any LocatableAxes in toolkits.
+  

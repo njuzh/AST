@@ -1,0 +1,1000 @@
+25078 1 Backport PR #10739: FIX: ffmpeg logging level
+25047 1 FIX: ffmpeg logging level
+21857 1 < not <=
+18806 1 fix handling of smallest integer interval
+17340 1 Fix Numpy version check
+11917 1 symlog-scale: Remove asssert linscale >= 1.
+9571 1 Fix sign of infstr in exceltools.rec2exel
+9534 1 Fix sign of infstr in exceltools.rec2exel
+3267 1 Bugfix in ContourSet._process_linestyles
+3264 1 Bugfix in ContourSet._process_linestyles
+335 1 Trivial bugfix to eliminate IndexError
+15538 2 Update __init__.py
+9117 2 use ret == False instead of ret is False
+20588 3 Use string location in example
+20074 3 Fix +/- typo
+16670 3 Modified to blacklist log scale for AutoMinorLocator
+16604 3 Fix backward compatibility on MaxNLocator
+16592 3 Change `savefig.dpi` and `figure.dpi` defaults
+16576 3 Change `savefig.dpi` and `figure.dpi` defaults
+13969 3 Bug in assert -> exception transformation fixed
+13966 3 fixed according to #3060 comment
+11738 3 #2150 work in progress. Patch limits get updated even if width or height of a patch might be 0 (but not if both width and height are 0).
+11510 3 fixed usermedian shape logic (again)
+10407 3 fix position of rotated mathtext in agg backend
+9353 3 Fix bug in helper function which prevented the legend from avoiding vertices.
+4369 3 Fix specification of gray level in slider_demo; thanks to Matthias Michler
+2235 3 Fix grayscale specification in demo
+440 3 updated listings for usersguide
+26639 4 Merge pull request #11533 from tacaswell/update_for_py37
+26633 4 TST: skip svg tests for now
+26580 4 DOC: re-roder examples and set heading levels
+26537 4 BLD: add 3.7 to classifiers
+26297 4 Remove pytz from build dependencies
+25850 4 Include template matplotlibrc in package_data.
+25773 4 adds colormap labels on colormaps tutorial
+25696 4 Backport PR #11063: Enable sphinx.ext.viewcode
+25565 4 removing  ctrl+shift+c from copy tool
+25538 4 enable sphinx.ext.viewcode
+25499 4 Backport PR #11028: Add note concerning python2 support on doc start page
+25492 4 Add note concerning python2 support on doc start page
+25215 4 Correctly display error when running setup.py test.
+25188 4 add page source link
+25126 4 Made corrections for pr
+25123 4 Added examples to lbm
+25093 4 Update layout of sidebar in documentation
+25060 4 make centre_baseline legal for Text.set_verticalalignment
+24756 4 Remove alternative for ispower2
+24565 4 Backport PR #10463: DOC: Add cividis to the tutorial about colormaps
+24560 4 Add cividis to the tutorial about colormaps
+24222 4 Deprecate obsolete
+23741 4 setupext: fix missing js files for web_backend
+23689 4 Switched whats_new to correct file and added to colormap_reference.py
+23248 4 MNT: move nbagg js files into js sub-directory
+23247 4 FIX: move js files to expected location
+23102 4 Fix Undefined variable
+22702 4 Pass bytes to QApplication()
+22560 4 Drop python 3.3 from setup.py
+22299 4 Update docstring and add num2timedelta to __all__
+22066 4 Allow divmod to be overridden by numpy
+21755 4 no longer building mpl examples
+21497 4 test_tightlayout is now pep8-clean.
+20924 4 remove collections from expect_bad_files (pep8)
+20845 4 Try to fix the KeyError test
+20669 4 Remove mlab from default testing list.
+20667 4 MAINT moved test_gridspec to pytest
+20633 4 FIX removed cbook.py from our pep8 uncompliant file
+20415 4 Fixed GraphicsContextBase linestyle getter
+20386 4 Merge pull request #7713 from cdeil/patch-1
+20384 4 Declare Python 3.6 support via classifier in setup.py
+20293 4 FIX: Fix missing package
+20029 4 Switch from > to !=, since maybe valid for minsh to be negative here.
+19252 4 FIX added matplotlib.testing.nose.plugins to setupext.py
+19031 4 Remove widgets.py from PEP8 excetions
+19014 4 FIX update setupext.py with testing.nose
+18946 4 Don
+18820 4 enable previously leftout test_usetex
+18656 4 Fix quotation mistake
+18653 4 Add xkcd font as one of the options
+18618 4 Merge pull request #5957 from JanSchulz/miktex_gs
+18540 4 compat/subprocess is now pep8 complient
+18521 4 Merge pull request #6714 from deeenes/patch-1
+18491 4 Merge pull request #6601 from matthew-brett/protect-against-locale
+18483 4 fixed font_manager.is_opentype_cff_font()
+18275 4 Remove no longer existing example from backend_driver
+18266 4 Remove reference to removed emf backend
+18227 4 TST: tweak  how to pass args to nose
+17888 4 Restore webagg backend following the merge of widget nbagg backend
+17421 4 Fix new pep8 issue in legend_demo5
+17317 4 Revert change
+17291 4 Remove Image class.  Replace with resample func
+17286 4 STY: style cleanup
+17211 4 Win: add mgs as a name for ghostscript executable
+17007 4 Fix new pep8 issue in legend_demo5
+16978 4 DOC: put search back on index page sidebar
+16974 4 DOC: add donation buttons to main page
+16889 4 Merge pull request #5783 from cgohlke/patch-1
+16879 4 MNT: remove reference to deleted example
+16537 4 Add missing data for test_type1font.py
+15837 4 Merge pull request #5170 from Tillsten/ticker_maint
+15777 4 [MAINT] Add symlog ticker to all and docs
+15661 4 Remove unused jquery.autogrow.js
+15660 4 Upgrade jquery and jquery-ui
+15609 4 Add test_units to whitelist.
+15602 4 Ensure that the icon PDFs actually get installed.
+15591 4 MNT: expose hist(..., weight=
+15465 4 TST: whitelist test_texmanager tests
+15204 4 remove redundant test
+15115 4 MNT: don
+14795 4 Require sphinx for tests
+14731 4 In coutourf_log.py, changed `P.` to `plt.`
+14712 4 Use explicit bytestring with struct.unpack
+14642 4 Remove nosetests from list of PEP8-failing modules
+14172 4 STY : pep8 on test_transforms
+14148 4 Add test for \Vert and \vert
+14103 4 DOC/API : StrMethodFormatter
+13967 4 Two bugs in assert -> exception transformation fixed
+13876 4 Updated test case
+13787 4 TST/PEP8 : ignore W503 in tests
+13749 4 PEP8 : ignore E402 on examples
+13732 4 Added AxesGrid tests file to default tests
+13704 4 TST : remove file test_text.py from black_list
+13428 4 Add Felipa to cursive fonts
+13370 4 MNT : retain
+13155 4 Add to default_test_modules
+13093 4 TST: Removed legend.py from excluded pep8 testing since it now passes
+12990 4 BLD : add more paths for darwin
+12782 4 Some small doc fixes only relevant on the master branch
+12699 4 STY/TST: pep8 fixes for test_dates
+12636 4 Add the new test in the list of tests
+12327 4 Remove leftover debug
+12234 4 Adding mplot3d
+12222 4 Test PEP8 stuff in separate Travis build.
+12200 4 at the suggestion of @tacaswell, I
+12157 4 Added
+11859 4 figureoptions.py is now pep8 compliant
+11822 4 TST: __spec__ (an import-related variable for modules) was added in python 3.4. Need to exclude in test_override_builtins.
+11367 4 added try block in backend_tkagg.py
+11366 4 added try block to backend_gtk3.py
+11365 4 add try block in backend_gtk.py
+11361 4 added test_animation to default_test_modules so the tests run
+11360 4 added test_animation back in to default_test_modules so that the iterator test actually runs
+11359 4 add new test module (test_gridspec) to `default_test_modules` so that it gets run
+11355 4 Make sure self._idle is set to `True` in all cases
+11323 4 Code syntax correction.
+11292 4 Merge pull request #2623 from efiring/include_order
+11275 4 Remove autogenerated _qhull.py from test_coding_standards
+11261 4 setupext: put pkg-config -I, -L, -l locations at the head of the list
+11251 4 slight tweak to example, as discussed in #1451 to change `plt.draw()` -> `plt.pause(.001)` to fake animations.
+11228 4 Correcting bad string comparsion in lin-log plot aspect verification
+11211 4 Remove test from list to test Travis CI failure.
+11202 4 Import style package for easy use.
+11193 4 Use explicit string check
+11192 4 Move test so that it actually runs.
+11139 4 remove backend_pdf from pep8 test exclude list
+11085 4 add new ps backend test file in `__init__.py`
+10865 4 support tight_bbox for pgf output, fixes #2342 (v1.3.x)
+10803 4 Merge pull request #2335 from andreabedini/patch-5
+10725 4 make sure we only perform absolute imports on loading a backend
+10649 4 Fix bug reading favicon as a utf-8 encoded file.
+10586 4 Merge pull request #2170 from mdboom/overriding_loader_is_ok
+10485 4 On Python 3.3, the __loader__ variable may get set when modules are loaded, so this is ok to override
+10290 4 Reverted PEP8 fix on bbox_tight test.
+9992 4 Updated default quit keymap to include cmd+w so people running on OS X would have a native cmd+w to close the window.
+9618 4 add test_collections to standard test suite
+9512 4 added test_backend_qt4 to test list
+8999 4 Add the bbox tests to default tests
+8924 4 PEP8 fixes on streamplot.py
+8915 4 PEP8 fixes on streamplot.py
+8829 4 Update Mac build process. Fixes #751
+8445 4 Fixed comma between tests.
+8333 4 added gifs to the package_data in setup.py.
+8268 4 Changed "== None" to "is None"
+8023 4 Remove PNG from the test_ttconv test -- it doesn
+7297 4 Add ?, ! and & symbols to mathtext.  Closes #466.
+6740 4 Fix crash when using a space command (such as \,) inside of sized parentheses.  Add a test for this case.
+6669 4 improve __future__ imports in backend_driver.py
+6496 4 Merged revisions 8939 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v1_0_maint
+6495 4 [3167200] Use from PIL import Image
+5952 4 Fixes Bug #2969451: MathTextParser parse fails on nested brackets.  Add test for this case.
+5359 4 testing: workaround issue with nose testing
+5048 4 svn path=/trunk/matplotlib/; revision=7210
+4731 4 Merged revisions 6861,6873 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v0_98_5_maint
+4126 4 fixed a pytz setup bug
+3865 4 fix numpy, ma imports in geo.py
+3481 4 fixed the latex build
+2942 4 Merged revisions 4444-4490 via svnmerge from http://matplotlib.svn.sf.net/svnroot/matplotlib/trunk/matplotlib
+2937 4 Remove fonts/otf directory in list of data files.
+2768 4 Use "from matplotlib.numerix import npyma as ma"
+2745 4 install fonts/otf to mpl-data
+2110 4 applied patch by Manuel Metz to backend_agg.py to fix draw_ellipse call
+1823 4 fixed a backend_template draw_arc bug
+1663 4 Bugfix in FigureClass support in backend_svg.py.
+1157 4 
+894 4 updated backend_bases draw_markers doc
+731 4 added shadow effect
+671 4 added Nadia
+514 4 SC 03/10/2004
+326 4 added mpl src
+14 4 fixed python2.3 deprecation warnings
+26117 5 Remove various mentions of the now removed GTK(2) backend.
+25566 5 copy tool keymap as list
+25216 5 Don
+24775 5 Backport PR #10588: Bugfix in axes3d not raising an exception
+24772 5 bugfix in axes3d
+24732 5 pep8
+21043 5 Fix typo (a forgotten
+19060 5 partial backport of d82de883d4c
+17667 5 Make mpl_examples+sections a list not a tuple.
+16628 5 MNT: change to immutable default value
+16343 5 removes extra plugin calls
+13475 5 this should be an integer div in all cases
+12649 5 Merge pull request #3501 from cimarronm/text_xytext_bugfix
+12647 5 BUG: Missing return on xytext property
+12344 5 Cast to integer in bezier for indexing
+12341 5 Number of verts in simplification is an int
+12340 5 Index with an integer in test_axes
+10531 5 Pass an instance, rather than a type, to cleanup_path
+9822 5 fix the pyplot version of rc_context
+6280 5 Merged revisions 8673 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v1_0_maint
+6279 5 [3054467] fix bug in PatchCollection; restore attribute access to Patch.fill
+3889 5 Fix PatchCollection bug found by Ryan May
+2542 5 Bugfix #1671570: Invalid CSS 2 styles in SVG output
+26288 6 STY: Fix N813 camelcase imported as lowercase.
+25880 6 Undefined name: cbook --> matplotlib.cbook
+25334 6 remove unused matplotlib.testing import
+24282 6 fixed py27 unicode test error.
+24106 6 Add missing import to backend_tkagg.
+22935 6 TST: Use fuzzy comparison in test_psd_csd_equal.
+21159 6 An inferred weight should be stored as a numeric value to gain lower priority (this commit is a partial revert of d94a6a526fcae5e29381d66624b216e8c255a0c0)
+20159 6 Merge pull request #7409 from OceanWolf/fix-tbar-None
+19908 6 MNT: use qt_compat for qt import in test_triage
+19755 6 FIX: MPL should not use new tool manager unless explicited asked for.
+18816 6 make sure to break if download works
+18213 6 New versions of (non) equality statements
+17497 6 Merge pull request #6124 from estan/qt5-example-fixes
+17493 6 Fix about dialog on Qt 5
+16848 6 remember to import knowfailureif
+16690 6 STY: pep8
+15504 6 TST: workaround for unicode prefix in test matching
+14947 6 remove more YAArrow debris
+12464 6 PEP8 conformity; removed outcommented code
+12201 6 add reduce to the list of imports from six.moves
+11623 6 GTK3 backend: Replaced deprecated GObject calls with GLib
+10681 6 Use absolute import so we don
+10089 6 Remove import of old util
+9063 6 PEP8 fixes on contour.py
+7812 6 SATURDAY is not necessary in this example
+7246 6 Fix bbox_inches="tight" in Python 3.x
+6261 6 Merged revisions 8649-8650 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v1_0_maint
+5897 6 Remove unused import.
+5305 6 testing: add missing import and add SF bug ID
+5105 6 axes_zoom_effect.py modified to use floats (instead of strings) for alpha values
+4771 6 Move the mathmpl Sphinx extension to the installed tree so that other projects can take advantage of it.
+4688 6 Merged revisions 6816 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_98_5_maint
+4687 6 fixed a cocoaagg import bug
+4180 6 removed defunct colours mod
+3951 6 removed mlab fix from pylab -- previously deprecated
+3948 6 deprecated mlab2 functions from mlab
+3933 6 add griddata to pylab, add griddata docstrings to mlab and pylab module docstrings.
+2830 6 removed duplicate load import
+2700 6 added a show method for gtk fig manager
+2596 6 Deleting this file to rename affine.py
+2537 6 fixed a load numpification bug
+1922 6 Changed class names in colors.py to match convention
+1766 6 Fix missing import
+1689 6 Changed grayscale colorspec from float to string.
+862 6 added update fix
+134 6 added a bunch of missing cvs files
+26162 7 Fix multiple imports
+22739 7 get proper renderer width and height in FigureImage
+15867 7 MNT: slightly re-arrange logic
+13390 7 Fix PEP8 coding style violations
+10116 7 A number of small fixes to reduce warnings during doc build
+8870 7 PEP_ fixes on cbook.py
+8846 7 PEP_ fixes on cbook.py
+8616 7 PEP8
+6380 7 rgbFace is correctly handled in patheffects
+6260 7 Fix unit tests for polar rmin changes in last commit.
+3718 7 fix example to run with current MPL and numpy
+3247 7 Merged revisions 4947-4950,4952-4988 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_91_maint
+3222 7 Removed a reference to nx, replaced with numpy.
+34 7 fixed interactive setting of log scaling
+24329 8 When latex fails, make sure it does not write a dvi.
+23850 8 Deprecate nbagg.transparent rcParam.
+23500 8 Backport PR #9733: Allow _BackendNbAgg.show() to take keyword "block"
+23497 8 Allow _BackendNbAgg.show() to take keyword "block"
+23051 8 FIX scipy is not a requirement
+21595 8 sed source names and manual fixes
+21323 8 FIX path in boilerplate.py
+21030 8 Move text_rotation example
+21028 8 Clean up and move accented text example
+20959 8 Allow choosing logit scale in qt figure options.
+20823 8 Move cohere_demo to lines_bars_and_markers
+20608 8 Minor simplification of inset_locator_demo.
+19883 8 DOC: fix py2 compatibility issue
+19071 8 Fixed pylab-like syntax
+18831 8 Reorder mirror and main source for freetype
+18683 8 Added whats_new entry for axes tick rotation via set_tick_params
+18661 8 Merge pull request #6811 from peterfpeterson/xkcd_font
+18296 8 BF: protect against locale in sphinext text
+16859 8 Merge pull request #5773 from tacaswell/fix_eb_rasterize
+16536 8 Add more missing tests
+16244 8 Suppress output from cover to stdout
+16219 8 Fixed issue with `rasterized` not working for errorbar
+15947 8 Revert removal of cursive and fantasy
+15941 8 Don
+15818 8 Merge pull request #5184 from cgohlke/patch-14
+15796 8 TST: fix test_mlab.test_griddata_nn failures on Windows
+15632 8 Fix backend_driver.py fails on non-existent files
+15175 8 add tests for brackets
+15151 8 Don
+14979 8 Use BytesIO from io.
+14973 8 TST: add tests for rearrange math parsing
+14852 8 PEP8 fixes.
+14251 8 import with original name backend_tools
+14040 8 multiple canvas support
+13735 8 TST : tweak ignore flags to ignore
+13372 8 BUG : fix 2.6 compatbility
+13232 8 Use kwarg for loc in findobj_demo.py
+13227 8 Add fonts to families
+12395 8 Fix MatplotlibDeprecationWarning: The "loc" positional argument to legend is deprecated
+12265 8 TST: fix test errors on Python 3
+12070 8 BUG: Fix
+11902 8 Use less aggressive garbage collection. Fixes GH-3044.
+11436 8 PEP8 fixes for LogFormatterExponent
+11290 8 put in explicit field name for 2.6 compatibility.
+11220 8 Fix _fix_url on Python 2.6
+11191 8 Add style package and data to setupext.py
+10085 8 Include all test files
+9958 8 Cleanup and move path_patch demo
+9307 8 reduce precision to the level at which the test passes
+9157 8 fix 2 html color names
+9155 8 fix 2 html color names
+8251 8 Fix subprocess bug when saving animations.
+8150 8 Use os.path.join
+7278 8 axisartist:  *grid* takes the axis parameter (for now the parameter is ignored)
+7191 8 restore
+6629 8 axes_grid1: set ParasiteAxes.name as parasite_axes so that subslicing is ignored for Line2D objects
+6568 8 Fixed a numpy broadcasting error in simple_3danim.py
+6216 8 Merged revisions 8603 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v1_0_maint
+6215 8 make grid method of axislines module compatible with matplotlib
+5808 8 Make the save_figure methods consistent with the base class signature. Fix a call to save_figure in backend_bases.py. This bug caused the keypress_demo.py example to fail on all backends except those based on GTK. The bug was reported by David Arnold on the mailing list on February 14, 2010.
+4999 8 add toolkits plot dirs to website
+2731 8 Revert this example to like it is in the trunk.
+2600 8 Transferring work-in-progress
+1497 8 Another increment of aspect handling; still not finished, but axes.set_position() now works again.
+1366 8 removed unnecessary fix-cm and scalefnt latex package requirements from texmanager
+749 8 added location to keypresses
+26623 9 Merge pull request #10968 from timhoffm/doc-contour
+26622 9 Merge pull request #11090 from dstansby/contourset-doc
+26620 9 MNT: remove extraneous 10
+26586 9 Add description for metadata argument of savefig
+26267 9 Some doc cleanup of Triangulation
+26257 9 Add parameter doc to save_diff_image
+26059 9 add subplots to axes documentation
+25812 9 Reword the timeout error message in cbook._lock_path.
+25632 9 Improve contour docstring
+25589 9 Clean docstring of CountourSet
+24526 9 Backport PR #10437: Add docstring to set_interpolation
+24524 9 Add docstring to set_interpolation
+23854 9 Backport PR #10027: Improve errorbar returns doc
+23830 9 Improve errorbar returns doc
+23786 9 improve docs on Axes position
+23785 9 update Axes docs on aspect-related methods
+23566 9 Convert LineCollection docstring to numpydoc
+23294 9 Backport PR #9569: Docstring fix.
+23290 9 Docstring fix.
+23236 9 Backport PR #9517: Convert slider docstrings to numpydoc
+23228 9 Convert slider docstrings to numpydoc
+22749 9 Backport PR #9031: Added RectangleSelector.geometry docstring
+22375 9 Fixed pep8 violations in test case
+21754 9 fixing broken img links etc
+21342 9 Adds title and description
+21227 9 DOC moving showcase examples to sphinx-gallery
+21171 9 Merge docstring coherent
+21115 9 Pass missing variable to format string.
+20923 9 Clean up BoundaryNorm docstring
+20834 9 Remove useless docstring
+20627 9 Slim down line count (and fix typo) in figure.legend
+20624 9 Explanatory comment in figure.legend
+20171 9 DOC: address comments
+19840 9 Added docstring
+19827 9 Merge pull request #6342 from discardthree/mep12-hacknight-prep
+19591 9 Added initial description
+19590 9 Cleanup   : doc string and pep8
+19589 9 correction for doc string and PEP8
+19549 9 Merge pull request #7249 from JunTan/7206
+19415 9 add docstring
+19100 9 Added docstring description
+18882 9 DOC: add docstring for set_array; improve related docstrings in _axes.py
+18118 9 Added docstring to scatter_with_legend.py [MEP12]
+17825 9 Remove shebang lines from all examples. [MEP12]
+17756 9 Merge pull request #6203 from mdboom/mathfonts
+17692 9 DOC: Clarify fillbetween_x example.
+17621 9 Fix #5998: Support fallback font correctly
+17492 9 docstring added
+17251 9 Actually check of the requested tex system
+17062 9 Reference issue #5835 in docstring
+16505 9 Minor edit to restart Travis
+16273 9 Add comment and docstring
+16259 9 Add module doc for axes_grid1.inset_locator
+15405 9 Add docstring for EllipseSelector and use print() statements
+14874 9 DOC: added docstring
+14499 9 DOC : added docstring to install_repl_displayhook
+13756 9 Mention metadata in example docstring
+12918 9 [examples] fix pep8 errors E26*
+12842 9 Document auto-init behavior of colors.Normalize and cm.ScalarMappable.
+12358 9 Use the interpolation parameter in make_thumbnail
+11248 9 Better documentation for print_figure refactoring.
+10949 9 document assert_correct_key
+10821 9 Correct use of obj_type argument in cbook.warn_deprecated
+10554 9 color of candlestick lines
+10149 9 @NelleV
+10088 9 Fix typo so correct gs executable will be run
+9594 9 More PEP8 fixes and comments
+9502 9 Add docstring to example funtion
+9425 9 Add more verbose removal warning stating version
+8751 9 Reverting changes to basic_units.py
+8600 9 Add docstring to _setup_canvas()
+8437 9 Remove hard-coded docstring on plotting()
+8434 9 Add docstring to _setup_plot_info_docstrings
+7653 9 Move comments into docstring.
+7618 9 minor code clean up  in contour.py
+7141 9 Major revision of mplot3d documentation, including the addition of a faq.
+6115 9 docstrings: use standard spelling and capitalization of MATLAB
+6065 9 windowing: add module docstring, fix import
+4407 9 [ 2316591 ] assertion is always true
+3863 9 added findobj
+2040 9 stripped some dead units code
+1307 9 added pyparsing/mathtext enhancements
+1017 9 fixed sf bug #1211992
+530 9 added kwarg support for xticks and yticks
+340 9 SC 27/06/2004
+26696 10 More style fixes.
+25259 10 Py2 / new-style class fix.
+24942 10 Add some comments
+24753 10 Implement review comments of @jkseppan
+24065 10 MNT: change from == False to == 0
+23565 10 Give an emtpy input the right shape
+23112 10 Remove explicit return in __init__
+22983 10 Add missing staticmethod deco to osx backend.
+21818 10 FIX: minor style change + add @cleanup
+21178 10 Add cleanup to new test
+19524 10 Merge pull request #7288 from mherkazandjian/style_typos_fixes
+19507 10 some style fixes and typo fixes in docstrings
+18720 10 Revert "Merge pull request #6840 from Kojoley/fix-test_pickle-test_complete"
+18708 10 Merge pull request #6840 from Kojoley/fix-test_pickle-test_complete
+18701 10 Fixed broken `test_pickle.test_complete` test
+18658 10 Rename tests in `test_mlab.py`
+18566 10 Missing `cleanup` decorator in `test_subplots.test_exceptions`
+18518 10 TST: add missing decorator
+18487 10 FIX: catch ValueError as well
+18482 10 TST: add missing decorator
+18139 10 MNT: use public cyler API
+18034 10 MNT: Add original exception to raised IOError.
+17341 10 @cleanup unnecessary here
+17210 10 Update test.
+17169 10 Fix test for new behavior
+16720 10 Change default value for the number of columns when generating a legend from the qt_editor, avoiding problems for large number of plots where no defaults are given for this value
+16687 10 TST: add missing decorator
+15683 10 fix set_norm bug in NonUniformImage
+15681 10 Add fix for set_cmap in NonUniformImage
+14654 10 MNT: Don
+14639 10 PEP8 fixes
+14413 10 fix default in other calls
+14249 10 missing object from class declaration
+14166 10 fixes #2885, #3935, #3693, for hatched fill
+13859 10 Make _is_writable_dir more flexible to obscure failure modes
+13769 10 Add @cleanup decorator
+13484 10 TST : added cleanup decorator
+13216 10 fix mutable default arguments
+12377 10 BUG : restore allow_rasterization on PolyCollection
+12346 10 Integer division in mlab test
+11962 10 added missing cleanup on testbench function
+11491 10 Update interpolation_methods.py
+11430 10 Add cleanup to test
+10708 10 add cleanup decorator
+10199 10 Fixed call to path.Path.contains_point from pnpoly. contains_point accepts a list as its first argument.
+10196 10 Fixed call to path.Path.contains_point from pnpoly. contains_point accepts a list as its first argument.
+9714 10 PEP8 fixes
+9561 10 add @cleanup to test_add_collection
+9531 10 Possible fix for #1701: Contour does not pass a list of linestyles to LineCollection
+9174 10 specify exception in try...except
+8815 10 Use a snap threshold of 6.0 for the circle marker.
+8814 10 Fix circle marker -- it shouldn
+8790 10 Make Container._remove_method call correctly
+8788 10 Make Container._remove_method call correctly
+8759 10 Fix dpi issue for bitmaps on the OS X backend
+8689 10 Fix dpi issue for bitmaps on the OS X backend
+8612 10 PEP8 compliance on lib/matplotlib/bezier.py
+8500 10 cleanup after the gca test. This causes the next test to fail otherwise  I.e test_image.test_figimage-0
+7942 10 Pass ints to Tk.Canvas.create_image
+7049 10 Minor fix for Python 2.x compatibility.
+6928 10 FigureCanvasBase, NavigationToolbar2 and widget changed to new style classes.
+6912 10 Remove work around for PySide bug 819.  Bug was fixed in PySide 1.0.2
+6249 10 Merged revisions 8638 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v1_0_maint
+6248 10 Missed detail in last commit.
+5835 10 patch branch updates
+5832 10 applied Mattias get_bounds patch
+5623 10 remove static decorator
+4164 10 fixed deprecation warning in legend
+2519 10 Fix buglet in get_text_width_height_descent of backend_agg when text.usetex is in effect. The descent returned is probably not correct, but it should be similar to the one returned by backend_ps.
+2452 10 Don
+1731 10 Fixed bug 1209354
+1001 10 impl snapto for len(2) lines only
+957 10 sync to 0.80
+820 10 g toggle grid
+594 10 SC 09/11/2004
+23316 11 Backport PR #9589: Fix typo in isinstance
+23310 11 Fix typo in isinstance
+22959 11 DOC: update sphinx-gallery configuration
+22618 11 BLD: bump minimum dateutil to 2.0
+21745 11 first pass at sphinx gallery for pyplot
+15493 11 ENH: change
+15491 11 FIX: fix unwarranted label argument for pie() with unpack_labeled_data
+15032 11 Creation of the
+12846 11 remove superflous comma
+10723 11 Fix wrong syntax for assert
+10543 11 ENH docstring is now PEP8
+10215 11 pep8 fixes
+9139 11 PEP8 compliance on the delaunay module
+8825 11 Fix tripcolor with shading=
+8777 11 Fix tripcolor with shading=
+5357 11 testing: switch known failure condition to
+1538 11 fixed a key is None bug
+26604 12 TST: fix mac csd tolerance
+26563 12 Add tolerance to csd frequency test
+26541 12 Deprecate support for 3rd-party backends without set_hatch_color.
+25138 12 MNT: restore missing imports
+24164 12 TST: add tolerance for tests to pass on 2.1.x branch
+24125 12 Use fuzzy comparison for stroke join determination.
+23862 12 Only decode path strings if it is not already str (in other words, on Python 2 leave str as str instead of converting to unicode).
+23832 12 Remove badge sidebar from website
+22984 12 Document alternative to iterpnames.
+22270 12 Increased test tolerance
+22068 12 Fix contour colour level determination
+21158 12 Address comments
+20942 12 Change stack level of Figure.gca warning.
+20112 12 TST: remove deleted examples from driver test
+19837 12 Removed font family specification
+19499 12 Merge pull request #7273 from AndersonDaniel/fix-image-watermark-example
+19458 12 Fix image watermark example where image was hidden by axes (#7265)
+19243 12 fix xticklabels overlapping
+19168 12 Add missing tickers and locators to docs
+18822 12 Adjust tol so that test pass both locally for me on osx and on travis
+18633 12 BUG: contourf, restore previous behavior with N=2
+18507 12 Merge pull request #6512 from srvanrell/add-computer-modern-font-family
+18342 12 Add Computer Modern font family
+18169 12 Marker=
+17904 12 TST: fix alias collision test
+17716 12 adjust tol in test trisurf3d to pass on my mac
+17447 12 changed non_math to math according to comments on bug 6028
+17362 12 doc: Set stacked bar example to different colours.
+17358 12 doc: Fix line width of AnchoredSizeBar example.
+17161 12 Don
+17159 12 USe tight_layout rather than hardcoded space
+16776 12 Merge pull request #5732 from matthew-brett/plot-directive-fixes
+16765 12 RF: fix annoying parens bug
+16719 12 FIX: exclude ToolHandles from legend / qteditor
+16544 12 Increase tolerance to account for Py2/3 issue
+16538 12 Raise tolerance on the one test still failing
+16115 12 FIX: fix second error line drawing codepath
+16060 12 Merge pull request #5215 from tacaswell/tst_drop_old_pythons
+15847 12 BLD: updated classifiers
+15047 12 mep12 on log_bar.py
+14766 12 Move a few more imports of six to matplotlib.external.
+14594 12 Get rid of annoying border for Tk Canvases
+13603 12 Add bitrate to animation smoke tests.
+13304 12 FIX str.decode in python2.6 does not take keyword arguments
+13127 12 backend_pgf: Check text color in tests
+12983 12 Backport of 48573d7 to 1.4.x branch
+12970 12 Improve marker_edge test for this case
+12548 12 add parens for the sake of clarity
+12330 12 Add breaks to match original
+12128 12 run autopep8 in examples/api
+11336 12 Remove redundant colormaps from examples
+10819 12 Fix unit tests.
+10777 12 tweaked zorder to match line2D
+10327 12 Fix pdf_use14corefonts test
+9783 12 test_backend_pgf: TypeError.
+9488 12 PEP8
+9448 12 changing errorbar test to cover "alpha" kwarg
+9366 12 Also use
+9170 12 use anchored rotation for y-labels
+9000 12 address comments from pelson
+8347 12 Modified an existing example to demo capthick.
+8007 12 Add pie startangle kwarg to demo, and add direction info to docstring
+7987 12 Fix a bunch of warnings in the documentation build
+7004 12 tight_bbox is supported for jpg and tiff outputs. closes #109.
+6955 12 tight_bbox is supported for jpg and tiff outputs. closes #109.
+6854 12 Fix test_mathtext so it passes by lowering comparison threshold to the default.  This will be resolved better later by the patch (in master) that separates the math tests out into individual iage files.
+6756 12 Update mathtext tests and decrease tolerance threshold to catch change in prime symbol.
+6705 12 Explicitly set mode of temporary file passed to CSV writer to non-binary (since CSV writer writes strings).
+6574 12 Basic changes to make regression tests run under Python 3.x
+6487 12 Merged revisions 8926 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v1_0_maint
+6486 12 Increase tolerance in pcolormesh test.
+6005 12 pylab: remove pointless imports of load, save from mlab
+5932 12 Expose tolerance argument to image_comparison decorator.  Use it to raise the tolerance for the test_figimage test.
+5645 12 examples/pylab_examples/dolphin.py: fix zorder issue
+4812 12 Fix logo-generation script to have rounded polar bar plots.
+4745 12 Restore interpolation in polar_bar plot, and update docstring in pyplot
+4158 12 added michaels unit detection optimization for arrays
+2114 12 added polar bar char demo
+1931 12 Added linewidth kwarg to bar, barh; fixed bugs
+1890 12 fixed subplots_adjust docstring bug
+1813 12 made aspect equal for ellipse demo
+1380 12 Initialize LineCollection.transOffset to prevent segfault.
+1003 12 fixed small raster problem with dvipng
+438 12 update users guide
+212 12 fixed warnings bug in text and added set_family
+155 12 fixed subplot bug
+122 12 resynching
+104 12 renamed backend_gtk2 to backend_gtkgd
+94 12 more ps and text API fixes
+18 12 fixed some problems with figure text that were outside the figure box
+25953 13 Make OSX
+25487 13 Backport PR #11022: MNT: remove distutils.sysconfig import from toplevel module
+25484 13 MNT: remove distutils.sysconfig import from toplevel module
+25377 13 Fix two undefined names
+23104 13 Fix undefined variable
+23074 13 Backport PR #9415: Import time module so that pyplot.pause works
+23072 13 Import time module so that pyplot.pause works
+23020 13 Merge pull request #9328 from cgohlke/patch-2
+22963 13 Fix NameError: name
+22602 13 TST: do not do import in finally block
+22443 13 adding missing numpy import in backend-tools
+22163 13 Fix typo in test.
+21385 13 FIX reviewers
+21360 13 removed duplicate matplotlib.transforms import
+21246 13 added headers
+19939 13 Use a setter for linestyle to handle the dash properties.
+19722 13 remove unused random import
+19224 13 Removed unused `nose` import in `switch_backend`
+17788 13 Update backend_qt5.py
+17583 13 forgot the library...!
+17397 13 Add missing datetime import to webagg
+16458 13 CI: Enable tk again
+16114 13 add missing tornado import
+15580 13 FIX: guard signature import better
+15547 13 FIX
+15319 13 Added a check to make sure any existing bbox is not overridden.
+14935 13 BUG: Fix alternate toolbar import on Python 3.
+14927 13 mep12 on scatter_profile.py
+14845 13 pylab to plt
+14785 13 Import matplotlib here as needed
+14754 13 Fixed matplotlib import error
+14740 13 MEP12 changes to usetex_demo.py
+14738 13 Changed pylab to plt.
+14655 13 MNT: Reraise the same exception
+14570 13 No context manager of seed -- bummer
+13860 13 Ensure the gc module is available during interpreter exit
+13767 13 Gtk.main_iteration takes no arguments
+13652 13 Handle shift+enter behavior in nbagg
+12977 13 removing comments and unnecessary line changes
+12899 13 Fix test_hexbin_pickable test
+11886 13 Removing unnecessary import in _cm.py
+11884 13 Update
+11531 13 Added missing warnings import
+11197 13 added `matplotlib.style` to pyplot import list
+11187 13 Remove pyplot import
+10763 13 Merge pull request #2316 from vbr/patch-6
+10711 13 Replace the obsolete wx.PySimpleApp
+10445 13 Don
+10031 13 Fix position of rotated text in Agg backend
+9358 13 Improved PEP8 compliance.
+8927 13 PEP8 fixes on stackplot.py
+8916 13 PEP8 fixes on stackplot.py
+8743 13 Re-added the matplotlib.dates import on axes
+7868 13 Fix streamplot for non-square grids.
+7819 13 Make bitrate an optional config.
+7739 13 Misc doc changes applied to the maintenance branch.
+7734 13 Removed
+7323 13 cbook._putmask added to handle putmask deprecation in numpy > 1.6.x
+6452 13 Replace MacOS.WMAvailable, as the MacOS module is not available with 64-bit Pythons, and deprecated for Python 3.
+6259 13 Fix positions of r axis labels when rmin != 0.0 in polar plots.
+6235 13 The MacOS module will disappear in Python 3. Implement the WMAvailable() check in the C code in src/_macosx.m, so we won
+5658 13 hide numpys datetime in pylab
+5186 13 Add missing import.
+5098 13 check for nonuniform grid spacing when using inter=
+3017 13 Import numpy.
+886 13 SC 2005/03/08
+102 13 updated bar chart
+101 13 added API_CHANGES to htdocs
+26428 14 Backport PR #11658: Sort named colors example vertically for easier comparison of similar colors
+26424 14 Sort named colors vertically for easier comparison of similar colors
+26166 14 passing through None
+24844 14 Backport PR #10568: Prevent ZeroDivisionError when devicePixelRatio() returns 0
+24399 14 reformat to avoid Travis CI errors
+23603 14 Whitespace fixes.
+22586 14 Fix some additional remarks made by anntzer
+21746 14 removing plot directive from docstrings
+20290 14 Use cbook string class checker
+20173 14 MNT: tweak MovieWriter.saving to be more cautious
+19695 14 STY: in ScalarFormatter, use offset to save at least 4 digits, not 2
+18712 14 Do not restrict coverage to `matplotlib` module only
+16881 14 DOC: Ensure arrow demo is plotted in consistent order.
+15366 14 PY2K : in python2 lists don
+14095 14 Doc directory formats converted
+13425 14 Fallback to Bitsream vera sans mono
+13221 14 minor cleanup in pipong example (0 + value)
+13199 14 fix multiple whitespace issues in svg_*.py examples (E293, E291)
+13012 14 Update test_test to not use deprecated subplot num
+12757 14 minor tick bug fix
+12486 14 BUG : make qApp global before using it
+11628 14 Fixes a bug in font family lookup.  Any font in the font alias list (e.g. font.sans-serif) would be considered a perfect match whenever the selected font alias is the first in the font.family list.  This broke the priority ordering of font names.
+11087 14 pep8
+10831 14 pep8 fixes
+10614 14 minor pep8 fix
+9906 14 Fix texmanager.dvipng_hack_alpha() to correctly use Popen.
+9408 14 Fix USE_FONTCONFIG == True mode.
+9009 14 Alternative to #1404. Sets the cursor without refering to a FigureManager
+8707 14 Fix 2to3 and packaging of dateutil
+8705 14 Fix 2to3 and packaging of dateutil
+8498 14 change spectral to nipy_spectral, leave spectral as alias, update docs
+7782 14 remove renderer parameter from get_default_bbox_extra_artists methods
+7706 14 Quick fix to contour labeling.
+7584 14 Pass bbox_to_anchor and  bbox_transform from zoomed_inset_axes to AnchoredZoomLocator
+7055 14 Make return in pyplot.subplot clearer
+6258 14 Merged revisions 8647 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v1_0_maint
+6257 14 Fix bug in regular polygon handling
+6251 14 Merged revisions 8640 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v1_0_maint
+6250 14 Fix failing test_simplification:test_hatch test.
+5776 14 fix axes_grid for offsetbox api change
+4248 14 fix legend prop bug; yoffset not a prop
+3437 14 Merged revisions 5206-5207 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_91_maint
+3436 14 Fixed bug in plotfile
+1234 14 Fixed quiver to account for zero magnitude vectors
+792 14 SC 2005/01/25
+268 14 updated scatter_demo2
+26294 15 Remove pytz dependency from axis.py
+25746 15 Fix manual backport 68e79653b1
+24953 15 bump warnings
+23756 15 fix qt5
+23547 15 Backport PR #9759: blocking_input: Fix "manager" attr check
+23544 15 blocking_input: Fix "manager" attr check
+23066 15 TST: Fix flaky tests order
+22779 15 FIX: use str (not unicode) to ensure comparison works on python2
+22745 15 Shorten line, remove 2nd LooseVersion in comparrison
+22679 15 MNT: future numpy only takes ints as index
+22664 15 Replace round() with np.round()
+22384 15 Remove one instance of list() around map() which is then directly consumed by another map()
+22378 15 updating cross-refs and adding sphinx-gallery version dependency
+22193 15 DOC: Minor typos, https, and pep8
+22080 15 sort input files
+21996 15 Minor fixes
+21849 15 Merge pull request #8583 from dstansby/travis-pandas
+21843 15 Fix pandas datetime test
+21620 15 backend_ps: remove one not needed str casting
+21578 15 backend_ps: Try to fix UnicodeError
+21490 15 Merge pull request #8103 from afvincent/enh_use_xdg_config_path_on_freebsd
+20513 15 STY: fix whitespace
+20378 15 Merge pull request #7703 from matthew-brett/fix-namespace-searcher
+20368 15 Show path to rc file on deprecation warning
+20364 15 BF: Convert namespace path to list
+19927 15 Use numpy
+19915 15 Comply with pep8.
+19595 15 fix sample size in boxplot demo
+19122 15 FIX: unicode in plot_directive inline code blocks
+18729 15 interkeys should be called on the dict and not the keys
+18257 15 Fix mlab.rec_join.
+17772 15 Update backend_qt5.py
+17673 15 Centered ticklabels: make sure index is an int
+16883 15 DOC: Ensure 0.98.4 what
+16870 15 Merge pull request #5690 from pankajp/patch-1
+16680 15 Fix #5687: Don
+16144 15 Python 2 fix
+15937 15 Sort colormap in error message
+15912 15 grammatical fixes, cleanup code style
+15698 15 removed pylab import line that was commented out
+15584 15 MNT: invert logic of _has_varargs
+15530 15 Clean up and add more docs
+15285 15 forgot a hanging plt
+15061 15 Calculate text size and descent correctly
+14922 15 pep8
+14919 15 pep8
+14830 15 Fixed plt.axis
+14747 15 bug fix
+14658 15 FIX: sign is not defined
+14432 15 Var type of
+14362 15 Fix Line2D function set_markersize so it doesn
+13695 15 MNT : fix typo
+13688 15 BUG : extra `.keys` was making six explode
+13621 15 Fix the animate image guard
+13579 15 Hook up the save_figure function
+13441 15 Adjusted rounding logic in `_from_ordinalf` to be consistent with previous versions.
+12920 15 Explicitly close read and write of Popen to latex
+12728 15 Fixed firefox keyboard focus bug with nbagg backend.
+12483 15 Minor fixes according to Github discussion.
+12412 15 Merge pull request #3323 from MrLeeh/patch-2
+12410 15 Replaced unicode() function by six.text_type
+12343 15 Cast steps to integer in cbook
+12342 15 Explicite cast to int in colors
+11809 15 Fixed parasite_axes.py bug where a list was expected instead of a generator.
+11732 15 fix six check message
+11652 15 Removed lines that were commented out previously
+11520 15 added missing self
+11122 15 removing items from the call to six.iteritems
+10923 15 Use six.string_types instead of basestring.
+10898 15 Merge pull request #2319 from tacaswell/draw_idle_fix
+10887 15 Fix merge
+10836 15 Fix #2386
+10835 15 change from mdboom
+10716 15 fix draw_idle reference in  NavigationToolbar2
+10647 15 Address @pelson
+10494 15 FIX process_plot_format is not in the axes module anymore
+10324 15 addressing PR feedback
+10086 15 Make the test function name match so that they can be pickled through multiprocessing
+9988 15 bugfix: SetOption for wx.Image takes a string, not an int.
+9894 15 matplotlib: Use cbook.mkdirs instead of os.makedirs.
+9535 15 Fixes #1721: Can
+9202 15 PEP8 fixes on the spines module
+8968 15 Simple 2to3 on gen_gallery.py
+8940 15 Fix by Yannick Copin for hist autoscaling bug; closes issue #841
+8844 15 Tiny (but serious) bugfixes in image.py
+8712 15 Fix poly_editor.py on Python 3
+8710 15 Fix poly_editor.py on Python 3
+8594 15 Prevent warning with masked array inputs
+8359 15 colors: avoid problems with bad values under the mask when color mapping
+8116 15 Make boilerplate.py Python 3 compatible
+8055 15 self should be canvas.manager
+7554 15 Make filtered an iterator so `next` works on it.
+7461 15 Fix TypeError: __bool__ should return bool, returned int in python3. __bool__ is converted from __nozero__ by 2to3 so change this to return bool
+7201 15 axes_grid1: fix an error in HostAxesBase._get_legend_handles
+7122 15 Fix another linux3 bug reported by Tiago Rezende Campos Falcão
+5924 15 Pass strings to FT2Font -- never Unicode strings.
+5077 15 [2687673] Add abs() to delta check in Mollweide projection.
+4970 15 Applied Tony
+4082 15 fix problem with hist
+3988 15 added set_figure method for quiverkey
+3183 15 Bugfix for Python pre-2.5 (Thanks Jorgen Stenarson and Nils Wagner)
+3022 15 Fix an incorrect merge from trunk.
+2992 15 Bugfix.
+2831 15 [ 1448342 ] FigureCanvasAgg.print_figure fails with StringIO
+2603 15 Got legend working with new transforms
+2391 15 Fix mathtext bug when svg.embed_char_paths is False
+2101 15 Bugfix in clf() by Mike Fitzgerald
+1910 15 fixed a spy and spy2 bug for neg elements
+1605 15 fixed numerix bug in scatter example
+1254 15 
+257 15 fixed ismath sig across backends
+26284 16 Fix undefined names.
+22666 16 Moved new argument to avoid changing previous order.
+22467 16 Allow tuples of 4 floats as color rcparams.
+21504 16 DOC: use fig object directly
+20326 16 Revert accidental changes and fix indentation
+20323 16 fix pep8 issue
+19916 16 conserve kwargs order.
+19804 16 MAINT Deprecated spectral_r as well
+19760 16 FIX pep8 failed as some files are pep8 compliant
+19295 16 Merge pull request #7167 from anntzer/fix-normalize-test-on-quadruple-precision
+19288 16 Less stringent normalization test for float128.
+17802 16 Removed arbitrary argument lists from setup()
+17276 16 FIX: py2.6 format usage
+16992 16 FIX: overzealous clean up of imports
+16904 16 Fix warning during test
+15353 16 Add new colormaps to colormaps_reference
+14821 16 pep8 fixes to transoffset.py
+14180 16 added an entry in whats_new, and fixed the placement of the resize parameter
+13103 16 MNT : delete unused import of Image
+11689 16 Change skew() angle definitions.
+11511 16 handle NaN case nicely in _is_sorted
+11026 16 Fix example links.
+10869 16 backend_pgf: fix str/unicode comparison errors
+10359 16 Exclude the setuptools stubs in the correct way
+7796 16 nxutils shim work
+7270 16 cleanup figure test fixes problem in dates test if this runs afterwards
+6652 16 Remove ridiculous workaround.
+6640 16 Fix memory leak in ft2font/mathtext.
+6639 16 Fix memory leak in ft2font/mathtext.
+5188 16 Turn off contourf compound path generation; enable ContourSet as contour arg. The former change is part of a continuing effort to make compound paths work; in its present state, users should see no difference. The second change is to make it easier to use line contours with filled contours.
+3106 16 Remove Mollweide from options, since it
+2138 16 fixed a filling rule bug in agg
+204 16 Removed typecode= keyword parameter specification from fromstring() calls since numarray-0.9 still doesn
+26375 17 fix an issue when *c* ==
+25321 17 Remove future print
+24938 17 Deprecation fixes.
+24434 17 table cell returned when added
+23927 17 Minor fixes to backend_template.
+22536 17 removing import that is prone to circular imports
+22433 17 Add one more missing kwarg return
+22048 17 remove unreachable return statement
+21862 17 Merge pull request #8594 from FedeMiorelli/patch-1
+21854 17 Missing return in _num_to_string()
+21742 17 adding backreferences_dir param
+21524 17 Removed unused kwarg
+20778 17 FIX typos in interpolation_method
+20777 17 DOC added more information on interpolation methods
+20042 17 RF: use importlib for importing + style change
+19853 17 Make test use default style
+18242 17 Remember to import LooseVersion
+17759 17 Fix Sankey example
+17441 17 fixed a bug in previous PR
+17305 17 Update draw_image API doc
+17283 17 MNT: remove unused import
+17165 17 TST: if no converter is found, skip the test
+16667 17 Readd six import in axes_grid1.anchored_artists for consistency
+16594 17 Merge pull request #5662 from mdboom/test-triage-py2
+16583 17 Bugfix for Python 2
+16562 17 Fix example
+16316 17 Reform kwarg documentation in axes_grid1.inset_locator
+15407 17 reduce() isn
+15344 17 BUG: allow facecolors to be overridden in LineCollection
+14538 17 Returning the Poly3DCollection when calling bar3d
+13731 17 Fixed axes_grid cax based on cbar_edge
+13718 17 TST : hot-fix missing import on test_text.py
+12542 17 pep8ify: examples/axes_grid
+12408 17 Build gallery also for HTML Help docs
+12175 17 Add missing import of unichr from six.
+11664 17 ENH Added the origin option to `spy`
+11434 17 Added missing cleanup decorator import.
+11294 17 removed izip import which was blowing up the python 3.x builds
+11214 17 Fix import for python 3
+10636 17 Fix bug in WebAgg backend on master
+10632 17 Fix bug in WebAgg backend on master
+10604 17 fixed pep8, updated depreciation messages because this missed 1.3
+10257 17 Fix parallel testing by using the multi-process safe cbook.mkdirs
+10092 17 Use cbook.mkdirs, since with multiprocessing tests each process may try to create a directory at the same time
+10008 17 Removed the import from cbook into the matplotlib name space in __init__ and changed all cases of
+9780 17 compat.subprocess: Turn on absolute importing.
+9510 17 removed unused import
+9460 17 oops, missed a return statement in my copy/pasting.
+9422 17 move to the new MatplotlibDeprecationWarning
+9389 17 Use the new matplotlib deprecation warning
+9244 17 Explicitly imported Python 3.0 printfunction
+9161 17 Make `rc_context` available via pyplot interface
+8632 17 Updated pyplot.py to reflect new stacked argument in axes.hist
+8606 17 Handled future division changes for python3 (fixes #1194).
+8226 17 Restore import of Axes3D
+7533 17 Fix syntax error in master.
+7306 17 Updates to cubehelix color scheme.
+6879 17 Fixes a memory leak where each spines
+4613 17 added rcparams import to path
+4609 17 Fix buglet in path.py
+3940 17 restored interactive_bk var to backends init -- ipython shell uses it
+3901 17 some fixes for numpy svn deprecation warnings
+3054 17 Fix a bad merge.
+2303 17 The matplotlib._isnan module removed (use numpy.isnan)
+1992 17 added setp support to set_clim
+1072 17 SC
+705 17 15/12/2004
+270 17 added fast pcolor
+132 17 fixed wx backend
+26763 18 Improve docstrings of Line2D
+26393 18 Minor docstring fixes
+24547 18 numpydoc-ify art3d docstrings
+24009 18 improve Axes.stem docstring
+23967 18 Improve legend handler docstrings
+23288 18 Add a proper docstring to AutoLocator
+22958 18 DOC: Update docstring to numpy format for last few functions in transforms (#9309)
+22954 18 DOC: Update docstring to numpy format for last few functions in transforms (#9309)
+22209 18 BUG: matrices must be integers
+21478 18 Merge pull request #8215 from NelleV/MEP12_showcase
+21476 18 Merge pull request #8254 from yinleon/units
+21278 18 added headers for sphinx compliance
+21166 18 move imports below title
+20833 18 Use numpydoc format for several dviread docstrings
+20771 18 MEP12 of showcase
+20648 18 Merge pull request #7327 from NelleV/MEP12_lines
+20625 18 DOC MEP12 - converted lines, bars and markers to SG/MEP12 compatible
+20407 18 Fix Python 3 error
+20234 18 picker may not be callable.
+20167 18 Fix scatter color masking test
+19828 18 Merge pull request #6485 from ckarako/clean-up-barchart-example
+19604 18 Merge pull request #7250 from trpham/7206-MEP12-compliant-Plots
+19448 18 Removed extra files got commited
+19029 18 Clean up SpanSelector documentation
+18112 18 Cleaned up: added docstrings and switched mixcase variables to comply with PEP 8
+17781 18 Cleaning up example mplot3d/lorenz_attractor.py.
+17744 18 Responses to PR#6253
+17739 18 ENH: Added support for both x and pos to StrMethodFormatter
+17676 18 Dont forward trim argument to ticker where it has no effect
+15201 18 MNT: make figure use base-class __getstate__
+15152 18 Added doc strings.
+14929 18 FIX: attempting to draw marks figure as not-stale
+13471 18 marker_reference python 3 compatible
+12815 18 Updated icons for nbagg backend to work with IPython 3.0
+12764 18 Fixes test to assert instead of print
+12160 18 MNT : Changed labeling to maintain back-compatibility
+12041 18 DOC : Added docstrings to _CollectionWithSizes
+11693 18 fix a bug introduced in c998561d6cc1236
+10664 18 updated `finance_demo.py` code to use new api
+10576 18 Merge pull request #2217 from AdamHeck/master
+10560 18 Fix for false detection of gtk3
+10315 18 Merge pull request #2069 from jakevdp/anim_fix
+10309 18 Merge pull request #2069 from jakevdp/anim_fix
+10303 18 BUG: pass kwargs to TimedAnimation
+9791 18 DOC improves documentation on the pyplot module and the bar method
+9106 18 Added sphinx documentation for Triangulation
+8960 18 Fixed bug when stacking histograms with non-integer weights. Also updated hist in pyplot.py to use proper call signature
+7806 18 Add docstrings for `Lasso` and `LassoSelector`.
+7777 18 Fix and improve docstring.
+7695 18 changed pyplot with boilerplate.py to be consistent with axes.py for errorbar()
+6844 18 add "axis=
+6060 18 Take stroke width into account when quantizing rectilinear paths.  Discovered by Jason Grout in the mailing list thread "Plots shifted up or to the left a pixel or so"
+5448 18 testing: add test image for hexbin_extent test, disable known failure
+5444 18 make test for sf bug 2856228 a knownfailure
+5368 18 docs: describe how to write tests
+4732 18 Remove unused imports.
+4444 18 Fixed a small bug in svg backend
+2356 18 traits cleanup

@@ -1,0 +1,1000 @@
+17581 2016 Creation of fix to #6184 - csv2rec bug
+16559 2019 Fix #5488: Adjust nticks based on length of axis
+14215 2019 removing intoolbar
+16268 2020 Make classic testing work correctly
+11718 2020 TST: Added test case for the divider_append method of axes_grid1 module
+1593 2023 Small changes in support of work on new colorbar; contourf kwarg change.
+20635 2029 Use pytest.raises instead of nose in mlab tests.
+16275 2029 Merge pull request #5437 from mdboom/classic-mode-testing
+3841 2029 more doc examples and cleanups
+20849 2030 FIX: Restore hatch color tracking edge color
+21796 2031 nested pie example
+9494 2031 [ENH] added baseline feature to stacked graph.
+4571 2036 Merged revisions 6660-6662 via svnmerge from https://matplotlib.svn.sf.net/svnroot/matplotlib/branches/v0_98_5_maint
+4568 2036 applied maxosx backend update
+6166 2039 Merged revisions 8543 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v1_0_maint
+6165 2039 Added documentation and examples for new, easier Axes3D use.
+10058 2041 Add a test for #1957
+4247 2042 Applied scatleg patch
+3638 2044 added text properties to users guide
+5384 2046 testing: add missing file
+2676 2048 More progress on examples.
+22478 2049 ENH: Allow setting an "origin" radius for PolarAxes.
+23716 2051 Backport PR #9881: Polar tick fixes
+234 2051 added a ganged plot example
+16104 2053 Merge pull request #5384 from mdboom/nbagg-without-ipython
+16101 2053 BUG: Make nbagg work without IPython installed
+21202 2054 Correct theta values when drawing a non-circular ellipse
+15099 2056 TST: add tests for not wrapping annotation coords
+22019 2057 Parametrize spectral tests by sides separately.
+17179 2059 Fix #5917. New dash patterns. Scale dashes by lw
+5137 2060 enabled legend picking
+2209 2060 added scroll event support
+15507 2063 WIP: review work
+13977 2065 Generate path strings in C++ for PDF and PS
+4929 2066 added examples/misc/rasterization_demo.py
+17685 2068 Remove nonworking plot caching
+17484 2068 DOC/MNT: remove unused/outdate files
+12021 2069 New animation example inspired from the Joy Division
+3637 2069 reorg text users guide, added annotations unit
+23160 2072 Fixed documentation typos in the widget example programs
+23158 2072 Added description to widget example programs except Cursor and Menu
+17527 2077 Merge pull request #6091 from KyleBsingh/master
+17451 2077 This commit should solve issue #5575 by ensuring that plot_date first updates the units with the right timezone, before actually plotting the dates. Includes tests to ensure consistency and correctness
+3110 2077 added unit support to arc
+26289 2080 Backport PR #10915: FIX: tight_layout having negative width axes
+9651 2080 More fixes
+11188 2081 Add style context manager and tests
+18256 2082 General cleanups.
+5192 2094 Experimental Gouraud shading support in the Agg backend.
+20631 2095 Run nose2pytest on mlab tests.
+20559 2095 Merge pull request #7740 from vollbier/frontpage_html_plots
+3111 2105 Merged revisions 4773-4785 via svnmerge from http://matplotlib.svn.sf.net/svnroot/matplotlib/trunk/matplotlib
+22783 2109 Add a custom ThetaTick for polar plots.
+10082 2109 Go back to one ghostscript process per test
+17217 2111 Reset the available animation movie writer on rcParam change
+20782 2115 Don
+26377 2116 add an explicit test about the
+25948 2117 Add an arrow tutorial (#11223)
+11975 2117 Fixed bug for regression test #1181 in scipy unit tests; ksdensity is now referred to as gaussian_kde and exists as a class in mlab. Fixed list comp position bug and updated examples
+6967 2121 implement Axis.get_tightbbox and account offsetText in calculating
+4424 2121 reorganization of style classes in patches.py
+22726 2123 Merge pull request #8867 from anntzer/eventloop
+5361 2125 testing: add new, simplified testing infrastructure
+25660 2127 DOC: Rewrite parts of imshow origin/extent handling
+24724 2136 Batch ghostscript converter.
+26072 2137 Revert "Backport PR #11403 on branch v2.2.2-doc"
+26003 2137 Backport PR #11403: timeline example
+20441 2138 Fixed frontpage plots and generate them together with the docs (bug #7704).
+17590 2139 Merge pull request #6185 from ultra-andy/branch-csv2rec-datetime-dayfirst-bug
+21719 2140 fixing broken links, small errors in syntax, etc
+12271 2141 MNT: remove Python 2.7 copy of relpath
+22472 2144 ENH: Add an "arc" spine type.
+106 2145 ported wx to new backend
+4002 2146 Added optional C and reduce_C_function arguments to axes.hexbin().
+4363 2147 New custom colormap example; and fix typo in Axes.autoscale_view
+23292 2150 Remove LaTeX checking in setup.py.
+24137 2152 Refinements
+5241 2153 added path tut
+22785 2156 Apply padding to radial ticks in polar plots.
+5345 2159 Add Gouraud triangle support (of a fashion) to SVG backend.
+18784 2160 Use edgecolor rather than linewidth to control edge display.
+8611 2160 FIX Deleted redundant methods and code that could not work
+5905 2161 update axes_grid toolkit documentation
+15377 2164 Finish rectangle handle tests and add ellipse test with key modifiers
+14881 2166 MNT : implement steps with cbook functions
+25330 2168 Move GTK3 setupext checks to within the process.
+14523 2169 OffsetBoxes now considered by tight_layout
+11280 2169 improved rgb_to_hsv and hsv_to_rgb in colors.py
+24783 2172 Various style fixes.
+20280 2173 dict.keys() is nearly always useless.
+10878 2173 re factored `_AnnoationBase` to push keeping track of there the secondary object is to the sub-classes.
+4088 2174 Add donut demo (to demonstrate compound paths)
+20841 2175 Separate the handling of dvi fonts in the pdf backend
+26700 2179 Make all builtin cmaps picklable.
+793 2181 added twin axes patch
+5706 2186 fix wrong tick direction at the boudary of floating axes
+7078 2187 Named figures feature: plt.figure("today")
+23253 2188 Simplify declaration of install_requires.
+7237 2190 add interactive svg histogram example.
+22223 2192 Add gallery examples
+871 2192 afm an option for ps text
+11126 2195 Make it possible to add mpl.rcParams to itself or deepcopy
+9850 2195 Finished WebAgg JS objectification & generalisations.
+116 2197 added paint backend
+12235 2202 toolkits_tests subpackage is now a thing
+19873 2203 Added parameter check, and other feedback from the PR
+19411 2203 Merge pull request #7067 from phobson/oo-interface-api-examples
+10168 2203 Allow Paths to be marked as readonly, mark all of the singletons as readonly, and deepcopy those Paths in tests that need to modify the path.
+20796 2205 Remove matplotlib.decorators.skipif.
+982 2205 applied Erics contour memleak fixes
+19643 2209 DOC: MEP12 docstring for the statistics examples
+5256 2211 Add an example showing how to dynamically resample for plotting using event handling.
+22085 2212 Drop tex version check.
+14220 2212 moving set_cursor completely out of navigation
+26366 2213 DOC: move a couple of GridSpec examples into subplots gallery
+12107 2221 restored default boxplot style and respect for the sym kwarg
+1283 2222 more scipy fixes
+18258 2224 Finish swapping np.float{,_} -> float; ma -> np.ma
+20225 2226 Added rcount/ccount to plot_surface(), providing an alternative to rstride/cstride
+22011 2227 TST: Parametrize mlab stride tests by n/noverlap.
+19653 2227 Merge pull request #7331 from phobson/MEP12-statistic-plots
+14525 2228 DateFormatter shows microseconds instead of %f for years <= 1900
+12804 2233 TST : added tests for some validation functions
+4015 2238 restored axes frame, made patch edge invisible
+15940 2243 Add new category for perceptually uniform colormaps
+17706 2244 Properly handle UTC conversion in date2num.
+7234 2247 implement offsetbox.PaddedBox
+4858 2250 Updated
+12304 2254 Merge pull request #3257 from matthew-brett/refactor-plot-directive
+3268 2258 added api and event tutorials
+11983 2260 re worked the tests in test_mlab to work with the modified GaussianKDE
+4381 2268 moved fill_between to axes/pyplot method
+10310 2281 Merge branch
+3316 2282 added manuels scatter pie example
+11905 2284 ADD: rain demo.py
+891 2284 moved colorbar to API
+17298 2285 Update tests
+6287 2286 [3050996] Prevent an Axes from being added to a Figure twice. The changeset includes refactoring to consolidate all Axes tracking in a single data structure.
+10935 2287 add tests for Qt Key handling
+20973 2289 ENH: Fixed PercentFormatter usage with latex
+20198 2289 BUG: fix minpos handling and other log ticker problems
+25794 2291 Fix CirclePolygon __str__ + adding tests
+7789 2294 added svg_tooltip example.
+22568 2298 More extensive testing of EngFormatter (including
+17130 2300 Simplify examples to use defaults more often
+16697 2302 Merge pull request #5588 from mdboom/dynamic-ticking
+24143 2304 DOC: expand gridspec tutorial
+18875 2307 Merge pull request #6904 from efiring/scatter_edgecolor
+22782 2313 Use custom *Axis in polar plots.
+14188 2313 helper methods in toolbar and navigation
+13915 2315 last modify with testing and bug fix
+2903 2317 Reduce file sizes for mixed-mode PDFs by only outputting the part of the image with non-transparent pixels. Minor speed improvement in MixedModeRenderer.
+8143 2328 added code text wrapping and propper kwarg handling on wrappers.
+26723 2330 Factor out a subprocess log-and-check helper.
+17937 2332 Merge pull request #5785 from anntzer/better-offsettext-choice
+25568 2337 Help tool for Wx backends
+23149 2347 Modified restrictions on the margins methods
+19845 2348 Merge pull request #7144 from anntzer/cleanup-scales
+19257 2348 Cleanup of style.<>Transforms; catch nan warning.
+18766 2352 add tests
+14443 2358 ENH : first pass at making Line2D objects dirty-aware
+21678 2362 TST: Make image_comparison more pytest-y.
+6447 2370 Added the ability for 3d plots to display the axis ticker offsets. This should address bug 3137231.
+12701 2375 Extended the nbagg backend to support animation.
+18240 2379 ToolManager and Tools can be initialized without tools
+19007 2385 DOC: documentated and simplified doc build
+5772 2386 added drabbable state to legend -- thanks Adam Fraser
+26358 2387 Require calling a _BoundMethodProxy to get the underlying callable.
+14235 2388 Statusbar
+4189 2394 more updates to docs
+7339 2395 Add coolwarm color map. Revised patch. Originally submitted by Sameer Grover to matplotlib-devel on 18 Jul 2011.
+20548 2396 Allow figure.legend to take no arguments
+5382 2404 testing: convert some JPL units tests to simple nose tests
+9711 2406 Re-write stacked step histogram
+8280 2406 axisartist: fix set_xlim & set_ylim behavior
+5816 2406 Add pyplot.fig_subplot, for easier creation of figures with multiple subplots.
+26195 2409 Cache various dviread constructs globally.
+10135 2410 implement path_effects for Line2D objects
+3904 2410 added Michael
+22158 2412 Unify QtAgg nonblitting and blitting code paths.
+11813 2418 adjustments according to code-review
+16431 2419 Merge pull request #5596 from mdboom/no-edges-by-default
+26626 2420 Merge pull request #10756 from AlexCav/iss-8120-bugfix
+25069 2420 Bugfix for issue #8120 - inconsistent inset_axes position
+11984 2422 Fixed some style issues. Added violinplot to boilerplate.py Added comments for test cases referencing the origins.
+10661 2427 Clean up Qt objects from namespace
+8041 2429 add simple test_hist2d
+25544 2433 Help tool.
+17858 2433 Better choice of offset-text.
+7582 2435 Clean up imports in examples.
+5602 2439 add example multiple_yaxis_with_spines.py
+10627 2441 axes_grid1: ImageGrid respect the aspect ratio of axes. This addresses #955
+25824 2454 FIX: call constrained_layout twice
+23818 2455 MAINT: Use vectorization in plot_trisurf
+3522 2456 Implement path clipping in SVG backend.
+880 2458 SC 2005/03/05
+19307 2462 API: fill_between and fill_betweenx color cycle
+6577 2467 Fix some bugs in the STIX font mappings introduced a long time ago when the STIX fonts were updated.  Add a number of regression tests to check for this kind of thing.
+5506 2470 Remove old location of ipython_console_highlighting.py
+2670 2473 Lots more work on making examples work.  Details, details, details...
+8195 2474 Several fixes to WX. Modifier keys implemented for qt, wx and gtk backends.
+3455 2474 Add support for syntax-highlighting ipython console sessions.
+25994 2477 timeline example
+26 2479 added glade example
+22063 2483 DOC: moderize pong demo
+16143 2483 Use a specific version of Freetype for testing
+4621 2486 optional use of preview.sty in usetex mode
+10934 2490 pull qt keys into module variables
+15005 2493 NF - New legend example with line collection
+8165 2494 Add a new kwarg to the image_comparison decorator, remove_text, which removes titles and ticks from a figure before comparison.  Use this throughout to make more of the tests less dependent on text differences.
+25709 2496 Implement draw_path_collection for cairo.
+26591 2497 Rewrite and greatly simplify qt_compat.py.
+21467 2497 Overhaul and refactoring of the
+20982 2497 FIX: masked images with interpolation
+730 2501 added shadow effect
+5501 2510 Add Sphinx extension to support highlighting IPython console sessions.  This was shipped until now in the recent sampledoc tutorial, will update there as well for consistency.
+6479 2511 add demo_gridspec06.py and update gridspec doc (original patch from Paul Ivanov)
+24416 2512 Make axisartist.clip_path pseudo-tests real.
+7513 2512 Merge in my Gtk3Agg changes with jrjohannson
+10046 2517 Add additional patch tests.
+4563 2521 Massive documentation build improvements.  See e-mail on matplotlib-devel.
+7091 2537 Add set_theta_offset, set_theta_direction and set_theta_zero_location to polar axes to control the location of 0 and directionality of theta.  Closes #316.
+4193 2539 example updates
+1432 2539 Improved eps bounding boxes with usetex
+1661 2542 Collections support 2-D numerix arrays for path segments.
+4765 2543 Make viewlims demo more interesting by using events to regenerate a fractal.
+25022 2548 Finished markevery validator and test cases. Added what
+25020 2548 Finished markevery validator and test cases. Added what
+21468 2550 Remove exceltools and gtktools from docs
+25751 2551 Backport PR #11180: DOC: Revive Irregularly spaced data contour example
+25716 2551 Revive Irregularly spaced data contour example
+21509 2553 Added demo for PolygonSelector.
+20626 2553 MAINT moved _backports to cbook module
+14717 2558 Add pct bachelors degrees example
+5406 2561 test conversion: move old-style test to new-style test
+2166 2562 added file plotting function
+1657 2564 added multicursor
+26592 2565 fix minor grid overlapping
+8412 2568 Add an autogenerated plotting command summary.
+17728 2575 ENH: Added percent formatter and tests
+9473 2578 NF - Left and right side axes titles
+10204 2579 Deprecate the top-level functions in path.py
+2662 2581 Simplified sharing axes again. Plowing through -- making more examples work. First pass at updating collections (LineCollection mostly works)
+8855 2585 fix drawing error of fancyarrow of simple style when two points are too close. This addresses #566. Initial patch submitted by Rolf Barinka.
+22786 2593 Apply padding to theta ticks in polar plots.
+15487 2599 ENH: let unpack_labeled_data handle var-length *args
+26607 2604 Merge pull request #9993 from anntzer/qtcompat
+19117 2604 Merge pull request #7049 from NelleV/doc_readme
+6826 2606 Move markevery unit tests into regression testing framework
+26277 2607 Added _ColorbarAutoMinorLocator and minorticks_on/off
+4339 2607 Update the axes.psd() method to reflect the new options available in mlab.psd.  Add an example to show how the options change things.
+1542 2609 use subprocess for usetex/ps externel dependencies
+22477 2610 MNT: Use transforms for polar direction&offset.
+5805 2611 added TJ
+11018 2618 Split demo that tried to do too much
+1851 2622 SVG options: image_noscale and image_inline
+23297 2624 Backport PR #9477: In LogTransform, clip after log, not before.
+9001 2633 Fixed transform=None behaviour on Artists.
+3461 2640 added the pyplot tutorial to the users guide
+9960 2643 Extract spines_demo_bounds from spine_placement_demo
+26450 2653 ENH: Add gridspec method to figure, and subplotspecs
+24830 2654 Fixes #10619.  Reordered bar plot to correctly handle units
+6893 2658 Updates to the image comparison testing decorator:
+9961 2664 Extract spines_demo from spine_placement_demo
+23963 2670 Simplify gridspec.py.
+18148 2674 Merge pull request #5593 from tacaswell/fix_errorbar_cycleing
+20722 2675 Convert backend tests to use pytest.
+87 2675 First version of dynamic_demo for backend_wx
+14946 2679 Removed YAArrow usage from Annotation.
+21522 2680 Merge pull request #8156 from afvincent/add_missing_cmaps_to_perception_doc
+20821 2685 Removed manual_axis
+19275 2686 Merge pull request #7152 from rougier/firefox
+3206 2686 added manual axis example
+13633 2696 MNT : remove testing.image_util.py
+9233 2698 FIX Removes code that does work from the axes module
+10241 2704 Added a coding_standards test module. Currently checks PEP8 compliance on all files except those explicitly excluded.
+9704 2705 Modified hline and vline examples to have only one file and linked them to the documentation
+3392 2706 removed cold stoarge since this stuff lives on the maint branch
+5820 2707 add annotation_demo3.py
+23926 2708 Cleanup imports.
+17971 2714 BUG: copy image data so it can
+20187 2716 MAINT removing stock_demo.py and data_helper.py.
+7786 2717 Add demo of
+1049 2718 exposed cap and join styles for lines
+17979 2720 Remove use of colorConverter.
+21988 2731 Use OO interface more in merged examples.
+3912 2732 Check for nan and inf in axes.delete_masked_points().
+3821 2732 tagging 98.2
+24188 2747 Remove dynamic_image, rename dynamic_image2, restore animate_decay.
+15963 2751 Merge pull request #5284 from mdboom/colormap-docs
+14268 2751 Allow both linestyle definition "accents" and dash-patterns as linestyle for collection, lines and patches.
+22456 2754 Revert "Merge pull request #5754 from blink1073/ipython-widget"
+9959 2757 Clean up and move integral demo
+24866 2761 Backport PR #10623: Fix for failing bar plot w/ units
+480 2768 added some more example
+19266 2775 Added firefox example
+25286 2777 setattr context manager.
+16062 2794 Merge pull request #5295 from mdboom/too-many-open-files
+21887 2797 Cleanup examples for PEP8 and some style.
+13048 2798 Adding test case for pivot options
+24745 2802 Nested classes and instancemethods are directly picklable on Py3.5+.
+15299 2802 Added basic validation/normalization for cycler
+16011 2829 Reduce number of font files opened
+1365 2836 improved usetex to respect serif, sans-serif, monospace, and cursive rc settings
+971 2839 Fixed 2 bugs in NewScalarFormatter, cleaned up some code in axis.py per JDH request. Improved placement of offset_text, added support for mathtext rendering of offset_text.
+3740 2844 Add a generic PatchCollection class.
+331 2845 updated fonts_demo and added kw version
+25678 2853 Autogenerate more of pyplot.
+14212 2855 removing persistent tools
+21061 2858 Move conftest.py so it works with uninstalled tests.
+11737 2858 BUG: Removes iteration over locals (no-no) in mathtext
+16688 2860 Merge pull request #5683 from mdboom/tight-ticks
+9941 2867 Cleanup and move errorbar_demo.
+12030 2884 Updated algorithm
+22208 2885 Add image comparison tests
+8331 2888 Removed created icons in favour of pre-existing ones. Tried, unsuccessfully to implement icon in wx.
+19555 2889 Merge pull request #5628 from JanSchulz/ani_writer
+1245 2892 added afm supoprt for mathtext
+1393 2895 Massive cleanup of the usetex code in backend_ps
+734 2899 major event handling refactor
+24321 2900 improve code generated by boilerplate.py
+5404 2902 test conversion: move old-style test to new-style test
+23463 2903 simple plot works
+14369 2908 Remove unnecessary pyplot import from axes_grid1
+1198 2909 applied wx blit patch # 1275002
+12634 2915 Count the uses of paths in a collection
+8326 2916 Merged #819: dmcdougall
+8421 2917 add tests for backend_pgf
+18429 2921 Revert "BLD: use patched bdist_wheel"
+16453 2921 BLD: use patched bdist_wheel
+2199 2923 Numpified contour.py
+22010 2926 TST: Parametrize mlab stride tests by axis.
+365 2927 added embedding in wx4
+23574 2928 ENH: support np.datenum64 in dates.py
+19836 2936 Added the (kind of mandatory) Mandelbrot set
+25633 2941 DOC: add index labels
+6439 2941 mpl_tollkits.axes_grid1 support auto-adjusted axes area
+11086 2950 Fix writing to all manner of StringIO-like objects in PS backend.
+9944 2951 Cleanup and move hinton_demo
+17867 2956 nbagg widget refactor
+19229 2962 Merge pull request #7111 from rougier/fix_hammer
+19181 2962 Fix this example following comments in  issue #6865
+21581 2964 subprocess: Use check_output instead of check_call
+15265 2964 Added some tests for baseline features
+20087 2976 Cleanup some bare excepts and related code.
+11944 3003 Added the nbAgg backend to allow interactive figures in the IPython notebook.
+7766 3010 Add LassoSelector widget with demo.
+22459 3015 Revert "ENH: Switch to a private, simpler AxesStack."
+22440 3015 Switch to a private, simpler AxesStack.
+19396 3016 TST: Add categorical tests for NumPy string arrays.
+10011 3021 Tidied up some of the documentation.
+7447 3029 Add
+25389 3043 ENH: Move title if x-axis is on the top of the figure
+359 3049 First version of dynamic_image_wxagg, modified from dynamic_demo_wx by Jeremy O
+2703 3054 First pass at SVG support
+16379 3055 Change setup.py test to a noop telling users to run tests.py
+10159 3066 Shared colorbar axes working.
+20904 3078 Remove all @cleanup decorator applications.
+8329 3085 Tkinter logo added.
+9821 3091 Fix manual contour label positions on sparse contours
+8403 3095 Added test for pre-transforming some plot types.
+263 3095 added new examples
+24426 3105 Cleanup doc/conf.py.
+1563 3116 Reorganized axes.py, moved most of the table method into table.py
+4188 3121 updated slider widget example
+25592 3148 Remove support for bar(left=...) (as opposed to bar(x=...)).
+15500 3153 ENH: accept a function for arg names in @unpack_labeled_data
+23906 3166 Remove mencoder support.
+2964 3166 Get Gtk backend working.
+2195 3166 readded data browser
+2185 3166 added another example
+26684 3169 Use Format_ARGB32_Premultiplied instead of RGBA8888 for Qt backends.
+19870 3169 Merge pull request #7447 from rougier/mandelbrot
+6651 3184 Fix pyparsing memory leaks on Python 3.x.
+7241 3186 Be more careful about closing files, since the gc doesn
+21002 3191 MNT: Remove duplicated test code.
+1202 3192 removed lingering cm detritus
+18686 3199 Merge pull request #6262 from pganssle/fix_date2num_dst
+24420 3200 Make axisartist.axislines pseudo-tests real.
+17167 3200 TST: add helper script to compare images in the browser
+21345 3202 Inkscape shell mode.
+1079 3207 Added example dynamic_image_wxagg2.py, which has a colorbar, uses the new- style toolbar, and defines axes explicitly. -ADS
+11119 3218 Various path effects related updates.
+19606 3234 TST: Run nose2pytest on a few files.
+14195 3239 reducing number of locks
+13634 3244 MNT : remome mlab.FIFOBuffer
+10012 3262 Updated some of the examples.
+25664 3263 MAINT/BUG: Simplify logic in plot_surface
+15011 3271 Add path code information to Poly3DCollection
+16168 3273 Merge pull request #5306 from mdboom/local-freetype
+11989 3290 Updated kde tests in test_mlab.py to reflect changes to imports in test_mlab.py Fixed a syntax error in python 3 and fixed up some violinplot tests. Fixed some style problems. Removed course-related test from list of tests.
+3349 3290 added support for a editable recarray widget in gtk
+7649 3299 Add improvements from Tom Flannaghan.
+20518 3300 Add input validation for fill_between and fill_betweenx and unit tests
+14793 3300 Change matplotlib
+24969 3326 Rely on generalized * and ** unpackings where possible.
+16645 3331 Merge pull request #5434 from jenshnielsen/nosetuptest
+24067 3345 Handle Tick gridline properties like other Tick properties
+19225 3356 Refactored `image_comparison` decorator
+327 3366 added new examples, other
+448 3375 some image border bug fixes
+15843 3377 Enable testing without internet access.
+4108 3377 updated the wx animation examples
+16202 3381 Merge pull request #5452 from u55/cycler_generic_iterator
+16197 3381 Fix axes.set_prop_cycle to handle any generic iterable sequence. Closes issue #5368.
+19419 3389 Merge pull request #6814 from pd3/master
+18657 3389 Customize violin plot demo, see #6723
+2674 3408 First pass through all of the examples -- not all working yet, though.  (See PASSED_DEMOS).
+22609 3409 API: change signature of bar and barh
+15850 3412 Merge pull request #5216 from mdboom/nose-internet
+16407 3428 TST: shotgun testing of LogFormatter.pprint_val
+22308 3433 ENH: Add a LockableBbox type.
+5828 3435 add doc/mpl_toolkits/axes_grid/figures/simple_axis_pad.py and deleted unsed simple_axis_direction02.py
+23970 3436 Backport PR #10127: Use subplots() instead of axes_grid in suitable examples.
+23966 3436 Use subplots() instead of axes_grid in suitable examples.
+11987 3441 Fixed kde for invalid bw_methods, misc test formatting. Some course related tests were added. These are removed later.
+12074 3443 Address remaining quiver3d issues. Fix tests.
+14203 3450 example working with Tk
+11991 3452 Refactored axes.violinplot into cbook.violin_stats (arranges violin plot data for drawing), axes.violin (draws pre-arranged violin plot data), and axes.violinplot (uses cbook.violin_stats to draw violin plots via axes.violin) Updated whats_new.rst. Updated CHANGELOG.
+26139 3464 Merge pull request #10865 from phobson/ooify-more-examples
+20718 3481 Remove unused travis scripts.
+13833 3481 TST: trigger travis OSX tests if Linux tests pass
+21684 3489 Add tests for nose version of image_comparison.
+25290 3495 DOC: use OO-ish interface in img/contour examples
+7588 3517 clabel can be called with approximate  postions of labels
+24070 3526 Cleanup texmanager.
+221 3532 An initial implementation of a fonts demo to excerise the font_manager class.
+23605 3533 Factor out common _GeoTransform code.
+13489 3533 NF+BF: add close-figs option to plot_directive
+23914 3535 Logging and exception messages cleanup.
+4480 3543 updates to doc
+20862 3547 Merge pull request #7913 from dstansby/quiver-doc
+21718 3548 auto-migrating to sphinx gallery
+24200 3555 Support PathLike inputs.
+26616 3563 Merge pull request #11580 from timhoffm/subplots
+26265 3563 Use plt.subplots()
+826 3568 some log optimizations
+23466 3570 search for cffi c-extension module to find c-functions
+21686 3570 Completely deprecate is_string_like.
+929 3575 added sprint legend patch
+19866 3579 Creation of class _FuncInfo
+6588 3590 Get regression test framework working under Python 3.x by removing the dependency on PIL.
+5288 3593 buildbot: add script to consolidate failed images
+25413 3596 Backport PR #10953: update nested-pie example with donut
+25412 3596 update nested-pie example with donut (#10953)
+23071 3600 Backport PR #9254: imshow transparency blend example
+22201 3604 Add a ax.voxels(bool3d) function
+7064 3604 add *bottom* keyword parameter for stem command and implement legend handler for stem
+8470 3615 Several bugs fixed, particularly with Polar & Geo.
+5334 3623 Pull _parse_args out of Quiver and Barbs classes, as we have multiple, diverging copies of the same code.  Now the shared code will actually be shared.
+2993 3628 Add experimental support for auto-layout of axes on the figure, to prevent ticks and labels from overlapping things in other axes.
+20098 3629 Use reshape instead of assigning to shape.
+25708 3634 Faster path drawing with cairocffi.
+4553 3646 Merged revisions 6640 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_98_5_maint
+4552 3646 Another attempt to fix dpi-dependent behavior of Legend
+19093 3648 Add tick locator example
+25770 3675 resolves merge conflict
+17311 3684 Remove broken example
+4194 3693 more screenshot updates
+26694 3696 initial commit, fixes to formatting and squashing of commits
+11697 3697 colors: Add power-law normalization
+11772 3704 Fixed issues with errorbar limits
+26735 3707 DOC: colormap-manipulation tutorial
+12379 3716 Added tests for LightSource functionality
+4379 3723 remove deprecated fill example
+24811 3732 Remove workarounds for numpy<1.10.
+3037 3741 Use an 8-spline approximation of an ellipse instead of a 4-spline one.
+2722 3747 Increased coverage of backend_driver.py to include almost everything in axes.py.  Lots of little bug fixes.
+1210 3750 added strip chart example
+11982 3756 Initial tests for ksdensity
+23731 3759 Unify (parametrize) test_composite across backends.
+1188 3801 *** empty log message ***
+11104 3810 add more spectrum functions and add new spectrum types to specgram in mlab.py, and clean up window and detrend functions in mlab.py
+22457 3821 Modified rrulewraper to handle timezone-aware datetimes.
+6820 3825 Move ellipse_compare test into unit testing framework.
+24895 3838 Use np.stack / np.column_stack where possible.
+4704 3841 Rework the nan-handling/clipping/quantizing/simplification framework so each is an independent part of a pipeline. Expose the C++-implementation of all of this so it can be used from all Python backends.  Add rcParam "path.simplify_threshold" to control the threshold of similarity below which vertices will be removed.
+21892 3850 Adding an intro tutorial
+5178 3861 update whats new
+17828 3864 API/ENH: Color cycle handling
+8191 3868 Backend factorisation for tooltip sharing.
+3683 3869 Add plot directive to include inline plots and their source.
+22018 3871 Parametrize spectral tests by real/complex.
+222 3877 added new ticker scheme
+14176 3885 Add embedding in qt5 example
+6996 3890 add tests for tight_layout
+11789 3905 Added a pylab example for markevery
+4992 3905 mplot3d: add examples, fix NaN bug
+10142 3910 Add xkcd() function to set up a number of parameters to create plots that look like xkcd.  Add an example, and a what
+17748 3919 Fix #5990.  Scatter follows color cycle
+1275 3937 some new examples
+24949 3973 Backport PR #10658: FIX Speed up constrained layout
+24911 3973 FIX Speed up constrained layout
+17318 3979 Make demo_text_path.py work again
+17271 3983 Merge pull request #5975 from tacaswell/enh_kwarg_normalize
+17228 3983 ENH: add kwarg normalization function to cbook
+16174 3991 Merge pull request #5214 from zblz/dejavu-mathtext
+19562 4012 Add a common example to compare style sheets
+2585 4019 Adding pbox.py
+25391 4031 DOC: add tutorial explaining imshow *origin* and *extent*
+2335 4032 added mpl1 sketch
+25642 4034 Finish removing future imports.
+1525 4036 Another increment of aspect ratio handling; make polar plots stay circular.
+5323 4047 add TextPath class in text.py. Update demo_text_path.py
+4130 4053 Added an EllipseCollection class to collections.py
+21004 4061 BUG: Duplicated test class in test_ticker.py
+12766 4067 Added array comparison tests for shaded relief
+19116 4068 Merge pull request #7072 from rougier/showcase
+13828 4075 New C++ contour code with corner_mask
+5401 4087 test conversion: move old-style test to new-style test
+1880 4123 fixed update of dash/cap join/style
+961 4128 added embedding in qt example
+8113 4130 Added unit test.
+5336 4133 Merged revisions 7616-7618 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_99_maint
+19101 4136 Added tick formatters example
+2194 4145 cleaned up lineprops gtk
+10223 4147 Tweak aesthetics of plots in screenshots page.
+5691 4164 mplot3d updates: * Fix scatter markers * Add facecolor support for plot_surface * Fix XYZ-pane order drawing * Add examples (animations, colored surface)
+1124 4182 SC
+9747 4197 bbox_inches=tight support for *all* figure artists.
+1249 4205 added nicks irreg grid image
+24286 4225 Various examples updates.
+10148 4225 Supported datetimes with microseconds, and those with long time series (>160 years).
+29 4235 updating examples
+12887 4236 Remove use of PyCXX in core C++ extensions
+17974 4238 New color conversion machinery.
+20056 4249 ENH new static images for the frontpage
+18302 4249 Tests for determinist PDF output: - SOURCE_DATE_EPOCH support - reproducible output
+4119 4255 committed Jae-Joons fancy box examples
+24922 4257 Remove deprecated backend methods.
+24712 4257 Implement PdfPages for backend pgf
+13897 4261 Added the rcParams
+5738 4264 added qt4_editor dialog
+11258 4266 Fixed bad quiver transforms.
+17346 4310 Refactor image compositing logic into a single function
+16473 4311 ENH: Qualitative colormaps as ListedColormap
+16095 4327 Use psutil instead of our home-grown utilities
+4830 4333 updated finance_work2.py demo
+13152 4334 Add tests for the selection widgets
+9619 4336 add eventplot method to axes class
+21510 4338 Added tests for PolygonSelector.
+19723 4345 ENH examples are now reproducible
+1784 4350 Added embedding_in_qt4.py
+2902 4371 Support mixed-mode rendering the PDF backend.  This allows some things to be rendered as vectors and some as rasters.  At the moment, mostly as a proof-of-concept, all quadmeshes are rendered as rasters with the PDF backend. Also make PDF backend resolution independent.
+21273 4375 consolidating histogram examples and moving to SG folder
+11039 4375 Store transformations on collections as an Nx3x3 array, rather than a list of Transform objects.
+7374 4411 added double pendulum examples and linked in whats new
+19795 4414 Merge pull request #7408 from phobson/vlines-with-nan
+25088 4417 Remove dead wx testing code.
+21556 4421 DOC The gallery is now built with sphinx-gallery
+22368 4487 Update path simplification to handle anti-parallel vectors
+16684 4491 Merge pull request #5594 from tacaswell/fix_logformatterexponent
+16615 4491 Merge pull request #5594 from tacaswell/fix_logformatterexponent
+19775 4504 Use np.nanmin/max to set ax limits in Axes.vlines
+22665 4530 Import JSAnimation into the animation module.
+11990 4546 Fixed an issue in violinplot where the top end of violins would be truncated. Updated test images and reran boilerplate.py
+19531 4550 Merge pull request #6907 from has2k1/filled-plus-x-markers
+18787 4550 Filled + and x markers
+19865 4558 First commit
+19069 4562 Removed link to repository
+22784 4619 Add a custom RadialTick for polar plots.
+18475 4635 categorical axis support with np1.6 hack
+19599 4642 Merge pull request #6476 from afvincent/common_example_for_style_sheets
+12937 4646 Merge pull request #3485 from jkseppan/reduce-xobjects
+1059 4648 added radio buttons
+10562 4708 Fix support for datetime axes in 2d plots.
+973 4716 Fixed a bug in NewScalarFormatter, added lin_collection.py example to backend_driver.py, added newscalarformatter_demo.py to examples.
+2355 4717 traits cleanup
+3449 4723 Major hist() revision
+6818 4742 Move auto_legend.py tests into regression test framework.
+2274 4743 Applied Paul
+1510 4744 TextWithDash extends superclass draw and get_window_extent methods, instead of replacing them
+4241 4755 Include output images in examples in documentation. Add "-*- noplot -*-" markers to examples where we don
+18545 4758 FIX: do dash scaling early
+5431 4769 AxesGrid: implemented axisline style
+17296 4772 Update backends for new API
+1724 4787 added lasso widget
+4882 4802 Fixed a bug in mixed mode renderer that images produced by an rasterizing backend are placed with incorrect size.
+363 4816 Added embedding_in_wx3 example, which is a pretty full-featured wx/XRC app. - ADS
+19580 4822 Remove deprecated stuff schedule for removal.
+10332 4846 Merge pull request #2050 from pelson/colormap_api
+10304 4855 Added the from_levels_and_colors function.
+24669 4864 Switch to argumentless (py3) super().
+25916 4873 Revival of the backend loading refactor.
+14218 4874 using navigation as signal handler
+2284 4889 First commit of code to embed fonts as paths in SVG files.
+25195 4907 fix BboxConnectorPatch does not show facecolor #8059 and add test
+8475 4930 Removed the use of x_isdata and y_isdata and tidied up transfoms a little.
+14886 4948 DOC: whats_new + example for stepped fill_between
+7817 4957 WIP on refactoring saving classes.
+20930 4962 Switch to pytest-pep8.
+11690 4967 Add test for skewed axes projection.
+3075 4981 First pass at symmetrical log plots.  Expose xscale() and yscale() through pyplot.
+1231 4989 added poly interactor
+6936 5021 More progress in new SVG backend.  Now "passes" more regression tests, logically if not officially.
+6935 5021 Initial progress with new SVG backend
+6932 5021 More progress in new SVG backend.  Now "passes" more regression tests, logically if not officially.
+10160 5025 added unittest for colorbar creation.
+25103 5033 wx_compat is no more.
+945 5055 added editable poly example
+5375 5081 fix to empty datetime bug; add datetime tests
+23540 5086 Change verbose to standard logging library
+6982 5087 tight_layout support for axisartist toolkit
+23975 5092 Remove old gen_rst.py file
+5201 5105 two new examples using a compund path for a histogram; one animated
+2516 5120 Render all the fonts in each mathtext expression to a single image buffer (memory and time savings). Add support for getting raw image data for mathtext expressions. Add mathtext_wx.py example showing how to put mathtext expressions into controls.
+12758 5122 Added more examples
+5722 5138 spines and ticks: implement smart bounds
+8039 5151 adding unit test, example and examples to doc string
+1396 5154 Added ability to specify LineCollection offsets as data offsets, to be applied before any transformation.  Added example of this and other uses of collections.
+26628 5155 Merge pull request #11060 from ImportanceOfBeingErnest/fix-inset_axes
+18232 5155 Merge pull request #5626 from mdboom/new-icons
+18193 5155 Add script to automatically generate icons
+26524 5156 Consolidate agg-buffer examples.
+25658 5156 Squashed commit of the following:
+25833 5165 Fix inset_axes + doc
+24097 5181 implement wx tools for ToolManager: SaveFigure, SetCursor, Rubberband
+9966 5221 Add colormap references based on show_colormaps
+15510 5225 TST: add testcases for some decorated plot methods
+2358 5237 affines are first class objects
+6094 5240 Add Axes.tick_params and pyplot.tick_params to control tick and tick label appearance. This allows interactive modification of tick and tick label color, size, etc.
+6299 5287 Removed unused _wxagg extension.
+20006 5289 Deprecate "hold" kwarg and machinery.
+16490 5292 Scale margins to data, plus padding, by default
+2352 5309 Reversed last commit
+2351 5309 More numerix reversion.
+6312 5327 added Bartosz Telenczuk
+8383 5334 made Figure.tight_layout take the rect parameter and did some refactoring.
+11688 5342 Add skewt.py as api example.
+4922 5371 Better support for tick (tick label) color handling in axes_grid.axisline
+5795 5375 added Yannick Copin
+3328 5381 removed backend_agg2
+3009 5381 Remove dead code.
+18877 5384 py.test, updating axis ticks, and unitData as class, removed test_category from init, and updated tox
+11790 5389 wrote additional markevery tests in test_axes.py
+2055 5391 figure bugfix, removal of colorbar_classic
+11972 5400 Added ksdensity (KDE) function in mlab and adapted _axes violinplot function to accept new KDE. Added basic violinplot demo in examples
+913 5406 fixed ticks on horiz cbar
+5975 5420 gridspec supports grid of different cell sizes
+9083 5427 Add symlog-normalization to colors.py, with tests.
+9614 5433 add EventCollection class to collections
+14334 5445 Implemented feature 3418
+23694 5456 Switch to makefile-based doc build.
+2353 5457 Revert numerix to 3573, second try
+2343 5457 minimized remaining numerix wrapper code
+15729 5459 Move impl. of plt.subplots to Figure.add_subplots.
+20931 5460 MAINT: Updated tick and category test formatting
+8182 5463 NF - control the length of colorbar extensions
+5973 5487 update docs. for gridspec
+4887 5492 removing axes_grid.inset_locator.
+7858 5499 Added hatchable colorbar.
+11979 5525 Added violinplot tests.
+9586 5532 Remove broken printing_in_wx.py example.
+9320 5561 Added LinearTriInterpolator class.
+1008 5590 removed latex backend
+24273 5607 Clarify axis sharing with aspect ratio control
+22032 5613 Various cleanups to backends code.
+5467 5638 implement draw_text and draw_tex method of backend_base using the textpath.
+718 5639 refactored axes management
+3535 5660 added path editor
+24920 5661 Delete GTK2 embedding examples.
+24413 5663 Make axisartist.angle_helper pseudo-tests real.
+17148 5669 CI: remove unneeded functions for local freetype build
+992 5670 added psfrag latex backend
+18869 5673 Merge pull request #5161 from zblz/log-ticks
+23688 5685 Cividis colormap added with short description in what
+2116 5722 ported unit support to bar, errorbar, vlines and hlines
+6819 5732 Move cbook_unit tests into regression testing framework.
+24371 5737 Declare all property aliases together.
+21107 5749 Cleanup transforms.py.
+24368 5848 Remove bivariate_norm from examples
+25626 5853 first implementation of Toolmanager for the Wx backends
+7656 5860 Remove integrator parameter for streamplot
+2052 5861 some more units refactoring
+14831 5876 Added rcParams for removing specific spines
+6931 5897 Initial progress with new SVG backend
+11183 5922 Add easy style sheet selection.
+20276 5962 Cleanup: use `sorted()` whereever possible.
+931 5966 added boxplot demos
+21280 5968 Contouring 1x1 array (issue 8197)
+2336 5981 playing around with mpl1 api
+4787 6000 Deleted numerix
+11796 6029 pulled the markevery logic out of the main draw function.
+1215 6040 added Martin
+17302 6043 Add Agg filter test
+25841 6052 Remove dependency on six - we
+24319 6069 qt{4,5}cairo backend: the minimal version.
+23325 6069 Unify the three Qt5 embedding examples.
+14542 6076 Create colormap_normalizations.py
+25661 6081 Use kwonlyargs instead of popping from kwargs
+14563 6132 Removed colormap_normalizations.py
+19977 6171 Sticky margins cancellation system.
+6595 6172 legend supports Bar and Errorbar plots
+21779 6178 converting tutorials to SG
+10320 6272 use plt.subplots() in examples as much as possible
+1835 6306 added text.Annotation and example
+25225 6308 Unsixify trivial modules.
+4604 6349 Merge branch
+1796 6361 Initial support for complex fractions. Also, rendering is now completely separated from parsing. The sub/superscripts now work better.
+5586 6387 Add "path_effects" support for Text and Patch.
+17954 6393 Merge pull request #6415 from fariza/remove-gtk-linepropsdialog
+17948 6393 removing unused DialogLineprops from gtk3
+11109 6406 add more spectral plots and add new spectrum types to specgram in _axes
+11247 6424 Refactor mechanism for saving files. Move all print_ methods to their backends. Manage default format-to-backend mappings in backend_bases. print_figure() can now determine the backend for saving figures. Remove print_ code duplication, add canonical FigureCanvas names.
+24448 6425 MNT: remove example based on Enthought Traits package
+26331 6456 ENH have ax.get_tightbbox have a bbox around all artists
+16518 6469 Merge pull request #5611 from kthyng/update-colormap-user-page
+16461 6469 removed Lfunction since it is outdated and also removed that part from the docs. Changed grayscale plot to use colorspacious CAM02-UCS instead of CIELAB
+24444 6477 WxCairo backend.
+19607 6481 TST: Parametrize tests that were using yield.
+11107 6513 refactor mlab spectrum, window, and detrend functions to improve modularity, testability, and performance
+1068 6564 added check boxes
+25510 6591 Change manual kwargs popping to kwonly arguments.
+14880 6596 MNT : centralize pt -> step logic
+5212 6596 added demo_text_path.py
+2549 6649 Refactoring of FigureCanvas*.print_figure so that each backend does not have to track all other possible filetypes.  This should make it easier to add new filetype backends without updating lots of places. All GUI backends have the same base set of filetypes they support, defined in FigureCanvasBase.  Non-GUI backends, for the most part will still only write to their own file format (and not do any switch_backend magic.)  All GUI backends (where possible) now generate a list of file patterns for their file chooser dialogs, rather than having hard-coded lists.
+11582 6660 Clean-up line and marker demos
+18767 6698 move labeling logic into LogFormatter
+11451 6700 WIP: more tests and add option to toggle box
+11299 6700 WIP: more tests and add option to toggle box
+23750 6707 MEP22 implementation for QT backend New Toolbar and QT specific tools
+25671 6733 Backport PR #10947: DOC: add tutorial explaining imshow *origin* and *extent*
+6133 6739 tick_params works with existing ticks instead of starting with new ones
+8841 6847 Remove unused buildbot files. We use Travis now
+14217 6867 using pydispatch
+5110 6885 Cache the color data to reduce startup time. Also, cmap kwargs now accept colormap names as strings.
+1677 6891 fixed a usetex bug on windows
+23965 6920 Move axisartist examples to their folder.
+16470 7027 Merge pull request #5611 from kthyng/update-colormap-user-page
+24944 7055 Remove old nose testing code
+17548 7133 Use Agg for rendering in the Mac OSX backend
+18080 7236 RF: remove Tcl / Tk header / lib discovery
+15098 7258 Revert " Merge pull request #4019 from myshen/annot_neg_coords"
+14202 7259 tk backend
+892 7277 more contour patches applied
+12673 7317 Left ventricle bull eye
+21609 7337 Merge all figure in streamplot examples in one plot
+2789 7363 added pytz-2007g
+24369 7387 Remove more mlab from examples
+5195 7398 BboxImage implemented and two examples added.
+22015 7412 TST: Parametrize the remaining spectral tests.
+6916 7414 Merged matplotlib/matplotlib/master
+25503 7425 Backport PR #11017: Doc: Adding annotated heatmap example
+25489 7425 add example: annotated heatmap
+14216 7450 events working
+2037 7546 added mikes units patch
+26511 7582 ENH: add an inset_axes to the axes class
+11462 7599 DOC: added examples
+11314 7599 DOC: added examples
+934 7634 added alpha support for unicode
+18924 7652 Added a text entry widget, that allows usere to register to be notified when text changes or text is submitted
+21505 7671 Added PolygonSelector to lib/matplotlib/widgets.py
+18830 7688 Prepare for cross-framework test suite
+1051 7691 added subplot params and toolbar
+6973 7695 add tight_layout functionality
+15511 7855 MNT: regenerate pyplot to get the data kwarg
+14206 7951 moving views and positions to tools
+5131 7951 Add PathCollection; reorganize collections.py PathCollection is added to support complex paths in contourf. Other changes are to improve readability and reduce redundancy.
+22262 7954 Add support for x,y,z arguments
+9899 7962 improve mlab tests
+5490 7970 Add tests for the simplification/clipping infrastructure.
+24423 8032 Make axisartist.axis_artist pseudo-tests real.
+8560 8047 Turn get_sample_data into a much simpler function that merely returns files from an installed sample_data directory.  Include the sample data locally.  Remove sample data that is no longer used.
+24441 8051 category bug fix + new tests + refactor
+19274 8053 Merge pull request #7084 from rougier/ticks
+15512 8053 MNT: make boilerplate.py a bit smarter
+3480 8063 added new docs dir
+18366 8075 Share determinism test code for PS and PDF output.
+11804 8100 implement quiver 3d
+8567 8108 Pickling support added. Various whitespace fixes as a result of reading *lots* of code.
+4133 8121 moved nemerical methods back to mlab pending more comprehensive reorg
+9969 8141 Combine colormap reference examples
+2039 8162 units refactoriing
+7154 8176 Make scatter use the new marker class.  Add a "scatter_symbol" example.  Make legend support the new kind of scatter.
+25187 8209 ENH: colorbar ticks adjustable to colorbar size
+17677 8256 Merge pull request #6178 from mdboom/macagg
+5126 8270 added two examples from Josh Hemann
+6437 8275 implement axes_divider.HBox and VBox
+18024 8279 Merge pull request #6382 from anntzer/rgba-support
+1452 8336 added **kwargs to all backend_*.print_figure methods to provide papertype kwarg to backend_ps
+17103 8356 Win: build with a local freetype
+18097 8381 Merge pull request #6442 from matthew-brett/dynamic-tkagg
+5775 8407 refactor draggable legend to support annotation
+24365 8479 Deprecate non-spectral mlab methods
+8658 8561 Add the github stats tool from IPython
+11128 8588 Major refactor of path effects hook. Makes life much simpler!
+9319 8589 Added TriFinder and TrapezoidMapTriFinder classes.
+24134 8603 ENH: aligning x and y labels across axes
+5825 8622 update axes_grid.axislines doc.
+1233 8627 contour, contourf return ContourSet object; colorbar uses it
+18265 8649 Remove deprecated cocoaagg backend along with leftover refs to fltk
+24668 8731 Remove unused private _StringFuncParser.
+4111 8782 2008-09-14 Reorganized cbook and mlab methods related to numerical 	   calculations that have little to do with the goals of those two 	   modules into a separate module numerical_methods.py 	   Also, added ability to select points and stop point selection 	   with keyboard in ginput and manual contour labeling code. 	   Finally, fixed contour labeling bug. - DMK
+3482 8797 removed old doc dir
+10510 8833 Added mplot3d tests in mpl_toolkits.tests
+5972 8840 merge mpl_toolkits.gridspec into the main tree
+5130 8842 Merged revisions 7338 via svnmerge from https://matplotlib.svn.sourceforge.net/svnroot/matplotlib/branches/v0_99_maint
+5129 8842 Fixed boilerplate.py so it doesn
+24422 8845 Make axisartist.floating_axes pseudo-tests real.
+12402 8928 now with scripts actually included!
+9470 9059 Removed numpydoc
+9402 9059 Add numpydoc to the list of extensions.
+4736 9107 some reorganization of the legend code.
+23622 9126 DOC: add more tutorial to text/text_intro
+25360 9257 Use function signatures in boilerplate.py.
+16577 9293 Merge pull request #5583 from mdboom/padding
+13903 9395 Logit scale
+11273 9401 Use qhull for delaunay triangulation
+1638 9515 New QuiverKey class and quiverkey function; deprecated quiver_classic.
+1010 9583 added daisha patch
+14345 9610 Update wx backend to be compatible with wxPython classic 2.8.12+ on Py2.7+ and Phoenix Py2.7+ and 3.4+
+9967 9620 Clean up and move artist demo
+5036 9833 mplot3d: update axes code, add support for
+26141 9856 Merge pull request #11209 from ImportanceOfBeingErnest/example-refs_shapes-coll-lines
+1508 9868 refactored TextWithDash, derive from Text rather than delegate
+2 9883 adding examples
+2647 9960 Lots of progress on Polar transform refactoring.  Added point_in_path algorithm.
+25775 9974 example references for shapes&collections
+1533 10150 More tweaks to aspect-ratio handling; new Axes.axis method; moved PBox to transforms.py.
+8469 10273 Substantial change to transform to make it work as documented. The upshot is that the dataLim determination is now working.
+4661 10292 added Tom Krauss
+20092 10326 Merge pull request #7476 from anntzer/sticky-margins
+6958 10435 Add some tests for the Delaunay code to the regression test suite.
+19584 10466 TST: Make proj3d tests into real tests.
+15787 10508 Refactor the opcode dispatching in dviread
+16860 10549 ENH: add XKCD colorname -> hex mapping
+5234 10559 Use decorators to manipulate docstrings; patch by Jason Coombs Tracker 2835685, file DocstringOptimizedTypeErrorRev5.patch
+9900 10644 add unit tests for specgram, psd, and csd plot types
+805 10690 *** empty log message ***
+26140 10850 Merge pull request #11191 from ImportanceOfBeingErnest/example-refs_imgscntrs
+25734 10850 example references for images,contours,fields
+24187 11051 Cleanup animation examples
+10498 11084 ENH shuffled around some extra methods between Axes and _AxesBase
+9716 11090 Added 2 image tests and a non-image test. Miscellanous spelling corrections.
+15372 11120 Upgrade RectangleSelector with ToolHandles and add Ellipse
+22555 11401 Cleanups: Broadcasting, np.hypot, np.pi, etc.
+5688 11403 axes_grid : doc update and new examples
+5096 11422 Improved boilerplate.py so that it generates the correct signatures for pyplot functions.
+13001 11466 New version of github script from IPython
+25646 11488 Remove toplevel unit/ directory.
+15484 11521 ENH: New version of unpack_labeled_data
+21991 11527 Simplify and improve Qt borders/spacing tool.
+3936 11596 Added Barbs polygon collection (similar to Quiver) for plotting wind barbs.  Added corresponding helpers to Axes and pyplot as well. (examples/pylab_examples/barb_demo.py shows it off.)
+9615 11608 add collections test file with EventCollection tests
+15165 11741 ENH: Allow custom Axes to implement zoom-to-rect.
+22479 11792 ENH: Allow setting angle limits on PolarAxes.
+23593 11880 Backport PR #9599: Unify the three Qt5 embedding examples.
+2365 12010 refactored affines abd artists
+4841 12039 Add AuxTransformBox in offsetbox.py
+3925 12080 added scikits.delaunay as matplotlib.delaunay, added griddata function to mlab.
+3844 12248 removing the copied files I accidentally added (sigh).  It is confusing to put autogenerated files next to legit files in pyplot...
+3066 12249 added gtktools and exceltools to toolkits
+959 12295 applied arrow key, masked array and qt patches
+16508 12391 Merge pull request #5612 from zblz/dejavu-display-symbols
+20815 12415 MAINT cleaning up of gallery examples.
+16476 12511 add new dejavu display fonts
+16091 12638 Add a new memleak script that does everything
+13044 12708 Modify colorconv to use local dtype and numpy
+1635 12712 New quiver, temporarily named quiver2.
+16851 12755 Merge pull request #5771 from jenshnielsen/removeskimagecode
+16849 12755 Remove no longer used Scikit image code
+5231 12758 add support for image filtering in agg backend
+2570 12853 Baby steps and horrible breakage on transforms branch.
+23387 12871 Backport PR #9324: [MRG] Allow kwarg handles and labels figure.legend and make doc for kwargs the same
+23378 12871 Allow kwarg handles and labels figure.legend
+28 12944 adding interactive2
+16475 12978 MAINT: Simplify ColorBrewer maps to match Excel
+16552 13096 Merge pull request #5521 from mdboom/test-triage-tool
+16321 13096 Add test triage tool
+3846 13120 cleaned up some pyplots examples that got funkily duplicated
+22132 13135 Remove user_interfaces/interactive_sgskip example.
+18473 13145 Basic support for plotting lists of strings/categorical data. Support for updating ticks/animation in progress/buggy,
+5412 13230 test conversion: remove old mplTest nose extensions
+14562 13268 Initial docs for colormapnorms.rst
+19033 13335 Merge pull request #7057 from rougier/bad_finance
+19015 13335 FIX: Removed financial demos that stalled because of yahoo requests that never end (timeout way too long)
+11236 13531 qt4 subplottool is modal now + new layout
+4982 13594 Arbitrary spine placement
+4628 13792 Add more hatch styles.  Improve consistency across backends.
+5211 14131 AnnotationBbox implemented.
+4467 14190 added mdehoon
+4592 14200 axes_locator in the Axes class
+5351 14234 textpath support mathtext and tex
+4890 14404 offsetbox minor update
+24421 14553 Make axisartist.grid_helper_curvelinear pseudo-tests real.
+6140 14629 Remove experimental config subpackage using traits
+11151 14654 fix operation order error in _spectral_helper and implement more tests to catch these sorts of problems in the future
+2381 14659 added config module, for testing a traited config system
+21914 14841 combining annotation examples into one
+22798 14894 Merge pull request #9068 from QuLogic/polar-ticks
+1018 14907 added Daishi revised dash text patch
+6592 15004 Legend refactoring. Drawing of legends is done by LegendHandlers
+25956 15102 example references for api and pyplot section
+25760 15173 adds two new cyclic color schemes
+9324 15195 Initial work on WebAgg backend
+4894 15298 Added axes_grid.inset_locator
+3117 15338 Provide heavily-documented examples for adding new scales and projections. Fix various bugs related to non-rectangular clipping. Remove MercatorLatitude scale from core and put it in an example.
+14245 15493 rename navigation to toolmanager
+604 15532 added new colormaps
+11448 16239 REF/TST: split up boxplot function into a calculator (cbook.boxplot_stats) and a drawer (axes.bxp). Existing function now relies on these two functions.
+11295 16239 REF/TST: split up boxplot function into a calculator (cbook.boxplot_stats) and a drawer (axes.bxp). Existing function now relies on these two functions.
+4185 16628 using exiting examples rather than new pyplot ones for screenshots
+4178 16634 preparing to move entire web site to sphinx; things may be whacked for a day or so
+11559 16692 Rewrite of the entire legend documentation, including tidy ups of code and style to all things "legend".
+17377 16969 Merge pull request #3973 from endolith/Qualitative_ListedColormap
+6270 17097 Add previous animation examples ported to new framework, as well as a few new ones.
+22703 18028 Remove some unused scripts.
+1464 18065 added john porters 3d code
+2565 18142 Delete gd and paint backends.
+7332 18276 Split the demo into 3 files and made only 1 run from whats_new.rst
+17295 18610 Rewrite image classes
+864 18834 added enthought traits
+1597 18962 New version of colorbar, plus small bugfixes.
+1684 18970 added edins mathtext unicode enhancements
+6037 18998 [3009273] update pytz to 2010h
+4308 19103 added jae-joons fancy arrow and box patch for annotations
+3786 19152 removed axes3d
+5687 19853 support FloatingAxes
+14187 19892 mod keypress in figuremanager
+7644 20202 Add `streamplot` axes method to plot streamlines
+22290 20362 Backend class to factor out common code.
+10805 20558 Use six instead of 2to3
+13627 20564 MNT : removed sphinxext/ipython_* files
+14167 20586 navigation and toolbar coexistence
+7152 20874 First step in marker refactoring.  Create new marker class and reimplement Line2D-based markers in terms of it.
+25322 21017 Remove the
+4879 21061 added mpl_toolkits.mplot3d
+15196 21760 Use pcolormesh in axes_grid.colorbar
+13043 21876 colorconv from scikit image
+20059 21889 Remove nonworking interactive.py.
+18234 22163 Revert "ENH: ship six 1.9.0"
+14765 22171 ENH: ship six 1.9.0
+11040 22666 Refactor WebAgg so it
+4405 22804 added Jae Joon
+10631 23160 Remove obsolete NavigationToolbar and projection_factory code
+24842 23174 Remove most APIs deprecated in 2.1.
+21797 23185 converting examples to tutorials and fixing numbering / links
+10209 24103 Remove the EMF backend
+5090 24521 initial submission of the annotation guide.
+1785 25555 Begun work on mathtext2.py (already a lot down the pipe). Also my first SVN commit, ever, so beware.
+895 26149 refactored contour code
+6867 26461 Merged
+5066 26909 axes_grid: floating_axis support added
+10208 27435 Remove the Fltk backend
+1933 27660 Replace old spy and spy2 with new spy (briefly called spy3)
+1208 28816 Added ColorBrewer (http://colorbrewer.org) colormaps.
+5013 29347 axes_grid: initial checkin of curvelinear grid support
+1888 29572 added broken barh
+11110 29767 add tests for new spectrum types in _axes
+3843 29994 added pyplots examples which I forgot to svn add in prev commit
+5456 32281 AxesGrid: add modified version of colorbar
+11105 33500 add mlab tests for new spectrum types, window and detrend functions, and greatly expand existing tests
+7029 33563 Restores files accidentally removed in commit 0e6dad5230
+6923 33563 Restoring some files accidentally removed in the latest merge.
+15610 35360 Made use of versioneer, with a few modifications.
+11570 35698 remove old animation examples.
+3123 35994 Adding projections directory
+5968 36250 Added triangular grid plotting and contouring functions.
+9648 37324 First pass at making setup more sane.
+4778 38800 Unit-Test harness initial check-in.
+17380 38801 Merge pull request #5718 from mdboom/image-interpolation
+21793 40428 creating tutorials
+19553 42686 MNT : remove deprecated delaunay code
+10205 42699 Remove deprecated code
+866 47605 added traits null ui
+23905 52444 Wholesale removal of features deprecated in 2.0.
+11108 54326 implement tests for refactored mlab spectrum, windowing, and detrend functions, with 100% coverage
+21915 56554 consolidating examples
+3408 57136 purged some dead code dirs; these can live in the maint branch
+1829 57136 added units sandbox
+24923 57648 Remove deprecated backends.
+19586 64194 Remove bundled virtualenv module
+10965 64464 Add tests for installing into a completely clean virtual environment.
+5686 65380 reimplmenting AxisArtist
+11942 65832 Implement backend for PyQt5 + modify Qt4 backend to Qt5 structure.
+24656 70396 tkcairo backend
+14904 71788 ENH: Add newly proposed colormaps
+1201 78433 removed extra cmaps until license is resolved
+7240 78567 Merged from main/master
+10493 80001 Splitted the axes module into smaller chunks
+1200 81573 added snapto for line collections
+24313 84839 ENH: Constrained layout geometry manager
+2567 93827 Factored plotting part of pylab.py into pyplot.py
+14989 93961 Refactor new colormaps to ListedColormaps
+1267 96639 Multiple changes in support of colormaps from a list of colors, and masked array input to imshow.
+9640 99152 Issue 1521: Cubic interpolation for triangular grids
+8507 113014 Update pytz to 2012d and update dateutil to 1.5 for Python 2.x and 2.1 for Python 3.x
+4886 113658 axes_grid toolkit initial check in
+1650 114007 Added gist colormaps.
+5337 114447 Colormap work: - Simplify data for existing colormaps - Add a few colormaps - Allow setting of gamma - Allow using functions
+9650 120093 Fix a few bugs in the build.
+9649 170625 Removing dateutils, pytz and six (external Python dependencies)
+5882 184589 rebase axes_grid using axes_grid1 and axisartist modules
+5881 215046 axes_grid toolkit is splitted into two separate modules, axes_grid1 and axisartist.
+2776 242790 update enthought package to version 2.6b1, stripped of setuptools installed in site-packages, if not already present
+4573 260276 removed some configobj and traits detritus
+4503 260276 removed configobj and enthought.traits
+2442 264422 updated pytz and dateutil to latest upstream versions
+478 2902715 reorganizes py code
+2788 3006763 remove old version of pytz
